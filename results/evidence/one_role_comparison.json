@@ -1,0 +1,108 @@
+{
+  "state": "one_role_comparison_passed",
+  "run_id": "20261025_competition_supervised_role_smoke_v1",
+  "role": "fold0_inner0",
+  "data_targets_and_components_equal": true,
+  "encoder_roles_equal": true,
+  "proxy_targets_equal": true,
+  "all7154_token_arrays_equal": [
+    {
+      "file": "token_ids.npy",
+      "shape": [
+        7154,
+        512
+      ],
+      "array_equal": true
+    },
+    {
+      "file": "token_masks.npy",
+      "shape": [
+        7154,
+        512
+      ],
+      "array_equal": true
+    }
+  ],
+  "lexical_vectorizers_and_all7154_sparse_matrices_equal": {
+    "title": {
+      "shape": [
+        7154,
+        8658
+      ],
+      "nonzero_differences": 0,
+      "max_absolute_difference": 0.0
+    },
+    "body": {
+      "shape": [
+        7154,
+        27098
+      ],
+      "nonzero_differences": 0,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "frozen_embedding_max_abs": 0.0,
+  "supervised_feature_max_abs": 0.0,
+  "base_query_score_max_abs": 0.0,
+  "training_history_comparison": [
+    {
+      "epoch": 1,
+      "new_loss": 0.15326383741588057,
+      "reference_loss": 0.15326383741588057,
+      "absolute_difference": 0.0
+    },
+    {
+      "epoch": 2,
+      "new_loss": 0.1367641441982265,
+      "reference_loss": 0.1367641441982265,
+      "absolute_difference": 0.0
+    },
+    {
+      "epoch": 3,
+      "new_loss": 0.11220257437378507,
+      "reference_loss": 0.11220257437378507,
+      "absolute_difference": 0.0
+    },
+    {
+      "epoch": 4,
+      "new_loss": 0.0975761077392934,
+      "reference_loss": 0.0975761077392934,
+      "absolute_difference": 0.0
+    },
+    {
+      "epoch": 5,
+      "new_loss": 0.08758229239587088,
+      "reference_loss": 0.08758229239587088,
+      "absolute_difference": 0.0
+    },
+    {
+      "epoch": 6,
+      "new_loss": 0.08086920098805392,
+      "reference_loss": 0.08086920098805392,
+      "absolute_difference": 0.0
+    },
+    {
+      "epoch": 7,
+      "new_loss": 0.07741039098666849,
+      "reference_loss": 0.07741039098666849,
+      "absolute_difference": 0.0
+    },
+    {
+      "epoch": 8,
+      "new_loss": 0.07598963717031225,
+      "reference_loss": 0.07598963717031225,
+      "absolute_difference": 0.0
+    }
+  ],
+  "new_checkpoint_sha256": "c0234a2ee4ccfce5ab03568d85d7ca932d49343d66f8ba903b67a60a7bc4632d",
+  "historical_checkpoint_sha256": "c0234a2ee4ccfce5ab03568d85d7ca932d49343d66f8ba903b67a60a7bc4632d",
+  "historical_references_read_only_after_generation_locked": true,
+  "gates": {
+    "base_score_difference": true,
+    "learned_feature_difference": true
+  },
+  "original_bounds_preserved": true,
+  "new_accuracy_metrics_or_threshold_search": false,
+  "full_training_chain_complete": false,
+  "limits": "One fixed development inner role, CPU base branch and supervised encoder/feature branch only. Checkpoint serialization identity and training numeric identity reported separately; no new benchmark or generalization claim."
+}

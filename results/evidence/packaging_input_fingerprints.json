@@ -1,0 +1,30 @@
+{
+  "submission/competition_review_bundle_v4.zip": {
+    "bytes": 919378,
+    "sha256": "5e2cf9600e345de5b602ea3197fdd24fefbd5cd54c89eb37da5258005999cb1e",
+    "all_member_CRC_and_manifest_hashes_verified": true
+  },
+  "submission/competition_one_role_training_source_v1.zip": {
+    "bytes": 181648,
+    "sha256": "ac971e076bd12fbbbde4a3062767a5a7ce5b139112678ba14985d1d836d2b05a",
+    "all_member_CRC_and_manifest_hashes_verified": true
+  },
+  "submission/competition_training_reference_v1.zip": {
+    "bytes": 273051,
+    "sha256": "034460d4e9e99e4038d2b41b4c2ba4bbbac5e3ccc516b1fa3e987d86b0c8fd1b",
+    "all_member_CRC_and_manifest_hashes_verified": true
+  },
+  "submission/competition_candidate_review_v3.zip": {
+    "bytes": 184832,
+    "sha256": "1c7fc1f8bb199c2c6fabd29e86f979be9db97738113344ca8e810c260a6b6fa2",
+    "all_member_CRC_and_manifest_hashes_verified": true
+  },
+  "output/pdf/competition_tool_candidate_named_20261107.pdf": {
+    "bytes": 232361,
+    "sha256": "28a58aaeb76841f4138e1d5517f4e13738972da0f293d083046cb0123e883d34"
+  },
+  "submission/competition_tool_paper_v2/main.tex": {
+    "bytes": 24924,
+    "sha256": "29cd0438f01e77ec5e706a8989c74c58c88c0d3970f00e3d2f6f64cff3550f4b"
+  }
+}

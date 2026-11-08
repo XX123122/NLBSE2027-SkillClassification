@@ -1,0 +1,1317 @@
+{
+  "LICENSE": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "LICENSE",
+    "source_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "distributed_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+  },
+  "NOTICE": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "NOTICE",
+    "source_sha256": "c214736860c9065491067cd6268856a50e34d9da443e34f0d715464ccf3997d3",
+    "distributed_sha256": "c214736860c9065491067cd6268856a50e34d9da443e34f0d715464ccf3997d3"
+  },
+  "scripts/audit_conditional_peer_union_capability.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/audit_conditional_peer_union_capability.py",
+    "source_sha256": "40d3321968d2156701e8a92f733e420d73df240e2aa9e92eded6a6612a9889a4",
+    "distributed_sha256": "40d3321968d2156701e8a92f733e420d73df240e2aa9e92eded6a6612a9889a4",
+    "current_distributed_sha256": "40d3321968d2156701e8a92f733e420d73df240e2aa9e92eded6a6612a9889a4",
+    "modified_for_portability": false
+  },
+  "scripts/audit_full_conditional_tree_export.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/audit_full_conditional_tree_export.py",
+    "source_sha256": "e0505a2e6536e30be814edb9dfa87c70fcd099d7e246c3a22634d49a23b8f768",
+    "distributed_sha256": "e0505a2e6536e30be814edb9dfa87c70fcd099d7e246c3a22634d49a23b8f768",
+    "current_distributed_sha256": "e0505a2e6536e30be814edb9dfa87c70fcd099d7e246c3a22634d49a23b8f768",
+    "modified_for_portability": false
+  },
+  "scripts/audit_full_tree_conditional_selection.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/audit_full_tree_conditional_selection.py",
+    "source_sha256": "005a478be08a7a80b81442724cb2c6fc456c4392bec0d1ff140c93936322bb13",
+    "distributed_sha256": "005a478be08a7a80b81442724cb2c6fc456c4392bec0d1ff140c93936322bb13",
+    "current_distributed_sha256": "005a478be08a7a80b81442724cb2c6fc456c4392bec0d1ff140c93936322bb13",
+    "modified_for_portability": false
+  },
+  "scripts/audit_peer_publication_information.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/audit_peer_publication_information.py",
+    "source_sha256": "7e0efd9e38afdb746c6c4c5073a868f5f1052b1734c1cc7f6484fe1a0443824d",
+    "distributed_sha256": "7e0efd9e38afdb746c6c4c5073a868f5f1052b1734c1cc7f6484fe1a0443824d",
+    "current_distributed_sha256": "7e0efd9e38afdb746c6c4c5073a868f5f1052b1734c1cc7f6484fe1a0443824d",
+    "modified_for_portability": false
+  },
+  "scripts/audit_proxy_replacement_scores.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/audit_proxy_replacement_scores.py",
+    "source_sha256": "7eaefe6659a3855d04fef0db18c2815559d427c454aca94bc106fe6cc1a73aa7",
+    "distributed_sha256": "7eaefe6659a3855d04fef0db18c2815559d427c454aca94bc106fe6cc1a73aa7",
+    "current_distributed_sha256": "7eaefe6659a3855d04fef0db18c2815559d427c454aca94bc106fe6cc1a73aa7",
+    "modified_for_portability": false
+  },
+  "scripts/audit_proxy_tree_readout_capability.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/audit_proxy_tree_readout_capability.py",
+    "source_sha256": "2656efddeb126e93b72c4ae03ce5257df4eb134943f0c0513ab2dcfdba5dc476",
+    "distributed_sha256": "2656efddeb126e93b72c4ae03ce5257df4eb134943f0c0513ab2dcfdba5dc476",
+    "current_distributed_sha256": "2656efddeb126e93b72c4ae03ce5257df4eb134943f0c0513ab2dcfdba5dc476",
+    "modified_for_portability": false
+  },
+  "scripts/audit_token_late_interaction.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/audit_token_late_interaction.py",
+    "source_sha256": "0497f2d7e9d8c2a46d5cc4278ee62e014de32e4be465b87b3a8d49b58f0467c1",
+    "distributed_sha256": "0497f2d7e9d8c2a46d5cc4278ee62e014de32e4be465b87b3a8d49b58f0467c1",
+    "current_distributed_sha256": "0497f2d7e9d8c2a46d5cc4278ee62e014de32e4be465b87b3a8d49b58f0467c1",
+    "modified_for_portability": false
+  },
+  "scripts/audit_token_late_tokenization.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/audit_token_late_tokenization.py",
+    "source_sha256": "5d94243d317c0ed053259726a821a0cdb3588c57017a4d8124caf93998274973",
+    "distributed_sha256": "5d94243d317c0ed053259726a821a0cdb3588c57017a4d8124caf93998274973",
+    "current_distributed_sha256": "5d94243d317c0ed053259726a821a0cdb3588c57017a4d8124caf93998274973",
+    "modified_for_portability": false
+  },
+  "scripts/availability_channel_workers.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/availability_channel_workers.py",
+    "source_sha256": "b3d3f806408103a74d90dfde829929b143905b3f49dde499dbbfbb4e0f820e20",
+    "distributed_sha256": "b3d3f806408103a74d90dfde829929b143905b3f49dde499dbbfbb4e0f820e20",
+    "current_distributed_sha256": "b3d3f806408103a74d90dfde829929b143905b3f49dde499dbbfbb4e0f820e20",
+    "modified_for_portability": false
+  },
+  "scripts/build_full_auxiliary_portfolio.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/build_full_auxiliary_portfolio.py",
+    "source_sha256": "8ce54c4d100aa6f5b149dbaec231c993b3d46d7e8732e8148c1af2e36a25db33",
+    "distributed_sha256": "8ce54c4d100aa6f5b149dbaec231c993b3d46d7e8732e8148c1af2e36a25db33",
+    "current_distributed_sha256": "8ce54c4d100aa6f5b149dbaec231c993b3d46d7e8732e8148c1af2e36a25db33",
+    "modified_for_portability": false
+  },
+  "scripts/capability_search_workers.py": {
+    "source_archive": "submission/competition_one_role_training_source_v1.zip",
+    "source_member": "scripts/capability_search_workers.py",
+    "source_sha256": "1d47533ef6b9ce7775f4c157ccc007c0d9ed82d317cf5bb6982e8040739d51ee",
+    "distributed_sha256": "1d47533ef6b9ce7775f4c157ccc007c0d9ed82d317cf5bb6982e8040739d51ee",
+    "current_distributed_sha256": "1d47533ef6b9ce7775f4c157ccc007c0d9ed82d317cf5bb6982e8040739d51ee",
+    "modified_for_portability": false
+  },
+  "scripts/conditional_inference_reservation.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/conditional_inference_reservation.py",
+    "source_sha256": "93fd9fe93083218bc2a8704919521b4c4ebc789edbbf50403cc2e88bffd5daa2",
+    "distributed_sha256": "93fd9fe93083218bc2a8704919521b4c4ebc789edbbf50403cc2e88bffd5daa2",
+    "current_distributed_sha256": "f64b5362a5f5b4d0b71eda26dbbd32f84801462f4de8c40e72fdffd46550c542",
+    "modified_for_portability": true
+  },
+  "scripts/density_channel_workers.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/density_channel_workers.py",
+    "source_sha256": "e459e60a4f26756fc42c09b60327c031a5361633d40c84d572c62d7369d11dd9",
+    "distributed_sha256": "e459e60a4f26756fc42c09b60327c031a5361633d40c84d572c62d7369d11dd9",
+    "current_distributed_sha256": "e459e60a4f26756fc42c09b60327c031a5361633d40c84d572c62d7369d11dd9",
+    "modified_for_portability": false
+  },
+  "scripts/download_pinned_model.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/download_pinned_model.py",
+    "source_sha256": "76a83718bd708bb4ddbcb085c7e6424aca1379becdcdcea5687933cbeef05bee",
+    "distributed_sha256": "76a83718bd708bb4ddbcb085c7e6424aca1379becdcdcea5687933cbeef05bee",
+    "current_distributed_sha256": "76a83718bd708bb4ddbcb085c7e6424aca1379becdcdcea5687933cbeef05bee",
+    "modified_for_portability": false
+  },
+  "scripts/encode_auxiliary_candidate_inputs.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "scripts/encode_auxiliary_candidate_inputs.py",
+    "source_sha256": "bcc13c1909b03ba477e73bdb1f79ae9e4721a4cbb3a79b3a59479d5dd9e9c8b8",
+    "distributed_sha256": "bcc13c1909b03ba477e73bdb1f79ae9e4721a4cbb3a79b3a59479d5dd9e9c8b8",
+    "current_distributed_sha256": "bcc13c1909b03ba477e73bdb1f79ae9e4721a4cbb3a79b3a59479d5dd9e9c8b8",
+    "modified_for_portability": false
+  },
+  "scripts/encode_frozen_candidate_inputs.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "scripts/encode_frozen_candidate_inputs.py",
+    "source_sha256": "4fda03e66e3bbaac89e08b3f86e34e1dc9c8c47ad114ea8866491f7485d43884",
+    "distributed_sha256": "4fda03e66e3bbaac89e08b3f86e34e1dc9c8c47ad114ea8866491f7485d43884",
+    "current_distributed_sha256": "4fda03e66e3bbaac89e08b3f86e34e1dc9c8c47ad114ea8866491f7485d43884",
+    "modified_for_portability": false
+  },
+  "scripts/encode_proxy_candidate_inputs.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "scripts/encode_proxy_candidate_inputs.py",
+    "source_sha256": "ba175ca542fcf586aadc07534188e97bd5398a85f1950dea8f74a664f207bf2a",
+    "distributed_sha256": "ba175ca542fcf586aadc07534188e97bd5398a85f1950dea8f74a664f207bf2a",
+    "current_distributed_sha256": "ba175ca542fcf586aadc07534188e97bd5398a85f1950dea8f74a664f207bf2a",
+    "modified_for_portability": false
+  },
+  "scripts/export_full_conditional_tree_candidate.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/export_full_conditional_tree_candidate.py",
+    "source_sha256": "dbca7b74ce7c27ce2c2f7f3af435f756ae8b15b335f09dfd4dab21162c98fd24",
+    "distributed_sha256": "dbca7b74ce7c27ce2c2f7f3af435f756ae8b15b335f09dfd4dab21162c98fd24",
+    "current_distributed_sha256": "dbca7b74ce7c27ce2c2f7f3af435f756ae8b15b335f09dfd4dab21162c98fd24",
+    "modified_for_portability": false
+  },
+  "scripts/extract_learned_context_features.py": {
+    "source_archive": "submission/competition_one_role_training_source_v1.zip",
+    "source_member": "scripts/extract_learned_context_features.py",
+    "source_sha256": "ea02590462e24a9577bec16bb1f05625a369866617ccba566608ae91635f0236",
+    "distributed_sha256": "ea02590462e24a9577bec16bb1f05625a369866617ccba566608ae91635f0236",
+    "current_distributed_sha256": "ea02590462e24a9577bec16bb1f05625a369866617ccba566608ae91635f0236",
+    "modified_for_portability": false
+  },
+  "scripts/joint_evidence_channel_workers.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/joint_evidence_channel_workers.py",
+    "source_sha256": "42350840f68c0faa4bdb478f0e567d7cb2cd5ad1cf7c2eb209e1a93aaf200207",
+    "distributed_sha256": "42350840f68c0faa4bdb478f0e567d7cb2cd5ad1cf7c2eb209e1a93aaf200207",
+    "current_distributed_sha256": "42350840f68c0faa4bdb478f0e567d7cb2cd5ad1cf7c2eb209e1a93aaf200207",
+    "modified_for_portability": false
+  },
+  "scripts/modernbert_full_worker.py": {
+    "source_archive": "submission/competition_one_role_training_source_v1.zip",
+    "source_member": "scripts/modernbert_full_worker.py",
+    "source_sha256": "a2c2ef406327a8f2f21ff0a132472fce11c452dac7a6f0749c74826b404f7618",
+    "distributed_sha256": "a2c2ef406327a8f2f21ff0a132472fce11c452dac7a6f0749c74826b404f7618",
+    "current_distributed_sha256": "a2c2ef406327a8f2f21ff0a132472fce11c452dac7a6f0749c74826b404f7618",
+    "modified_for_portability": false
+  },
+  "scripts/positive_overlap_metric_worker.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/positive_overlap_metric_worker.py",
+    "source_sha256": "32ecd228109cecf27e1d532725f2a8d0ff2ca21c7419db03c4815db200e6423b",
+    "distributed_sha256": "32ecd228109cecf27e1d532725f2a8d0ff2ca21c7419db03c4815db200e6423b",
+    "current_distributed_sha256": "32ecd228109cecf27e1d532725f2a8d0ff2ca21c7419db03c4815db200e6423b",
+    "modified_for_portability": false
+  },
+  "scripts/predict_conditional_tree_candidate.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/predict_conditional_tree_candidate.py",
+    "source_sha256": "9249b1a7052e8c87e4c06ac0a1972191b4fc9ca661a4733b709ae1f072086ac3",
+    "distributed_sha256": "9249b1a7052e8c87e4c06ac0a1972191b4fc9ca661a4733b709ae1f072086ac3",
+    "current_distributed_sha256": "9249b1a7052e8c87e4c06ac0a1972191b4fc9ca661a4733b709ae1f072086ac3",
+    "modified_for_portability": false
+  },
+  "scripts/predict_frozen_candidate.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/predict_frozen_candidate.py",
+    "source_sha256": "1496558f40edccd320f6b6990193833acc5638b915038a0b5c6ab33ee21b1581",
+    "distributed_sha256": "1496558f40edccd320f6b6990193833acc5638b915038a0b5c6ab33ee21b1581",
+    "current_distributed_sha256": "1496558f40edccd320f6b6990193833acc5638b915038a0b5c6ab33ee21b1581",
+    "modified_for_portability": false
+  },
+  "scripts/prepare_training_teacher.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/prepare_training_teacher.py",
+    "source_sha256": "acbc113385e128346186b2d6c26480852548e833ff2df5ac39f9681eccf1fa99",
+    "distributed_sha256": "acbc113385e128346186b2d6c26480852548e833ff2df5ac39f9681eccf1fa99",
+    "current_distributed_sha256": "acbc113385e128346186b2d6c26480852548e833ff2df5ac39f9681eccf1fa99",
+    "modified_for_portability": false
+  },
+  "scripts/qwen06_split_lora_worker.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/qwen06_split_lora_worker.py",
+    "source_sha256": "3b072bd2576e108b422f8636b197458bec00a1e7fcabe90b2a51b405b484ae53",
+    "distributed_sha256": "3b072bd2576e108b422f8636b197458bec00a1e7fcabe90b2a51b405b484ae53",
+    "current_distributed_sha256": "3b072bd2576e108b422f8636b197458bec00a1e7fcabe90b2a51b405b484ae53",
+    "modified_for_portability": false
+  },
+  "scripts/run_annotation_channel_capability.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_annotation_channel_capability.py",
+    "source_sha256": "23344980c7b752d55e0d5d7da67f16131713399fc481d3afb8f27f11b09e0991",
+    "distributed_sha256": "23344980c7b752d55e0d5d7da67f16131713399fc481d3afb8f27f11b09e0991",
+    "current_distributed_sha256": "23344980c7b752d55e0d5d7da67f16131713399fc481d3afb8f27f11b09e0991",
+    "modified_for_portability": false
+  },
+  "scripts/run_auxiliary_lexical_residual_capability.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_auxiliary_lexical_residual_capability.py",
+    "source_sha256": "5c356d2822ad144c07fc6f8aa073408d19b0800c7cd93714f0bcc649d6ab1ce3",
+    "distributed_sha256": "5c356d2822ad144c07fc6f8aa073408d19b0800c7cd93714f0bcc649d6ab1ce3",
+    "current_distributed_sha256": "5c356d2822ad144c07fc6f8aa073408d19b0800c7cd93714f0bcc649d6ab1ce3",
+    "modified_for_portability": false
+  },
+  "scripts/run_channel_residual_capability.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_channel_residual_capability.py",
+    "source_sha256": "e17b7fb52a29a55fbed84bdd6ac16a540fc8ed5f16af6a647647813c6e7c689f",
+    "distributed_sha256": "e17b7fb52a29a55fbed84bdd6ac16a540fc8ed5f16af6a647647813c6e7c689f",
+    "current_distributed_sha256": "e17b7fb52a29a55fbed84bdd6ac16a540fc8ed5f16af6a647647813c6e7c689f",
+    "modified_for_portability": false
+  },
+  "scripts/run_conditional_peer_union_capability.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_conditional_peer_union_capability.py",
+    "source_sha256": "ffdc53ebf3eaabecd8074430d616335d2f7eea16c90bfdea9fbe5fc84c887543",
+    "distributed_sha256": "ffdc53ebf3eaabecd8074430d616335d2f7eea16c90bfdea9fbe5fc84c887543",
+    "current_distributed_sha256": "ffdc53ebf3eaabecd8074430d616335d2f7eea16c90bfdea9fbe5fc84c887543",
+    "modified_for_portability": false
+  },
+  "scripts/run_evidence_coverage_gate_capability.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_evidence_coverage_gate_capability.py",
+    "source_sha256": "e0ce5c9fa5c8bbc36b1e1577df4e54c6ef12862e248719746f0f1d4b210e66c7",
+    "distributed_sha256": "e0ce5c9fa5c8bbc36b1e1577df4e54c6ef12862e248719746f0f1d4b210e66c7",
+    "current_distributed_sha256": "e0ce5c9fa5c8bbc36b1e1577df4e54c6ef12862e248719746f0f1d4b210e66c7",
+    "modified_for_portability": false
+  },
+  "scripts/run_hierarchy_strength_capability.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_hierarchy_strength_capability.py",
+    "source_sha256": "91b9c017dcf38e52bdb4979fd3a126dfbcedb4db2122d175712e6c434bcd9d90",
+    "distributed_sha256": "91b9c017dcf38e52bdb4979fd3a126dfbcedb4db2122d175712e6c434bcd9d90",
+    "current_distributed_sha256": "91b9c017dcf38e52bdb4979fd3a126dfbcedb4db2122d175712e6c434bcd9d90",
+    "modified_for_portability": false
+  },
+  "scripts/run_peer_publication_information.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_peer_publication_information.py",
+    "source_sha256": "c2f494f1ffa6798ac76ae7a0cbc9b7473df83a892d24b5be5b6318ed3cd6a016",
+    "distributed_sha256": "c2f494f1ffa6798ac76ae7a0cbc9b7473df83a892d24b5be5b6318ed3cd6a016",
+    "current_distributed_sha256": "c2f494f1ffa6798ac76ae7a0cbc9b7473df83a892d24b5be5b6318ed3cd6a016",
+    "modified_for_portability": false
+  },
+  "scripts/run_positive_overlap_metric_pilot.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_positive_overlap_metric_pilot.py",
+    "source_sha256": "bf360cbd9db8000f00345995ca637a81ec2fc3b517719b5a8a142494fc7284db",
+    "distributed_sha256": "bf360cbd9db8000f00345995ca637a81ec2fc3b517719b5a8a142494fc7284db",
+    "current_distributed_sha256": "bf360cbd9db8000f00345995ca637a81ec2fc3b517719b5a8a142494fc7284db",
+    "modified_for_portability": false
+  },
+  "scripts/run_proxy_tree_readout_capability.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_proxy_tree_readout_capability.py",
+    "source_sha256": "befff4b3c0dfe0a5bbbca3b3a7bc170e59ee45838b4b8dc54d154e0c345fb032",
+    "distributed_sha256": "befff4b3c0dfe0a5bbbca3b3a7bc170e59ee45838b4b8dc54d154e0c345fb032",
+    "current_distributed_sha256": "befff4b3c0dfe0a5bbbca3b3a7bc170e59ee45838b4b8dc54d154e0c345fb032",
+    "modified_for_portability": false
+  },
+  "scripts/run_qwen06_split_lora.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_qwen06_split_lora.py",
+    "source_sha256": "3127b86a30e3110adad58a58cdd5ea0a07c7a133b06fcd7001a3fc982b31f32c",
+    "distributed_sha256": "3127b86a30e3110adad58a58cdd5ea0a07c7a133b06fcd7001a3fc982b31f32c",
+    "current_distributed_sha256": "3127b86a30e3110adad58a58cdd5ea0a07c7a133b06fcd7001a3fc982b31f32c",
+    "modified_for_portability": false
+  },
+  "scripts/run_retrieval_plateau_diagnostics.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_retrieval_plateau_diagnostics.py",
+    "source_sha256": "2b1b6a5cc0aede767d75c0fa51985de272aabcc387e4fc1137f4f941f246bb96",
+    "distributed_sha256": "2b1b6a5cc0aede767d75c0fa51985de272aabcc387e4fc1137f4f941f246bb96",
+    "current_distributed_sha256": "2b1b6a5cc0aede767d75c0fa51985de272aabcc387e4fc1137f4f941f246bb96",
+    "modified_for_portability": false
+  },
+  "scripts/run_token_late_interaction.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/run_token_late_interaction.py",
+    "source_sha256": "5eca69e06475bafd9df1ec495ec145e18629bdf24018711310eab87e537a6116",
+    "distributed_sha256": "5eca69e06475bafd9df1ec495ec145e18629bdf24018711310eab87e537a6116",
+    "current_distributed_sha256": "5eca69e06475bafd9df1ec495ec145e18629bdf24018711310eab87e537a6116",
+    "modified_for_portability": false
+  },
+  "scripts/score_token_late_interaction.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/score_token_late_interaction.py",
+    "source_sha256": "02088155848f9f7e1eda5462bf5c47b860a1de3a170b78ab524105e86d19263e",
+    "distributed_sha256": "02088155848f9f7e1eda5462bf5c47b860a1de3a170b78ab524105e86d19263e",
+    "current_distributed_sha256": "02088155848f9f7e1eda5462bf5c47b860a1de3a170b78ab524105e86d19263e",
+    "modified_for_portability": false
+  },
+  "scripts/score_token_late_safe_replay.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/score_token_late_safe_replay.py",
+    "source_sha256": "9c33f3d7c7c9366678457efe4ba5f11a4288fec8ffd29bfaa79d70333cc667ad",
+    "distributed_sha256": "9c33f3d7c7c9366678457efe4ba5f11a4288fec8ffd29bfaa79d70333cc667ad",
+    "current_distributed_sha256": "9c33f3d7c7c9366678457efe4ba5f11a4288fec8ffd29bfaa79d70333cc667ad",
+    "modified_for_portability": false
+  },
+  "scripts/select_full_conditional_peer_union.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/select_full_conditional_peer_union.py",
+    "source_sha256": "50611aa435b54bd710bc69cb49b564f8ee08675f09dfe86f897ba7c9862bd411",
+    "distributed_sha256": "50611aa435b54bd710bc69cb49b564f8ee08675f09dfe86f897ba7c9862bd411",
+    "current_distributed_sha256": "50611aa435b54bd710bc69cb49b564f8ee08675f09dfe86f897ba7c9862bd411",
+    "modified_for_portability": false
+  },
+  "scripts/select_full_tree_conditional_union.py": {
+    "source_archive": "submission/competition_training_reference_v1.zip",
+    "source_member": "scripts/select_full_tree_conditional_union.py",
+    "source_sha256": "ae52eb56fce9159dd98d74340ac999f4616e01e4a30e47375f13425d42d8ccb6",
+    "distributed_sha256": "ae52eb56fce9159dd98d74340ac999f4616e01e4a30e47375f13425d42d8ccb6",
+    "current_distributed_sha256": "ae52eb56fce9159dd98d74340ac999f4616e01e4a30e47375f13425d42d8ccb6",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/annotation_channel.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/annotation_channel.py",
+    "source_sha256": "ba64954efc74654356079c647a57e712d842f90a85b2fbc455b2ffd956a2b782",
+    "distributed_sha256": "ba64954efc74654356079c647a57e712d842f90a85b2fbc455b2ffd956a2b782",
+    "current_distributed_sha256": "ba64954efc74654356079c647a57e712d842f90a85b2fbc455b2ffd956a2b782",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/auxiliary_loss.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/auxiliary_loss.py",
+    "source_sha256": "c1924fbad31ebe0197acd975c26329453addaee645a4be12984110f9a1e7ac40",
+    "distributed_sha256": "c1924fbad31ebe0197acd975c26329453addaee645a4be12984110f9a1e7ac40",
+    "current_distributed_sha256": "c1924fbad31ebe0197acd975c26329453addaee645a4be12984110f9a1e7ac40",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/availability_calibration.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/availability_calibration.py",
+    "source_sha256": "5df03d48ad83b32b8317b0753f9c4170472209cf0e309f299bb49b757f05eeb5",
+    "distributed_sha256": "5df03d48ad83b32b8317b0753f9c4170472209cf0e309f299bb49b757f05eeb5",
+    "current_distributed_sha256": "5df03d48ad83b32b8317b0753f9c4170472209cf0e309f299bb49b757f05eeb5",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/availability_inference.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/availability_inference.py",
+    "source_sha256": "2c08a6d1fd79c320b602c670351f989596429101711f821385ce9fb569c461a9",
+    "distributed_sha256": "2c08a6d1fd79c320b602c670351f989596429101711f821385ce9fb569c461a9",
+    "current_distributed_sha256": "2c08a6d1fd79c320b602c670351f989596429101711f821385ce9fb569c461a9",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/benchmark.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/benchmark.py",
+    "source_sha256": "f8549e2aa952fe6cc421485b057cf41d8b50bb5488244c3df9ef8e75177f327b",
+    "distributed_sha256": "f8549e2aa952fe6cc421485b057cf41d8b50bb5488244c3df9ef8e75177f327b",
+    "current_distributed_sha256": "f8549e2aa952fe6cc421485b057cf41d8b50bb5488244c3df9ef8e75177f327b",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/capability_search.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/capability_search.py",
+    "source_sha256": "8641d87d8f58dc26c293d72756ca9a5708765f0c83c3a35ae9597190ae16bbc9",
+    "distributed_sha256": "8641d87d8f58dc26c293d72756ca9a5708765f0c83c3a35ae9597190ae16bbc9",
+    "current_distributed_sha256": "8641d87d8f58dc26c293d72756ca9a5708765f0c83c3a35ae9597190ae16bbc9",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/channel_residual.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/channel_residual.py",
+    "source_sha256": "16254191a5cc698cb7c8a298955ee3af9675572013a214fe9c63389370bfdcf0",
+    "distributed_sha256": "16254191a5cc698cb7c8a298955ee3af9675572013a214fe9c63389370bfdcf0",
+    "current_distributed_sha256": "16254191a5cc698cb7c8a298955ee3af9675572013a214fe9c63389370bfdcf0",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/compact_lora.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/compact_lora.py",
+    "source_sha256": "de2e8b984e1a4612fd3350544273f21688688c01e2930d68a6ff643c6e01a9f3",
+    "distributed_sha256": "de2e8b984e1a4612fd3350544273f21688688c01e2930d68a6ff643c6e01a9f3",
+    "current_distributed_sha256": "de2e8b984e1a4612fd3350544273f21688688c01e2930d68a6ff643c6e01a9f3",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/component_targets.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/component_targets.py",
+    "source_sha256": "3fef80011b106b328305219c1a1ecb0c6c9546498325030abd08dd1b1e8c0804",
+    "distributed_sha256": "3fef80011b106b328305219c1a1ecb0c6c9546498325030abd08dd1b1e8c0804",
+    "current_distributed_sha256": "3fef80011b106b328305219c1a1ecb0c6c9546498325030abd08dd1b1e8c0804",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/conditional_peer_prior.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/conditional_peer_prior.py",
+    "source_sha256": "209c882e51a6974e27ff1e831271aadeba3843602b12512e8185449288a34411",
+    "distributed_sha256": "209c882e51a6974e27ff1e831271aadeba3843602b12512e8185449288a34411",
+    "current_distributed_sha256": "209c882e51a6974e27ff1e831271aadeba3843602b12512e8185449288a34411",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/conditional_tree_inference.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/conditional_tree_inference.py",
+    "source_sha256": "cbbcbb60acf6e4294b50310d9e346815fdb23e78fa6bf37d9b1018a0d0368fe0",
+    "distributed_sha256": "cbbcbb60acf6e4294b50310d9e346815fdb23e78fa6bf37d9b1018a0d0368fe0",
+    "current_distributed_sha256": "cbbcbb60acf6e4294b50310d9e346815fdb23e78fa6bf37d9b1018a0d0368fe0",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/data.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/data.py",
+    "source_sha256": "f547081b5953499706f03eaf9c418f6997901115983a466a05ee37be0ed769db",
+    "distributed_sha256": "f547081b5953499706f03eaf9c418f6997901115983a466a05ee37be0ed769db",
+    "current_distributed_sha256": "f547081b5953499706f03eaf9c418f6997901115983a466a05ee37be0ed769db",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/density_channel.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/density_channel.py",
+    "source_sha256": "bb8c8ab84e80885ac4baa952f8ccbfc09d70f7fa235ffaa4c6aa85723df0773e",
+    "distributed_sha256": "bb8c8ab84e80885ac4baa952f8ccbfc09d70f7fa235ffaa4c6aa85723df0773e",
+    "current_distributed_sha256": "bb8c8ab84e80885ac4baa952f8ccbfc09d70f7fa235ffaa4c6aa85723df0773e",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/evidence_coverage.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/evidence_coverage.py",
+    "source_sha256": "b8d9f3ba9a967d58de544acb33a4dbbf6722619acb4453bd793ddb62ae4f0443",
+    "distributed_sha256": "b8d9f3ba9a967d58de544acb33a4dbbf6722619acb4453bd793ddb62ae4f0443",
+    "current_distributed_sha256": "b8d9f3ba9a967d58de544acb33a4dbbf6722619acb4453bd793ddb62ae4f0443",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/features.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/features.py",
+    "source_sha256": "0c3ce7cd7f54bf88728369023196a0f95e4b9eb439f950bec706c30d811d7755",
+    "distributed_sha256": "0c3ce7cd7f54bf88728369023196a0f95e4b9eb439f950bec706c30d811d7755",
+    "current_distributed_sha256": "0c3ce7cd7f54bf88728369023196a0f95e4b9eb439f950bec706c30d811d7755",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/frozen_inference.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/frozen_inference.py",
+    "source_sha256": "41d43cc40d9e052966051dea26decb8e4d6c05cbfd9130df1d999fa41628475b",
+    "distributed_sha256": "41d43cc40d9e052966051dea26decb8e4d6c05cbfd9130df1d999fa41628475b",
+    "current_distributed_sha256": "41d43cc40d9e052966051dea26decb8e4d6c05cbfd9130df1d999fa41628475b",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/gpu_policy.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/gpu_policy.py",
+    "source_sha256": "e0bedbaf9f8b3eaae4665011d0332c1eb73026760a027fecc0cedd1e9afed0bd",
+    "distributed_sha256": "e0bedbaf9f8b3eaae4665011d0332c1eb73026760a027fecc0cedd1e9afed0bd",
+    "current_distributed_sha256": "e0bedbaf9f8b3eaae4665011d0332c1eb73026760a027fecc0cedd1e9afed0bd",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/hierarchical_loss.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/hierarchical_loss.py",
+    "source_sha256": "97ccaa774b4722f6c369dd56c38a85a97151b579ea981c1dab2a3b8b84b55c3d",
+    "distributed_sha256": "97ccaa774b4722f6c369dd56c38a85a97151b579ea981c1dab2a3b8b84b55c3d",
+    "current_distributed_sha256": "97ccaa774b4722f6c369dd56c38a85a97151b579ea981c1dab2a3b8b84b55c3d",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/hierarchical_readout.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/hierarchical_readout.py",
+    "source_sha256": "6cb96e7794091ab4aa2c05daf9d5d6f9af1732cd7d1a7c8cddd5e9dde0e44ad9",
+    "distributed_sha256": "6cb96e7794091ab4aa2c05daf9d5d6f9af1732cd7d1a7c8cddd5e9dde0e44ad9",
+    "current_distributed_sha256": "6cb96e7794091ab4aa2c05daf9d5d6f9af1732cd7d1a7c8cddd5e9dde0e44ad9",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/joint_evidence_channel.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/joint_evidence_channel.py",
+    "source_sha256": "f21e8cf63227b41e3e7159b0eb1ffe7cc8399707d1e4b603f126e543ec0e7aaf",
+    "distributed_sha256": "f21e8cf63227b41e3e7159b0eb1ffe7cc8399707d1e4b603f126e543ec0e7aaf",
+    "current_distributed_sha256": "f21e8cf63227b41e3e7159b0eb1ffe7cc8399707d1e4b603f126e543ec0e7aaf",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/kernel_availability.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/kernel_availability.py",
+    "source_sha256": "96b238b9fdb786b17a3563b03bb79a0f30c9caa35346e0e3f65e40fef983ade5",
+    "distributed_sha256": "96b238b9fdb786b17a3563b03bb79a0f30c9caa35346e0e3f65e40fef983ade5",
+    "current_distributed_sha256": "96b238b9fdb786b17a3563b03bb79a0f30c9caa35346e0e3f65e40fef983ade5",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/known_proxy_neighbors.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/known_proxy_neighbors.py",
+    "source_sha256": "4dd49093e85eb9bac160f062b35ce749ac4366b819ba7c00a39f5fa20a6d9c44",
+    "distributed_sha256": "4dd49093e85eb9bac160f062b35ce749ac4366b819ba7c00a39f5fa20a6d9c44",
+    "current_distributed_sha256": "4dd49093e85eb9bac160f062b35ce749ac4366b819ba7c00a39f5fa20a6d9c44",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/label_hierarchy.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/label_hierarchy.py",
+    "source_sha256": "91d783dddce81485c75138f20d8fc2f3c782aaaaf3ce1f836c29bc3aa427be98",
+    "distributed_sha256": "91d783dddce81485c75138f20d8fc2f3c782aaaaf3ce1f836c29bc3aa427be98",
+    "current_distributed_sha256": "91d783dddce81485c75138f20d8fc2f3c782aaaaf3ce1f836c29bc3aa427be98",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/learned_features.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/learned_features.py",
+    "source_sha256": "f1580f6667acd47d93ca62ec727e7f8aea1d555d6f7bc2f7a2be0441f0598e7f",
+    "distributed_sha256": "f1580f6667acd47d93ca62ec727e7f8aea1d555d6f7bc2f7a2be0441f0598e7f",
+    "current_distributed_sha256": "f1580f6667acd47d93ca62ec727e7f8aea1d555d6f7bc2f7a2be0441f0598e7f",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/matchability.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/matchability.py",
+    "source_sha256": "33f33f9057e7b1e9edc86992d89655533fad1eff5a2e7497c49546384003d4b1",
+    "distributed_sha256": "33f33f9057e7b1e9edc86992d89655533fad1eff5a2e7497c49546384003d4b1",
+    "current_distributed_sha256": "33f33f9057e7b1e9edc86992d89655533fad1eff5a2e7497c49546384003d4b1",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/models.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/models.py",
+    "source_sha256": "97122021a7e9ec5dc0e16c7834c0eeab401b9f03a9eeab7d7575d2ba74786e01",
+    "distributed_sha256": "97122021a7e9ec5dc0e16c7834c0eeab401b9f03a9eeab7d7575d2ba74786e01",
+    "current_distributed_sha256": "97122021a7e9ec5dc0e16c7834c0eeab401b9f03a9eeab7d7575d2ba74786e01",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/neighbor_inference.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/neighbor_inference.py",
+    "source_sha256": "64800875119730e25bbacff08dd89b72359bdea8513d538908b7488430d6413d",
+    "distributed_sha256": "64800875119730e25bbacff08dd89b72359bdea8513d538908b7488430d6413d",
+    "current_distributed_sha256": "64800875119730e25bbacff08dd89b72359bdea8513d538908b7488430d6413d",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/neural_loss.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/neural_loss.py",
+    "source_sha256": "551abeccdb7c82a44a21cd1667c4875d48701b37053379a12f2d835b59a6e330",
+    "distributed_sha256": "551abeccdb7c82a44a21cd1667c4875d48701b37053379a12f2d835b59a6e330",
+    "current_distributed_sha256": "551abeccdb7c82a44a21cd1667c4875d48701b37053379a12f2d835b59a6e330",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/paired_dimensions.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/paired_dimensions.py",
+    "source_sha256": "2b6c435c8c542926d34f74350f3fe2637b19a919ce8063331e3ef6b90c1bc5f2",
+    "distributed_sha256": "2b6c435c8c542926d34f74350f3fe2637b19a919ce8063331e3ef6b90c1bc5f2",
+    "current_distributed_sha256": "2b6c435c8c542926d34f74350f3fe2637b19a919ce8063331e3ef6b90c1bc5f2",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/peer_publication.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/peer_publication.py",
+    "source_sha256": "865e747976501a2a7575ab980441af75564cd96ed2f25668618d97592004922c",
+    "distributed_sha256": "865e747976501a2a7575ab980441af75564cd96ed2f25668618d97592004922c",
+    "current_distributed_sha256": "865e747976501a2a7575ab980441af75564cd96ed2f25668618d97592004922c",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/peer_union_model.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/peer_union_model.py",
+    "source_sha256": "13a74619b8c17817640b85a8816a020c5f613edebaa28edb4eada461f2f2d6a5",
+    "distributed_sha256": "13a74619b8c17817640b85a8816a020c5f613edebaa28edb4eada461f2f2d6a5",
+    "current_distributed_sha256": "13a74619b8c17817640b85a8816a020c5f613edebaa28edb4eada461f2f2d6a5",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/positive_overlap_metric.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/positive_overlap_metric.py",
+    "source_sha256": "d51a57fac7c359342c0da1124946020869b5242774e0bf563eb423e5e01e4dea",
+    "distributed_sha256": "d51a57fac7c359342c0da1124946020869b5242774e0bf563eb423e5e01e4dea",
+    "current_distributed_sha256": "d51a57fac7c359342c0da1124946020869b5242774e0bf563eb423e5e01e4dea",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/proxy_tree_readout.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/proxy_tree_readout.py",
+    "source_sha256": "95e27fbe3c85b1ca691a5de076ea64b568736301d254ffdc7b07e7edc1e280ff",
+    "distributed_sha256": "95e27fbe3c85b1ca691a5de076ea64b568736301d254ffdc7b07e7edc1e280ff",
+    "current_distributed_sha256": "95e27fbe3c85b1ca691a5de076ea64b568736301d254ffdc7b07e7edc1e280ff",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/repository_conditioning.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/repository_conditioning.py",
+    "source_sha256": "8aed82b1c71a506ddd62b74c6c384d13412af2c61c33f5ce3f4aaf7ff671a25f",
+    "distributed_sha256": "8aed82b1c71a506ddd62b74c6c384d13412af2c61c33f5ce3f4aaf7ff671a25f",
+    "current_distributed_sha256": "8aed82b1c71a506ddd62b74c6c384d13412af2c61c33f5ce3f4aaf7ff671a25f",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/repository_interactions.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/repository_interactions.py",
+    "source_sha256": "0272548b337eb63a8fb51b1a4960aaa7a746c9720e92d0aba64d188f579d43d7",
+    "distributed_sha256": "0272548b337eb63a8fb51b1a4960aaa7a746c9720e92d0aba64d188f579d43d7",
+    "current_distributed_sha256": "0272548b337eb63a8fb51b1a4960aaa7a746c9720e92d0aba64d188f579d43d7",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/residual_inference.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/residual_inference.py",
+    "source_sha256": "5fa0bfaeb1daeda145d02de8c26770a1d9fc8a4d8d4b2ed7e2e87791ccea964e",
+    "distributed_sha256": "5fa0bfaeb1daeda145d02de8c26770a1d9fc8a4d8d4b2ed7e2e87791ccea964e",
+    "current_distributed_sha256": "5fa0bfaeb1daeda145d02de8c26770a1d9fc8a4d8d4b2ed7e2e87791ccea964e",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/retrieval_evidence.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/retrieval_evidence.py",
+    "source_sha256": "3cb00c752b5a65e2da1af0aa4a55898cfb5987b53a79eab3d7821c84bfd242b4",
+    "distributed_sha256": "3cb00c752b5a65e2da1af0aa4a55898cfb5987b53a79eab3d7821c84bfd242b4",
+    "current_distributed_sha256": "3cb00c752b5a65e2da1af0aa4a55898cfb5987b53a79eab3d7821c84bfd242b4",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/runtime.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/runtime.py",
+    "source_sha256": "55da9c2a6e5a4e996ec4d0d9348ea1731daf967d8c28c4556dbc60c2bec4a7e4",
+    "distributed_sha256": "55da9c2a6e5a4e996ec4d0d9348ea1731daf967d8c28c4556dbc60c2bec4a7e4",
+    "current_distributed_sha256": "55da9c2a6e5a4e996ec4d0d9348ea1731daf967d8c28c4556dbc60c2bec4a7e4",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/schema.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/schema.py",
+    "source_sha256": "b2ec34f4ea800262cdf32e618099b49b4e87132972b0343e62a734289b2412eb",
+    "distributed_sha256": "b2ec34f4ea800262cdf32e618099b49b4e87132972b0343e62a734289b2412eb",
+    "current_distributed_sha256": "b2ec34f4ea800262cdf32e618099b49b4e87132972b0343e62a734289b2412eb",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/score_ensemble.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/score_ensemble.py",
+    "source_sha256": "260b2da20679bcbd2d49f63f4afeaf157a519d8a04496427b1088be979245706",
+    "distributed_sha256": "260b2da20679bcbd2d49f63f4afeaf157a519d8a04496427b1088be979245706",
+    "current_distributed_sha256": "260b2da20679bcbd2d49f63f4afeaf157a519d8a04496427b1088be979245706",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/structure_offset.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/structure_offset.py",
+    "source_sha256": "f277b6f0674ddebf2ed4ff8345be5c94ffab2097b8db0c6ccde8a6169e4cba5c",
+    "distributed_sha256": "f277b6f0674ddebf2ed4ff8345be5c94ffab2097b8db0c6ccde8a6169e4cba5c",
+    "current_distributed_sha256": "f277b6f0674ddebf2ed4ff8345be5c94ffab2097b8db0c6ccde8a6169e4cba5c",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/structured_availability.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/structured_availability.py",
+    "source_sha256": "2e720267e60d108823626879f172d84162153ce4eee3ecf5333b363b30ab4e07",
+    "distributed_sha256": "2e720267e60d108823626879f172d84162153ce4eee3ecf5333b363b30ab4e07",
+    "current_distributed_sha256": "2e720267e60d108823626879f172d84162153ce4eee3ecf5333b363b30ab4e07",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/technical_text.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/technical_text.py",
+    "source_sha256": "f706cf282d78ff2e7f7c2f1f0dd840f56850fb9f3730fe7c2a6d0463e683cd3a",
+    "distributed_sha256": "f706cf282d78ff2e7f7c2f1f0dd840f56850fb9f3730fe7c2a6d0463e683cd3a",
+    "current_distributed_sha256": "f706cf282d78ff2e7f7c2f1f0dd840f56850fb9f3730fe7c2a6d0463e683cd3a",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/threshold_frontier.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/threshold_frontier.py",
+    "source_sha256": "c693bf436c303d8876c4bf4d30206e6d17713f2b3e5b10ef280a6f320365100d",
+    "distributed_sha256": "c693bf436c303d8876c4bf4d30206e6d17713f2b3e5b10ef280a6f320365100d",
+    "current_distributed_sha256": "c693bf436c303d8876c4bf4d30206e6d17713f2b3e5b10ef280a6f320365100d",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/token_late_interaction.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/token_late_interaction.py",
+    "source_sha256": "d265cc88abf2441d8d7a8f3f1e01f3795ea349ff56de8ef90adc85d08b5632d5",
+    "distributed_sha256": "d265cc88abf2441d8d7a8f3f1e01f3795ea349ff56de8ef90adc85d08b5632d5",
+    "current_distributed_sha256": "d265cc88abf2441d8d7a8f3f1e01f3795ea349ff56de8ef90adc85d08b5632d5",
+    "modified_for_portability": false
+  },
+  "upstream/skill-classification/LICENSE": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "upstream/skill-classification/LICENSE",
+    "source_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "distributed_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+  },
+  "upstream/skill-classification/competition_baseline/main.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "upstream/skill-classification/competition_baseline/main.py",
+    "source_sha256": "752112860a8198d14844e90574c06c55b827f5c5c3e470b9ce6e37b2fdc0cb15",
+    "distributed_sha256": "752112860a8198d14844e90574c06c55b827f5c5c3e470b9ce6e37b2fdc0cb15",
+    "current_distributed_sha256": "752112860a8198d14844e90574c06c55b827f5c5c3e470b9ce6e37b2fdc0cb15",
+    "modified_for_portability": false
+  },
+  "configs/base_encoder.json": {
+    "source_archive": "submission/competition_one_role_training_source_v1.zip",
+    "source_member": "configs/base_encoder.json",
+    "source_sha256": "a6c5869bebb41db2829492e60019d46d92df3eae6aebff921a6619b3291aa85a",
+    "distributed_sha256": "a6c5869bebb41db2829492e60019d46d92df3eae6aebff921a6619b3291aa85a"
+  },
+  "configs/base_recipe.json": {
+    "source_archive": "submission/competition_one_role_training_source_v1.zip",
+    "source_member": "configs/base_recipe.json",
+    "source_sha256": "d9c4373efc8a9c9f950530b12561dfa7959178380756c2d3277b848432e04c04",
+    "distributed_sha256": "d9c4373efc8a9c9f950530b12561dfa7959178380756c2d3277b848432e04c04"
+  },
+  "configs/encoder_recipe.json": {
+    "source_archive": "submission/competition_one_role_training_source_v1.zip",
+    "source_member": "configs/encoder_recipe.json",
+    "source_sha256": "7d60e8b58240eda418d6aaf0014c7f7a36f6620994ac7d601ab0ebfe85261760",
+    "distributed_sha256": "7d60e8b58240eda418d6aaf0014c7f7a36f6620994ac7d601ab0ebfe85261760"
+  },
+  "configs/gpu_resource_policy.json": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "configs/gpu_resource_policy.json",
+    "source_sha256": "1a80fcaa4da5e9a43cfd5a1c5ae5e9e0f862898c88b7a2d23181d0ab88e3a55a",
+    "distributed_sha256": "1a80fcaa4da5e9a43cfd5a1c5ae5e9e0f862898c88b7a2d23181d0ab88e3a55a"
+  },
+  "requirements-cpu.txt": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "requirements-cpu.txt",
+    "source_sha256": "f326f170601915bb7c0b9b99d2c0006e78bc8ca7331f92b578a7c43e8f2946fc",
+    "distributed_sha256": "f326f170601915bb7c0b9b99d2c0006e78bc8ca7331f92b578a7c43e8f2946fc"
+  },
+  "requirements-encoder.txt": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "requirements-encoder.txt",
+    "source_sha256": "9bb7a7c88d18cea85a895653e20685626dceb4003d977e452a189ba677eb7fd6",
+    "distributed_sha256": "9bb7a7c88d18cea85a895653e20685626dceb4003d977e452a189ba677eb7fd6"
+  },
+  "scripts/isolated_data_root.py": {
+    "source_archive": "submission/competition_one_role_training_source_v1.zip",
+    "source_member": "scripts/isolated_data_root.py",
+    "source_sha256": "488da00c079ec7158181adacc74f81353df10ed19678f73451883b457e597c33",
+    "distributed_sha256": "488da00c079ec7158181adacc74f81353df10ed19678f73451883b457e597c33",
+    "current_distributed_sha256": "488da00c079ec7158181adacc74f81353df10ed19678f73451883b457e597c33",
+    "modified_for_portability": false
+  },
+  "scripts/prepare_competition_role_smoke.py": {
+    "source_archive": "submission/competition_one_role_training_source_v1.zip",
+    "source_member": "scripts/prepare_competition_role_smoke.py",
+    "source_sha256": "0f62fb64bf5516198170cfac38388a3a572c6788b960a9f42b9ccc520440a280",
+    "distributed_sha256": "0f62fb64bf5516198170cfac38388a3a572c6788b960a9f42b9ccc520440a280",
+    "current_distributed_sha256": "0f62fb64bf5516198170cfac38388a3a572c6788b960a9f42b9ccc520440a280",
+    "modified_for_portability": false
+  },
+  "scripts/title_body_workers.py": {
+    "source_archive": "submission/competition_one_role_training_source_v1.zip",
+    "source_member": "scripts/title_body_workers.py",
+    "source_sha256": "1a810f0d6f9d816b922dca92e397943c62301ae8dcb47e947d25f15a920dfe10",
+    "distributed_sha256": "1a810f0d6f9d816b922dca92e397943c62301ae8dcb47e947d25f15a920dfe10",
+    "current_distributed_sha256": "1a810f0d6f9d816b922dca92e397943c62301ae8dcb47e947d25f15a920dfe10",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/__init__.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/__init__.py",
+    "source_sha256": "8394ca7aa21c8404e2189d1aeac677116a64d15ee1eb6aedc49a84fc1eed8c4e",
+    "distributed_sha256": "8394ca7aa21c8404e2189d1aeac677116a64d15ee1eb6aedc49a84fc1eed8c4e",
+    "current_distributed_sha256": "8394ca7aa21c8404e2189d1aeac677116a64d15ee1eb6aedc49a84fc1eed8c4e",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/api_child_mentions.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/api_child_mentions.py",
+    "source_sha256": "48d52ae7eb3034045b65fb9fe49174396be9347e695c0613919555cc9e8b9b79"
+  },
+  "src/skillcomp/api_class_mentions.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/api_class_mentions.py",
+    "source_sha256": "a20a279613831fc37a0ddc07d316fd8b501dace578184be18ee93e4c20e35d14"
+  },
+  "src/skillcomp/api_method_mentions.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/api_method_mentions.py",
+    "source_sha256": "f1b981c68d1847deda3e87bfd10f7e7cdae67f9cb9da5ed7b744fec3515544f0"
+  },
+  "src/skillcomp/archive_snapshot.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/archive_snapshot.py",
+    "source_sha256": "04eeebc722d3ba6440a44264517b96e51c36ada0151cd78ef5bdcb2f8f8a892c"
+  },
+  "src/skillcomp/balanced_proxy_trees.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/balanced_proxy_trees.py",
+    "source_sha256": "93ca5711e815682ca503bc785e53f2440173185ed14f3d74baf862706c867cf3"
+  },
+  "src/skillcomp/class_skill_posterior.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/class_skill_posterior.py",
+    "source_sha256": "cdb255200fac20a1189f3fc7dfec998363ddbc1a71c799bea42fd9dc535f3772"
+  },
+  "src/skillcomp/code_evidence_retrieval.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/code_evidence_retrieval.py",
+    "source_sha256": "f5c044ae9eac16504a0752f6d425eee6fc8de7f51ebdb65b1714ac904a71471e"
+  },
+  "src/skillcomp/competition_assets.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/competition_assets.py",
+    "source_sha256": "2a265d59b618f731d2ee3f5d64daaace8357f99268927d5a54216d9639b362ae",
+    "distributed_sha256": "2a265d59b618f731d2ee3f5d64daaace8357f99268927d5a54216d9639b362ae",
+    "current_distributed_sha256": "2a265d59b618f731d2ee3f5d64daaace8357f99268927d5a54216d9639b362ae",
+    "modified_for_portability": false
+  },
+  "src/skillcomp/conditional_neighbor_residual.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/conditional_neighbor_residual.py",
+    "source_sha256": "fb484d81e4f606c9f05ff055fb9c26757894358051adc5f0a269e614dba30d95"
+  },
+  "src/skillcomp/domain_ablation.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/domain_ablation.py",
+    "source_sha256": "8c443a6e8c29fe08261767a0bf8ba9f8516fa68c70c55f54fefceb75e04cfadc"
+  },
+  "src/skillcomp/empirical_prior.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/empirical_prior.py",
+    "source_sha256": "fc407a0247e30c3bd6e5da7cb5f1da27f075de611e2988e4bafc1490a50ce651"
+  },
+  "src/skillcomp/encoder_batch_audit.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/encoder_batch_audit.py",
+    "source_sha256": "a790a938f279ba9f6f9cb2acb6feec12e397003d7bf459d5e8f47a59d3bbd34d"
+  },
+  "src/skillcomp/entropy_proxy_trees.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/entropy_proxy_trees.py",
+    "source_sha256": "cf9179695b886da4da5887d9e9140b28b4832c38d7f4388f168e402187f78b05"
+  },
+  "src/skillcomp/evidence_repository_roles.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/evidence_repository_roles.py",
+    "source_sha256": "865fa4b310f32247d89fdfa9d0a5f550f91cd8828ec8b3bd8b897b07fd8e7596"
+  },
+  "src/skillcomp/exclusive_publication.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/exclusive_publication.py",
+    "source_sha256": "ccb547b7dfdf148fc6a304b113f04b479ba948a2ec7e860a922614517bd08e63"
+  },
+  "src/skillcomp/expanded_role_neighbors.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/expanded_role_neighbors.py",
+    "source_sha256": "25f052045cef5e4c3c33f60e22d7c8268584b31c1eb68568c496d32470bd2dcd"
+  },
+  "src/skillcomp/faithful_sampling.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/faithful_sampling.py",
+    "source_sha256": "bb2552e1e513f0aa2ffcb26074c9f501301cfeaab1c2968e4775ff3df70c9444"
+  },
+  "src/skillcomp/followup.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/followup.py",
+    "source_sha256": "9593d3b83ecfdd8ccede4df3bb678b32c981e5f75095496dbacf10bb7f6ae33e"
+  },
+  "src/skillcomp/frozen_pair.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/frozen_pair.py",
+    "source_sha256": "3dff9209c2693b61f1ff6d8f36293c0a37e93b665f0430a5edb8cd21a3429d50"
+  },
+  "src/skillcomp/generative_skill_prompt.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/generative_skill_prompt.py",
+    "source_sha256": "54537b7026eaae7b44c3cdf2672ba9c6207973c24c532484640d0c427a379010"
+  },
+  "src/skillcomp/hierarchical_channel.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/hierarchical_channel.py",
+    "source_sha256": "ed335c309c316c32fc73a1e1183107cb36ff8a0949a5cd1f293fc58c7ccfba84"
+  },
+  "src/skillcomp/input_selection.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/input_selection.py",
+    "source_sha256": "4cf3f72a358a8391490d758ba77fd24d6af8aedb5fb96e4f37317c5156d1a74c"
+  },
+  "src/skillcomp/issue_pair_reranking.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/issue_pair_reranking.py",
+    "source_sha256": "86c70132c16ae8c7610d90608276c24b9e59aa4cbe80a21615c3769a43d0a7a3"
+  },
+  "src/skillcomp/issue_pair_token_cache.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/issue_pair_token_cache.py",
+    "source_sha256": "951f5ebc31273ffc216cc74836b377200891943a6f3b20dfc8f9bb042c0e6d0d"
+  },
+  "src/skillcomp/java_import_evidence.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/java_import_evidence.py",
+    "source_sha256": "937b8fe4c6f7fb497c7055bf535b54c58349b6087d16d9a018d49381a9eff557"
+  },
+  "src/skillcomp/java_static_skill_evidence.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/java_static_skill_evidence.py",
+    "source_sha256": "7fd4c0554a15b8b530e0b48fe6ae2c019847221fb0eaab56d66bbefffe3ece2e"
+  },
+  "src/skillcomp/java_typed_method_evidence.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/java_typed_method_evidence.py",
+    "source_sha256": "1a2200e6093ada7e5fe9cd09e8ef6de97e4cc061da44ce256b3ea678c8a8d330"
+  },
+  "src/skillcomp/label_calibration.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/label_calibration.py",
+    "source_sha256": "d730e7bb77aecd639239eb2f0582674f48a2075fc23e6da544aea90e08606b72"
+  },
+  "src/skillcomp/label_fusion.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/label_fusion.py",
+    "source_sha256": "7be8685572bbbd18fffa22f64a682f221a89471cfe9c6fa723c52284fd9f27a5"
+  },
+  "src/skillcomp/label_pair_inputs.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/label_pair_inputs.py",
+    "source_sha256": "8150d88d242271e6541c01f970fbcdf5c97896d212a4a23c29c49b42d8dc7e9a"
+  },
+  "src/skillcomp/label_prototypes.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/label_prototypes.py",
+    "source_sha256": "6fb5932cdc24fd7a99972de9df9d2eb7606d0ead3ff76e647dbc1720f5858626"
+  },
+  "src/skillcomp/metrics.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/metrics.py",
+    "source_sha256": "0b321e72854f0a3e84072bb4efa1241e86c39a588e40e813f1645f35077d11aa"
+  },
+  "src/skillcomp/multiview_proxy_neighbors.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/multiview_proxy_neighbors.py",
+    "source_sha256": "40ad7ed607110acb71fb12c09ac9c46e778588f5efe73dbc1a421405f8c58deb"
+  },
+  "src/skillcomp/nested_repository_risk.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/nested_repository_risk.py",
+    "source_sha256": "55b75e1ecbaf7c94b29dc3117636e7040b1753977aa229b506ef1fffab3ff3aa"
+  },
+  "src/skillcomp/nli_label_evidence.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/nli_label_evidence.py",
+    "source_sha256": "b30419b15f048ed7e1962e3aebc217cb5b9b41e735187485a13951b7bc5c4c62"
+  },
+  "src/skillcomp/noisy_or_channel.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/noisy_or_channel.py",
+    "source_sha256": "0b8aebac9e667f69f4c84f0e3e0a979bd2760536e797b9cd98460cb58ac274cf"
+  },
+  "src/skillcomp/objective_selection.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/objective_selection.py",
+    "source_sha256": "1b6eda2a34f353aca59de4e8707a26947e1639bfd0eb5d0d2a69a1ce2379bb8a"
+  },
+  "src/skillcomp/observed_joint_linear.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/observed_joint_linear.py",
+    "source_sha256": "d344121a2e456044204b4603d8888a8fa9843519b9678337647961bcd493451a"
+  },
+  "src/skillcomp/oof_calibration.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/oof_calibration.py",
+    "source_sha256": "2d6673990be6bb12b4632d3d436695fc9cc1578f165fe9d501e4e44932f0f24b"
+  },
+  "src/skillcomp/pinned_readme.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/pinned_readme.py",
+    "source_sha256": "f37cf4ffa2c946d73af033bb8b88370bd1b91a46d8143d83b7b5405d61d76c76"
+  },
+  "src/skillcomp/pooled_neighbor_residual.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/pooled_neighbor_residual.py",
+    "source_sha256": "9dfef913cb171b8bd6dc57f1c55854e6a7872bfb36fbf00cf612a8ae5f1caa40"
+  },
+  "src/skillcomp/positive_only_root_pair.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/positive_only_root_pair.py",
+    "source_sha256": "099bb36406d7956d0a06b018a1ee5866083ec577a7efa44ee88442cc76ca0656"
+  },
+  "src/skillcomp/posterior_proxy_neighbors.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/posterior_proxy_neighbors.py",
+    "source_sha256": "68de09c62e280a85486540f28f298d6d02968c0a2f54290aacf759c41f40e686"
+  },
+  "src/skillcomp/precision_filter.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/precision_filter.py",
+    "source_sha256": "2ecce38d126a8e7723b6732fe3d5025413cabfc80ca4becabf8d4a395a1d5cf2"
+  },
+  "src/skillcomp/projected_bernoulli_linear.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/projected_bernoulli_linear.py",
+    "source_sha256": "a21d8a63be0779894f8637e018f99051734b8a797f00cd380ad39fff4b4ba202"
+  },
+  "src/skillcomp/proper_proxy_metric.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/proper_proxy_metric.py",
+    "source_sha256": "7710d653c295da84324b0e81e0c20ffca95cd92b0ae7ce1ed758c368e032029f"
+  },
+  "src/skillcomp/protocol.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/protocol.py",
+    "source_sha256": "331e70ce16edb2d219289bb3d5729155d734240c5bde449087e78e9eccddc1b2"
+  },
+  "src/skillcomp/prototype_probability.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/prototype_probability.py",
+    "source_sha256": "cd7bf55f022839dbea2bc63b53cd5e95e6c8fff554d899c4c2ac1f361f788031"
+  },
+  "src/skillcomp/proxy_boosting.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/proxy_boosting.py",
+    "source_sha256": "95664e37303ce1c21950d38df1d65439bb54fa2fe41713f15b688802e7c52189"
+  },
+  "src/skillcomp/proxy_logit_calibration.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/proxy_logit_calibration.py",
+    "source_sha256": "9947233daa4060f115ffee178ecd50db37993a23fbb41b7e939e35e8a747396c"
+  },
+  "src/skillcomp/ranking_audit.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/ranking_audit.py",
+    "source_sha256": "e218bddec853b940eecb32cb42a49369d50464383899e6217ed3ccf0f621aa46"
+  },
+  "src/skillcomp/readme_gate.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/readme_gate.py",
+    "source_sha256": "c0afdd656a3c4b1e96280ff09352e63e735666a680d2b5d1222b9a7114a82d6f"
+  },
+  "src/skillcomp/reconstruction_neighbors.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/reconstruction_neighbors.py",
+    "source_sha256": "51a27ec9095247140946df5ad0352238ded604d5eba8d6b5491a833e8d37c209"
+  },
+  "src/skillcomp/relative_issue_ranking.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/relative_issue_ranking.py",
+    "source_sha256": "9aa01415446c98a007a36de4ec2cc4a073650e797e7e81dffdb0f3a781e18ffa"
+  },
+  "src/skillcomp/removal_diagnostic.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/removal_diagnostic.py",
+    "source_sha256": "846c83fe27ba001c952283c68f6f9fa22f021d57f71e0daa6bab7445c8c038e6"
+  },
+  "src/skillcomp/repo_crossfit.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/repo_crossfit.py",
+    "source_sha256": "458cd5c2ee152ca637fc8afb55c8830791b6dca8de60be61432ec58d55743d94"
+  },
+  "src/skillcomp/repository_domain_prior.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/repository_domain_prior.py",
+    "source_sha256": "062f6842c626e2f78a31fe385a048e84cd626448542074b92a3c7e05ba317e51"
+  },
+  "src/skillcomp/repository_intercept.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/repository_intercept.py",
+    "source_sha256": "b4414778b1436a597cf39712cc167301c2c6be8298d72109a64e0be11ce918a2"
+  },
+  "src/skillcomp/repository_kernel_prior.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/repository_kernel_prior.py",
+    "source_sha256": "1a98014717e39f0925ae015a846fc614d6a1d9ab533309d595165daa6e27e23e"
+  },
+  "src/skillcomp/repository_precision.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/repository_precision.py",
+    "source_sha256": "ca8acd0747c62fcf50a7e377f7a6e3b9e6c907e437c25db627b1e7602692ad94"
+  },
+  "src/skillcomp/repository_target_audit.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/repository_target_audit.py",
+    "source_sha256": "996b5be4bd2834d30be477265ba50c3dabdb08a2e25a2fa5bc556757d101aa33"
+  },
+  "src/skillcomp/reproduction_contract.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/reproduction_contract.py",
+    "source_sha256": "1673241467a5b8e30702c0dcd52051d294b41664bd5c760d8be77d5b510ddfab"
+  },
+  "src/skillcomp/retrieval_correction.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/retrieval_correction.py",
+    "source_sha256": "ccf095ca7db99471211c5f7fc1656864cbb7b5d8bd81862bff939415d9c6b4d5"
+  },
+  "src/skillcomp/root_grouped_proxy_trees.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/root_grouped_proxy_trees.py",
+    "source_sha256": "36432e932a927d990d3f08e44f4bdd053bdf314c3ef59d92028269a55bab1fac"
+  },
+  "src/skillcomp/scaled_proxy_neighbors.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/scaled_proxy_neighbors.py",
+    "source_sha256": "e2041dca57eb6660a0203343a0b3239def3a1f52ac62cc1bc268af36cb9f364e"
+  },
+  "src/skillcomp/score_models.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/score_models.py",
+    "source_sha256": "08799523645e3193f9bf6402e5c6905a57d0a2a6736d03ebdfb67c105f7fa86a"
+  },
+  "src/skillcomp/score_stacking.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/score_stacking.py",
+    "source_sha256": "ca823a3b8ad6336ea0f13413e34ca1b723ebad22ee46b664339e91d3ae2999b0"
+  },
+  "src/skillcomp/semantic_crosscal.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/semantic_crosscal.py",
+    "source_sha256": "47e99eb76812a6e5a8919b143efa44b85a7dd9269b3b0c57707067b055973eed"
+  },
+  "src/skillcomp/semantic_final.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/semantic_final.py",
+    "source_sha256": "6a18dc98434f1d6c16cec4fd0d694700d1e8c641b254097401fa2b0b5fa94a84"
+  },
+  "src/skillcomp/semantic_probe.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/semantic_probe.py",
+    "source_sha256": "77022f35b8343af1e5f8e1d544ea2c0d27af876da6789ba993a72616f1b7ef82"
+  },
+  "src/skillcomp/semantic_proxy_residual.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/semantic_proxy_residual.py",
+    "source_sha256": "63ba07f524c06d7868b3b891932ebd873e5dcb98c78e274e893f9b56c2921e8b"
+  },
+  "src/skillcomp/shared_calibration.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/shared_calibration.py",
+    "source_sha256": "f768f4cfc58d508e43545acd995aa4ec92c671df69656591a2d7c0a625b812f1"
+  },
+  "src/skillcomp/shrinkage.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/shrinkage.py",
+    "source_sha256": "1ed30eae5c40e24e56a38751f5d1efc884ede09a2d60b67a01ffd5ea86364f9d"
+  },
+  "src/skillcomp/skill_covariance_trees.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/skill_covariance_trees.py",
+    "source_sha256": "20a9f2b168a4131d50bd7272d0949293e935165798747ac94637ae74eabf62b4"
+  },
+  "src/skillcomp/solution_expansion.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/solution_expansion.py",
+    "source_sha256": "0d7d02cef7b239362c07fd009753b934022e520bfb1d5d2fb63b46e6faa36015"
+  },
+  "src/skillcomp/sparse_proxy_neighbors.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/sparse_proxy_neighbors.py",
+    "source_sha256": "5382a06808e90317333b3ead2af4af3deee5009866afd94cfde327b695bb9ead"
+  },
+  "src/skillcomp/strict_repository.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/strict_repository.py",
+    "source_sha256": "9c4dbb57cfc22bec7d01bdf1db7e61b93bc78fe8aae6af3cd9d9113f480cf52e"
+  },
+  "src/skillcomp/text_permutation.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/text_permutation.py",
+    "source_sha256": "ae90c24c93cfefb57056ab16d077f84536c8f139fa9ad8a94881e478d3b1f4a3"
+  },
+  "src/skillcomp/token_candidate_expansion.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/token_candidate_expansion.py",
+    "source_sha256": "ff136f31e184ef35e8b87c41e4539c1b555cb6c8917b59cf78065318e9435d1f"
+  },
+  "src/skillcomp/training_proxy_graph.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/training_proxy_graph.py",
+    "source_sha256": "32b1b036c9d3550b632c865043c2999bb31bbc4a0b06b05b091f93a353f07c7f"
+  },
+  "src/skillcomp/weighted_cutoff.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "src/skillcomp/weighted_cutoff.py",
+    "source_sha256": "433465aee1301b571b2c6bd94bcf661a8340f71dc8400ccab5a5c401d53feb93"
+  },
+  "scripts/competition_inference_reservation.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "scripts/competition_inference_reservation.py",
+    "source_sha256": "477d599551954cea815539b9dbf248d997f1464c512f619fc72506c0f961b6ad",
+    "distributed_sha256": "477d599551954cea815539b9dbf248d997f1464c512f619fc72506c0f961b6ad",
+    "current_distributed_sha256": "52b74406a004f5c7e8034a12c2a653c1223a15becc06ab5b9d48cb29388ecc79",
+    "modified_for_portability": true
+  },
+  "scripts/predict_competition_candidate.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "scripts/predict_competition_candidate.py",
+    "source_sha256": "b5e25730e9dfd249d89d262d80c25bdefb2571e6eeb48eff94c70c88537b372c",
+    "distributed_sha256": "b5e25730e9dfd249d89d262d80c25bdefb2571e6eeb48eff94c70c88537b372c",
+    "current_distributed_sha256": "d73b3e94e586cb8f5b466fd5e0989703d11f8b1ecb59086be50814181c4468f6",
+    "modified_for_portability": true
+  },
+  "scripts/predict_competition_reserved.py": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "scripts/predict_competition_reserved.py",
+    "source_sha256": "3734e32a1dd77828a8c16af82690db08050d09666fa86e529450d19532fc64fc",
+    "distributed_sha256": "3734e32a1dd77828a8c16af82690db08050d09666fa86e529450d19532fc64fc",
+    "current_distributed_sha256": "d84b0635e508a47456034ed1a493bf5f5cb9c5067408c77b336575f3cd3702aa",
+    "modified_for_portability": true
+  },
+  "upstream/skill-classification/competition_baseline/requirements.txt": {
+    "source_archive": "submission/competition_candidate_review_v3.zip",
+    "source_member": "upstream/skill-classification/competition_baseline/requirements.txt",
+    "source_sha256": "1b1263e91a55679030a2ddaae39d893828deadc4f13a0ce0050ac153b18eb419",
+    "distributed_sha256": "1b1263e91a55679030a2ddaae39d893828deadc4f13a0ce0050ac153b18eb419"
+  },
+  "scripts/competition_active_role_worker.py": {
+    "source_file": "scripts/competition_active_role_worker.py",
+    "source_sha256": "a7c0bc096674d6639cacac97786b4b7e9790e1e50708c5fe17cf9e3684f47f21",
+    "distributed_sha256": "a7c0bc096674d6639cacac97786b4b7e9790e1e50708c5fe17cf9e3684f47f21",
+    "current_distributed_sha256": "a7c0bc096674d6639cacac97786b4b7e9790e1e50708c5fe17cf9e3684f47f21",
+    "modified_for_portability": false
+  },
+  "scripts/check_saved_results.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "0198d49390d273a79344061e62ebed5d6f573914a327e967796d631a0567874c",
+    "real_execution_this_round": false
+  },
+  "scripts/manage_assets.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "4a803a4e24f8eda52024f5ae55e50a55a02b09f283c66d8f3d594fb18eaf6940",
+    "real_execution_this_round": false
+  },
+  "scripts/prepare_role.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "0ea06de66fdec101575fc722d01348b5406627969f7258bc0bbb33fa00631531",
+    "real_execution_this_round": false
+  },
+  "scripts/reproduce.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "a8b1a04bf761344052f2b7caded3d95b536e3fc18abf43122b76b03d2273d36b",
+    "real_execution_this_round": false
+  },
+  "scripts/verify_repository.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "6dc8f2e4b8e6a770a98a7f45ff960170b565e6a82d20b2078dc11df07bae207c",
+    "real_execution_this_round": false
+  },
+  "src/skillcomp/competition_io.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "b75e5c02369c682173bf7e8db6d834431411e2bd480eb06599b34f2258035779",
+    "real_execution_this_round": false
+  },
+  "src/skillcomp/reproduction_plan.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "96d0fc135f36a99c64dbf7272c7064bab4988748819f94e28337e53dd7626cb8",
+    "real_execution_this_round": false
+  },
+  "tests/test_availability_calibration.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "902249b312738a0b4f801c22164f331bedc1474535c07423a6c6a2fe5909f121",
+    "real_execution_this_round": false
+  },
+  "tests/test_competition_assets.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "81ead043336614db101287ca843ff454a07d819d9ca3d7037b316b0ff7b39b39",
+    "real_execution_this_round": false
+  },
+  "tests/test_conditional_peer_prior.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "4ad00fbd2fe63a442979531fcfd6280c7c2c90fb3a5193febf4f59ba859d0449",
+    "real_execution_this_round": false
+  },
+  "tests/test_conditional_tree_inference.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "95fa306487628ae102ef0536b2977b9266db95a85049f78de9923c58afdef35a",
+    "real_execution_this_round": false
+  },
+  "tests/test_frozen_inference.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "5f4e6bf913481b352b6ec41492a091e179ab5cd4129241160b7750ba3d4bc1f9",
+    "real_execution_this_round": false
+  },
+  "tests/test_manage_assets.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "a0e637632826ae6c8aec0f18118ec038faa36fb16e28454a1d8f134b37493213",
+    "real_execution_this_round": false
+  },
+  "tests/test_public_input_contract.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "55e1d01696f743bdb985e23c71bced4db630aa0b21ef38a0c0397ba4a65b5fc3",
+    "real_execution_this_round": false
+  },
+  "tests/test_reproduction_contract.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "723024922164303d7fdb1172d62e845aa07c7383b4a8defb6f9565138603b1a4",
+    "real_execution_this_round": false
+  },
+  "tests/test_retrieval_evidence.py": {
+    "origin": "new local packaging adapter or synthetic test",
+    "current_distributed_sha256": "820827a8630c01dd941cf6cf167846d93deec8dded5f4e8f5427807cebeb2756",
+    "real_execution_this_round": false
+  }
+}

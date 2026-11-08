@@ -1,0 +1,44 @@
+{
+  "scope": "retrospective internal grouped5 PR/text component development",
+  "rows": 7154,
+  "labels": 217,
+  "methods": {
+    "RF": {
+      "precision": 0.685467028279964,
+      "recall": 0.48480246322841036,
+      "micro_f1": 0.5679309016996739
+    },
+    "previous_best": {
+      "precision": 0.686177617284014,
+      "recall": 0.5558200012482576,
+      "micro_f1": 0.6141577703603579
+    },
+    "new_policy": {
+      "precision": 0.686047168406513,
+      "recall": 0.5559198618594878,
+      "micro_f1": 0.6141664598100597
+    },
+    "best_policy": {
+      "precision": 0.6860585657247842,
+      "recall": 0.5562402479871845,
+      "micro_f1": 0.6143664994611586
+    }
+  },
+  "full_training_OOF": {
+    "precision": 0.6910227003084711,
+    "recall": 0.5452763850458735,
+    "micro_f1": 0.6095585841201916,
+    "threshold": 0.48284776070262486,
+    "precision_se_proxy": 0.0,
+    "precision_delta_guard_proxy": 5.238918109329305e-07,
+    "fallback_rf": false,
+    "z": 0.0,
+    "eligible_thresholds": 29855,
+    "candidate_thresholds": 679405,
+    "usable_axes": [],
+    "candidate": "tree_conditional_union"
+  },
+  "full_weight_file_independent_test": null,
+  "official_qualification": null,
+  "full_training_OOF_is_not_independent_test": true
+}

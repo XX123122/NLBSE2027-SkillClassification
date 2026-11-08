@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "bundle_sha256": "44e367a74fd23c1a5538f655c18238fc6e085a6f9a96415552e8a08a2bb02acf",
+  "base_encoder": "assets/Qwen3-Embedding-0.6B",
+  "codebert_encoder": "assets/codebert-base",
+  "codebert_checkpoint": "assets/codebert-finetuned.pt",
+  "qwen4_encoder": "assets/Qwen3-Embedding-4B"
+}

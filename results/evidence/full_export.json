@@ -1,0 +1,33 @@
+{
+  "state": "passed",
+  "model_sha256": "44e367a74fd23c1a5538f655c18238fc6e085a6f9a96415552e8a08a2bb02acf",
+  "full_final_rows": 7154,
+  "observed_prototypes": 3070,
+  "independent_full_final_projection_refit": 1,
+  "independent_forests_refit": 4,
+  "independent_trees_refit": 1024,
+  "independent_metadata_heads_refit": 3,
+  "conditional_prior_literal_component_checks": 5,
+  "all_full_final_roles_conditional_counts_centres_and_policy_verified": true,
+  "training_group_metadata_removed_from_inference_model": true,
+  "raw_cached_input_rows": 8,
+  "raw_cached_score_max_abs": 7.045186556364769e-08,
+  "all217_binary_and_label_names_verified": true,
+  "corpus_blocked_new_known_unseen_and_empty_invalid_inputs_passed": true,
+  "source_model_sha256_unchanged": "40ed37a1c4bacc9a79d72e0266c245f93d1d28e54df3951c9c1a721b9582adf2",
+  "new_encoder_fits": 0,
+  "new_benchmark_score_claimed": false,
+  "independent_score": null,
+  "source_hashes_at_final_verification": {
+    "scripts/select_full_conditional_peer_union.py": "50611aa435b54bd710bc69cb49b564f8ee08675f09dfe86f897ba7c9862bd411",
+    "scripts/select_full_tree_conditional_union.py": "ae52eb56fce9159dd98d74340ac999f4616e01e4a30e47375f13425d42d8ccb6",
+    "scripts/export_full_conditional_tree_candidate.py": "dbca7b74ce7c27ce2c2f7f3af435f756ae8b15b335f09dfd4dab21162c98fd24",
+    "scripts/predict_conditional_tree_candidate.py": "9249b1a7052e8c87e4c06ac0a1972191b4fc9ca661a4733b709ae1f072086ac3",
+    "src/skillcomp/conditional_tree_inference.py": "cbbcbb60acf6e4294b50310d9e346815fdb23e78fa6bf37d9b1018a0d0368fe0",
+    "src/skillcomp/conditional_peer_prior.py": "209c882e51a6974e27ff1e831271aadeba3843602b12512e8185449288a34411",
+    "src/skillcomp/peer_union_model.py": "13a74619b8c17817640b85a8816a020c5f613edebaa28edb4eada461f2f2d6a5",
+    "src/skillcomp/proxy_tree_readout.py": "95e27fbe3c85b1ca691a5de076ea64b568736301d254ffdc7b07e7edc1e280ff",
+    "src/skillcomp/retrieval_evidence.py": "3cb00c752b5a65e2da1af0aa4a55898cfb5987b53a79eab3d7821c84bfd242b4"
+  },
+  "limits": "Full-data weights selected by own training OOF; reported fivefold research result comes from separately fitted development models. Old4epoch fullencoder preserved; weak-label adaptive development, no independent/gold/official claim."
+}

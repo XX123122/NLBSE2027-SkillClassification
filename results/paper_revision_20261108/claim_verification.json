@@ -1,0 +1,679 @@
+{
+  "state": "passed",
+  "date_client": "2026-11-08",
+  "table_numeric_cells_verified": 41,
+  "full_rows_verified": 21,
+  "table_rows": [
+    "Matched RF & .685467 & .484802 & .567931 & .108967\\\\",
+    "Tree/NN & .686178 & .555820 & .614158 & .113847\\\\",
+    "Fixed cond. & .686047 & .555920 & .614166 & .113592\\\\",
+    "Selected cond. & .686059 & .556240 & .614366 & .113833\\\\",
+    "0 & 0 & 0 & 48\\\\",
+    "1--9 & 0 & 0 & 75\\\\",
+    "10--49 & 0 & 0 & 444\\\\",
+    "$\\geq50$ & 133684 & 61174 & 106084\\\\",
+    "CodeBERT, text, selected & .609213\\\\",
+    "CodeBERT + Repo20, selected & .613513\\\\",
+    "CodeBERT + Repo20, paired recipe & .612618\\\\",
+    "Paired + weighted BCE, raw & .612215\\\\",
+    "Paired + weighted BCE, corrected & .612400\\\\",
+    "Tree + original NN map & .617661\\\\",
+    "Tree + conditional NN map (control) & .617881\\\\",
+    "No tree + original NN map & .617311\\\\",
+    "No tree + conditional NN map & .617899\\\\",
+    "No CodeBERT in skill vectors & .616100\\\\",
+    "No Qwen4 in skill vectors & .617692\\\\",
+    "No publication correction & .617361\\\\",
+    "No coverage weighting & .617003\\\\"
+  ],
+  "cells": [
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "RF",
+        "precision"
+      ],
+      "value": 0.685467028279964,
+      "digits": 6,
+      "rendered": ".685467"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "RF",
+        "recall"
+      ],
+      "value": 0.48480246322841036,
+      "digits": 6,
+      "rendered": ".484802"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "RF",
+        "micro_f1"
+      ],
+      "value": 0.5679309016996739,
+      "digits": 6,
+      "rendered": ".567931"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "RF",
+        "macro_F1_all217"
+      ],
+      "value": 0.10896651750860017,
+      "digits": 6,
+      "rendered": ".108967"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "previous_best",
+        "precision"
+      ],
+      "value": 0.686177617284014,
+      "digits": 6,
+      "rendered": ".686178"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "previous_best",
+        "recall"
+      ],
+      "value": 0.5558200012482576,
+      "digits": 6,
+      "rendered": ".555820"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "previous_best",
+        "micro_f1"
+      ],
+      "value": 0.6141577703603579,
+      "digits": 6,
+      "rendered": ".614158"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "previous_best",
+        "macro_F1_all217"
+      ],
+      "value": 0.11384666576323803,
+      "digits": 6,
+      "rendered": ".113847"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "new_policy",
+        "precision"
+      ],
+      "value": 0.686047168406513,
+      "digits": 6,
+      "rendered": ".686047"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "new_policy",
+        "recall"
+      ],
+      "value": 0.5559198618594878,
+      "digits": 6,
+      "rendered": ".555920"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "new_policy",
+        "micro_f1"
+      ],
+      "value": 0.6141664598100597,
+      "digits": 6,
+      "rendered": ".614166"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "new_policy",
+        "macro_F1_all217"
+      ],
+      "value": 0.11359200627731014,
+      "digits": 6,
+      "rendered": ".113592"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "best_policy",
+        "precision"
+      ],
+      "value": 0.6860585657247842,
+      "digits": 6,
+      "rendered": ".686059"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "best_policy",
+        "recall"
+      ],
+      "value": 0.5562402479871845,
+      "digits": 6,
+      "rendered": ".556240"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "best_policy",
+        "micro_f1"
+      ],
+      "value": 0.6143664994611586,
+      "digits": 6,
+      "rendered": ".614366"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "best_policy",
+        "macro_F1_all217"
+      ],
+      "value": 0.11383338824848348,
+      "digits": 6,
+      "rendered": ".113833"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "zero_fit_support",
+        "TP"
+      ],
+      "value": 0,
+      "rendered": "0"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "zero_fit_support",
+        "FP"
+      ],
+      "value": 0,
+      "rendered": "0"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "zero_fit_support",
+        "FN"
+      ],
+      "value": 48,
+      "rendered": "48"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "fit_support_1_9",
+        "TP"
+      ],
+      "value": 0,
+      "rendered": "0"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "fit_support_1_9",
+        "FP"
+      ],
+      "value": 0,
+      "rendered": "0"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "fit_support_1_9",
+        "FN"
+      ],
+      "value": 75,
+      "rendered": "75"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "fit_support_10_49",
+        "TP"
+      ],
+      "value": 0,
+      "rendered": "0"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "fit_support_10_49",
+        "FP"
+      ],
+      "value": 0,
+      "rendered": "0"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "fit_support_10_49",
+        "FN"
+      ],
+      "value": 444,
+      "rendered": "444"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "fit_support_ge50",
+        "TP"
+      ],
+      "value": 133684,
+      "rendered": "133684"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "fit_support_ge50",
+        "FP"
+      ],
+      "value": 61174,
+      "rendered": "61174"
+    },
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "tail_bins",
+        "best_policy",
+        "fit_support_ge50",
+        "FN"
+      ],
+      "value": 106084,
+      "rendered": "106084"
+    },
+    {
+      "origin": "reports/direct_Y_codebert_pilot_20261108/training_only_result.json",
+      "json_pointer": [
+        "selected",
+        "RF_constrained_training_choice",
+        "micro_f1"
+      ],
+      "value": 0.6092127874114155,
+      "digits": 6,
+      "rendered": ".609213"
+    },
+    {
+      "origin": "reports/direct_Y_codebert_repository_control_20261108/training_only_result.json",
+      "json_pointer": [
+        "selected",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.613513265399798,
+      "digits": 6,
+      "rendered": ".613513"
+    },
+    {
+      "origin": "reports/class_balanced_Y_codebert_20261108/results.json",
+      "json_pointer": [
+        "results",
+        "raw_with_fixed_Repo20",
+        "paired_unweighted",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6126175806229255,
+      "digits": 6,
+      "rendered": ".612618"
+    },
+    {
+      "origin": "reports/class_balanced_Y_codebert_20261108/results.json",
+      "json_pointer": [
+        "results",
+        "raw_with_fixed_Repo20",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.612214582802818,
+      "digits": 6,
+      "rendered": ".612215"
+    },
+    {
+      "origin": "reports/class_balanced_Y_codebert_20261108/results.json",
+      "json_pointer": [
+        "results",
+        "posterior_corrected_with_fixed_Repo20",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6123997567288517,
+      "digits": 6,
+      "rendered": ".612400"
+    },
+    {
+      "origin": "reports/controlled_component_ablation_20261108/results.json",
+      "json_pointer": [
+        "arms",
+        "tree_original_NN",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6176614163549843,
+      "digits": 6,
+      "rendered": ".617661"
+    },
+    {
+      "origin": "reports/controlled_component_ablation_20261108/results.json",
+      "json_pointer": [
+        "arms",
+        "tree_conditional_NN",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6178811550952339,
+      "digits": 6,
+      "rendered": ".617881"
+    },
+    {
+      "origin": "reports/controlled_component_ablation_20261108/results.json",
+      "json_pointer": [
+        "arms",
+        "no_tree_original_NN",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6173111044744655,
+      "digits": 6,
+      "rendered": ".617311"
+    },
+    {
+      "origin": "reports/controlled_component_ablation_20261108/results.json",
+      "json_pointer": [
+        "arms",
+        "no_tree_conditional_NN",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6178989091853823,
+      "digits": 6,
+      "rendered": ".617899"
+    },
+    {
+      "origin": "reports/controlled_component_ablation_20261108/results.json",
+      "json_pointer": [
+        "arms",
+        "no_CodeBERT_in_skill_experts",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6161003350130908,
+      "digits": 6,
+      "rendered": ".616100"
+    },
+    {
+      "origin": "reports/controlled_component_ablation_20261108/results.json",
+      "json_pointer": [
+        "arms",
+        "no_Qwen4_in_skill_experts",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6176921969327157,
+      "digits": 6,
+      "rendered": ".617692"
+    },
+    {
+      "origin": "reports/controlled_component_ablation_20261108/results.json",
+      "json_pointer": [
+        "arms",
+        "no_publication",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6173607231819443,
+      "digits": 6,
+      "rendered": ".617361"
+    },
+    {
+      "origin": "reports/controlled_component_ablation_20261108/results.json",
+      "json_pointer": [
+        "arms",
+        "no_coverage",
+        "choice",
+        "micro_f1"
+      ],
+      "value": 0.6170032516038316,
+      "digits": 6,
+      "rendered": ".617003"
+    }
+  ],
+  "prose_numeric_checks": [
+    {
+      "origin": "reports/frozen_label_metrics_20261108/results.json",
+      "json_pointer": [
+        "summary",
+        "best_policy",
+        "diagnostic_macro_F1_positive_labels"
+      ],
+      "value": 0.1739566566895839,
+      "rendered": "0.173957"
+    },
+    {
+      "origin": "reports/conditional_h_text_pilot_20261108/training_only_result.json",
+      "json_pointer": [
+        "conditional_information_metrics",
+        "baseline",
+        "Brier"
+      ],
+      "value": 0.07079309190883445,
+      "rendered": "0.070793"
+    },
+    {
+      "origin": "reports/conditional_h_text_pilot_20261108/training_only_result.json",
+      "json_pointer": [
+        "conditional_information_metrics",
+        "candidate",
+        "Brier"
+      ],
+      "value": 0.071596522513302,
+      "rendered": "0.071597"
+    },
+    {
+      "origin": "reports/conditional_h_text_pilot_20261108/training_only_result.json",
+      "json_pointer": [
+        "conditional_information_metrics",
+        "baseline",
+        "log_loss"
+      ],
+      "value": 0.22396583904071757,
+      "rendered": "0.223966"
+    },
+    {
+      "origin": "reports/conditional_h_text_pilot_20261108/training_only_result.json",
+      "json_pointer": [
+        "conditional_information_metrics",
+        "candidate",
+        "log_loss"
+      ],
+      "value": 0.2262156796047463,
+      "rendered": "0.226216"
+    },
+    {
+      "origin": "reports/weight_space_edit_pilot_20261108/results.json",
+      "json_pointer": [
+        "confirmation",
+        "baseline",
+        "micro_F1"
+      ],
+      "value": 0.6135928912132879,
+      "rendered": "0.613593"
+    },
+    {
+      "origin": "reports/weight_space_edit_pilot_20261108/results.json",
+      "json_pointer": [
+        "confirmation",
+        "head_common_050",
+        "micro_F1"
+      ],
+      "value": 0.6135967460778617,
+      "rendered": "0.613597"
+    },
+    {
+      "origin": "reports/weight_space_edit_pilot_20261108/results.json",
+      "json_pointer": [
+        "confirmation",
+        "ffn11_reverse_025",
+        "micro_F1"
+      ],
+      "value": 0.6124360125184988,
+      "rendered": "0.612436"
+    },
+    {
+      "origin": "reports/full_tree_conditional_union_candidate_v1/manifest.json",
+      "json_pointer": [
+        "training_OOF_selection",
+        "micro_f1"
+      ],
+      "value": 0.6095585841201916,
+      "rendered": "0.609559"
+    },
+    {
+      "origin": "reports/full_neighbor_candidate_v1/manifest.json",
+      "json_pointer": [
+        "training_OOF_selection",
+        "micro_f1"
+      ],
+      "value": 0.6091307008705324,
+      "rendered": "0.609131"
+    },
+    {
+      "origin": "reports/frozen_candidate_precision_20261029/results.json",
+      "values": [
+        -0.0026880069381618604,
+        0.003863154710750307
+      ],
+      "scale": 100,
+      "rendered": "[-0.2688,0.3863]"
+    },
+    {
+      "origin": "reports/frozen_candidate_precision_20261029/results.json",
+      "values": [
+        -0.0037163017317622085,
+        0.004590074920771574
+      ],
+      "scale": 100,
+      "rendered": "[-0.3716,0.4590]"
+    },
+    {
+      "origin": "reports/frozen_candidate_precision_20261029/results.json",
+      "values": [
+        3.973869040749534e-05,
+        0.000379640823592553
+      ],
+      "scale": 1,
+      "rendered": "[0.0000397,0.0003796]"
+    }
+  ],
+  "source_receipts": {
+    "reports/frozen_label_metrics_20261108/results.json": {
+      "sha256": "c9f37f5987d169d1b00d6aa084c2e4ecb69a65dcc4b34a1c903048f9bed1a3e5",
+      "bytes": 6887
+    },
+    "reports/direct_Y_codebert_pilot_20261108/training_only_result.json": {
+      "sha256": "63dcd03fc25ce214c4149df4b28ee7713205054e0a83ac941a4faed5a4b5cbd5",
+      "bytes": 24259
+    },
+    "reports/direct_Y_codebert_repository_control_20261108/training_only_result.json": {
+      "sha256": "81beaa9cb09f7a580450f1fd22af28200c7ecbc5a7e2556ea64bd1aee981a53e",
+      "bytes": 5766
+    },
+    "reports/class_balanced_Y_codebert_20261108/results.json": {
+      "sha256": "7536f361bb6c9be7800f2c377c3faabd515f203c6b2f654175263ca6f5bdc1dc",
+      "bytes": 13023
+    },
+    "reports/controlled_component_ablation_20261108/results.json": {
+      "sha256": "c1ffc0daa89167b3c7c6f057e90eb752da807ee10e0d5c286b38d1b69f88052f",
+      "bytes": 13220
+    },
+    "reports/conditional_h_text_pilot_20261108/training_only_result.json": {
+      "sha256": "6c41632165eeda67a2f9404cb154303d3b3e5b56f3792b7ef7e0ce79c447669b",
+      "bytes": 181782
+    },
+    "reports/weight_space_edit_pilot_20261108/results.json": {
+      "sha256": "f3100b4ca4a128358506baab7d6794cd4e12d44387dd6e929be4c240628cd165",
+      "bytes": 5975
+    },
+    "reports/full_tree_conditional_union_candidate_v1/manifest.json": {
+      "sha256": "be4d1909fa79be2d2352f2416f7b20c3b82d549d492d109ff6b043315abdcf7c",
+      "bytes": 1524
+    },
+    "reports/full_neighbor_candidate_v1/manifest.json": {
+      "sha256": "20b2101013b4375ea4378ee5dd416330738fda24b81f80735ae54cee8f7ed88a",
+      "bytes": 1419
+    },
+    "reports/frozen_candidate_precision_20261029/results.json": {
+      "sha256": "edced054fff1d089ecee7c0616da898d0646fa0e1cd7b9d68191603a06eabe25",
+      "bytes": 23721
+    },
+    "reports/competition_candidate_preparation_v1/isolated_inference_verification.json": {
+      "sha256": "b914c6c75ee3f300f9c822dd83d6fa6fbc79db18db6b90a94340008ce3ba994b",
+      "bytes": 1185
+    },
+    "release/nlbse2027-skill-classification-candidate-20261107/results/local_validation.json": {
+      "sha256": "de1b8d8407104096d57ca6ef7ed2e05697d4adcf5c9ae077a95ab0db8f94bb6d",
+      "bytes": 31100
+    },
+    "reports/competition_supervised_role_smoke_v1/active_role_continuation.json": {
+      "sha256": "ef3868f2d2e2447535b792b8754c348a2c6eebe45b6b5e205dddb3f70efd991c",
+      "bytes": 1422
+    }
+  },
+  "all_evaluation_scope_qualifiers_preserved": true,
+  "author_block_exactly_preserved": true,
+  "new_models_or_data_scores_computed": false,
+  "scope": "Saved aggregate-to-manuscript consistency check, not independent model evaluation."
+}

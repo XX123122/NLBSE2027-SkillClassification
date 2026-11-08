@@ -1,0 +1,8 @@
+# Observed encoder runtime. Install the CUDA build suitable for your host.
+# Observed Python 3.12.3; torch build was 2.10.0+cu130.
+torch==2.10.0
+transformers==5.15.0
+numpy==2.5.2
+tokenizers==0.22.2
+safetensors==0.8.0
+huggingface-hub==1.27.0

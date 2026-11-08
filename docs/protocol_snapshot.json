@@ -1,0 +1,105 @@
+{
+  "checked_date": "2026-11-07",
+  "upstream_commit": "f265cd60c73f78a0a2282ae625876fd2dc4a0e1b",
+  "source_receipts": {
+    "official_TODO.md": {
+      "url": "https://raw.githubusercontent.com/nlbse2027/skill-classification/main/competition_baseline/TODO.md",
+      "status": "retrieved",
+      "bytes": 2311,
+      "sha256": "8b7a1d457b9fff025f2a624bd41ddabb967f8b68c04ba86cae9db936bf0d12e6"
+    },
+    "official_README.md": {
+      "url": "https://raw.githubusercontent.com/nlbse2027/skill-classification/main/README.md",
+      "status": "retrieved",
+      "bytes": 6316,
+      "sha256": "a1149ed15092f4f195698560cb511afeac6589fc66a03aad122d9e91cea26f37"
+    },
+    "official_commit.json": {
+      "url": "https://api.github.com/repos/nlbse2027/skill-classification/commits/main",
+      "status": "retrieved",
+      "bytes": 6998,
+      "sha256": "0c8f618944c96645d76039a41e4180fe5e64fc39fac6323a2646c68a455bdd75"
+    },
+    "official_tools.html": {
+      "url": "https://nlbse2027.github.io/tools/",
+      "status": "retrieved",
+      "bytes": 30291,
+      "sha256": "7b743729242dae03985d2f5118e7c9efbd02bd5f4a27b1bb6a51ecbd93edda8a"
+    },
+    "qwen06_README.md": {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/raw/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/README.md",
+      "status": "retrieved",
+      "bytes": 17237,
+      "sha256": "c34d9b7e5a267ad3fdd13227a253686bc90844ff4744a2a6a86c7c905e3d06f3"
+    },
+    "qwen06_LICENSE": {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/raw/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/LICENSE",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "qwen4_README.md": {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-4B/raw/5cf2132abc99cad020ac570b19d031efec650f2b/README.md",
+      "status": "retrieved",
+      "bytes": 17276,
+      "sha256": "3c8dafc1e6529491fa8918cd96c62b90229b317fd83f2794cea20cda100d6122"
+    },
+    "qwen4_LICENSE": {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-4B/raw/5cf2132abc99cad020ac570b19d031efec650f2b/LICENSE",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "codebert_README.md": {
+      "url": "https://huggingface.co/microsoft/codebert-base/raw/3b0952feddeffad0063f274080e3c23d75e7eb39/README.md",
+      "status": "retrieved",
+      "bytes": 1222,
+      "sha256": "cc6c7f0376d2499716a9126cbb4bb312406bf0ca2b938c4dd51f6f8aa0afa509"
+    },
+    "codebert_repo_commit.json": {
+      "url": "https://api.github.com/repos/microsoft/CodeBERT/commits/master",
+      "status": "retrieved",
+      "bytes": 5361,
+      "sha256": "7a0c359441895326a3be6784879c6fb212e9a308b936e3853f8e0fd106231581"
+    },
+    "dataset_README.md": {
+      "url": "https://huggingface.co/datasets/NLBSE/SkillCompetition/raw/7f3ea04c65c669c08a46d2ad11d610a099737b08/README.md",
+      "status": "retrieved",
+      "bytes": 785,
+      "sha256": "5c87affc877406e893672c7ea738c8a74052dca3bc6b3aa42e34d968931210d0"
+    },
+    "dataset_api.json": {
+      "url": "https://huggingface.co/api/datasets/NLBSE/SkillCompetition/revision/7f3ea04c65c669c08a46d2ad11d610a099737b08",
+      "status": "retrieved",
+      "bytes": 1123,
+      "sha256": "1026a19a8bcf0c3a69637e22bdbe6a07ff00da994349b3b79f8dbddd452387fe"
+    },
+    "dataset_current_api.json": {
+      "url": "https://huggingface.co/api/datasets/NLBSE/SkillCompetition",
+      "status": "retrieved",
+      "bytes": 1123,
+      "sha256": "1026a19a8bcf0c3a69637e22bdbe6a07ff00da994349b3b79f8dbddd452387fe"
+    },
+    "codebert_api.json": {
+      "url": "https://huggingface.co/api/models/microsoft/codebert-base/revision/3b0952feddeffad0063f274080e3c23d75e7eb39",
+      "status": "retrieved",
+      "bytes": 4029,
+      "sha256": "4e5c50e01bbcbcfa2d063062875afd2da14247cab1a32fd21f0d2e6ab574d3bb"
+    },
+    "codebert_repo_LICENSE": {
+      "url": "https://raw.githubusercontent.com/microsoft/CodeBERT/c0de43d3aaf38e89290f1efb771f8de845e7a489/LICENSE",
+      "status": "retrieved",
+      "bytes": 1074,
+      "sha256": "7c77a44a8acd9b41fdc209864a8016b3d430b5d0e09309818d5b7444336df744"
+    },
+    "checked_client_date": "2026-11-07"
+  },
+  "official_split_label_scope_reference_still_unresolved": true,
+  "submission_form": "https://forms.gle/yx2CcKLYYBSjWoiJ8",
+  "form_title_user_confirmed": "NLBSE'27 Tool Submission",
+  "track": "Skill Classification",
+  "one_competition_and_one_pdf_per_submission": "user-confirmed",
+  "double_blind_required": false,
+  "deadline_AoE": "2026-11-27T23:59:59-12:00",
+  "deadline_Asia_Shanghai": "2026-11-28T19:59:59+08:00",
+  "recheck_before_actual_submission": true,
+  "form_opened_or_submitted": false
+}

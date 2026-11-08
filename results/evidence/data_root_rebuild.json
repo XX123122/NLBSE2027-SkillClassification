@@ -1,0 +1,37 @@
+{
+  "state": "data_root_rebuild_passed",
+  "rows": 7154,
+  "labels": 217,
+  "observed_proxy_rows": 3070,
+  "published_and_proxy_array_comparisons": [
+    {
+      "asset": "dataset.npz",
+      "all_array_members_equal": true
+    },
+    {
+      "asset": "aligned_targets.npz",
+      "all_array_members_equal": true
+    },
+    {
+      "asset": "auxiliary_targets.npz",
+      "all_array_members_equal": true
+    }
+  ],
+  "all_five_outer_split_roles_and_component_ids_equal": true,
+  "label_order_equal": true,
+  "historical_data_and_model_cache_reads_denied_during_generation": true,
+  "comparison_references_opened_only_after_generation_manifest_locked": true,
+  "pinned_public_database_unchanged": true,
+  "generation_seconds": 14.013747219927609,
+  "runtime_seconds": 14.521056303055957,
+  "source_scripts_sha256": {
+    "scripts/rebuild_competition_data_root_v3.py": "b0df50c223405f2e53e0ba3d8166ec71669630423d98275497742e5642492d6b",
+    "src/skillcomp/benchmark.py": "f8549e2aa952fe6cc421485b057cf41d8b50bb5488244c3df9ef8e75177f327b",
+    "src/skillcomp/component_targets.py": "3fef80011b106b328305219c1a1ecb0c6c9546498325030abd08dd1b1e8c0804",
+    "upstream/skill-classification/competition_baseline/main.py": "752112860a8198d14844e90574c06c55b827f5c5c3e470b9ce6e37b2fdc0cb15"
+  },
+  "new_model_training_or_accuracy": false,
+  "GPU_work": false,
+  "complete_training_chain_reproduced": false,
+  "limits": "Only data/companion/proxy/root outer roles reconstructed from SQLite. Internal role models, encoders, selections and export still pending; no fresh environment claim. Arrays compared by values, not ZIP byte equality."
+}

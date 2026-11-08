@@ -1,0 +1,34 @@
+{
+  "state": "one_role_active_policy_rebuild_passed",
+  "role": "fold0_inner0",
+  "new_source_rebuild": "20261025_competition_supervised_role_smoke_v1",
+  "active_base_recipe": {
+    "base_text_weight": 0.3,
+    "coverage_mix": 0.5,
+    "publication_weight": 0.5
+  },
+  "new_forests": 4,
+  "new_availability_heads": 4,
+  "new_active_base_multioutput_head": 1,
+  "normalized_frozen_embedding_max_abs": 0.0,
+  "candidate_score_max_abs": 3.3306690738754696e-16,
+  "intermediate_probability_differences": {
+    "proxy_NN": 0.0,
+    "peer_F0": 0.0,
+    "availability_query": 0.0,
+    "availability_centre": 0.0,
+    "mapped_conditional_NN": 0.0,
+    "centre_conditional_NN": 0.0
+  },
+  "comparison_bound_unchanged": 1e-05,
+  "completed_new_CPU_experts_reused_after_adapter_path_fix": true,
+  "pure_frozen_Qwen4B_explicitly_reused": true,
+  "frozen_Qwen4B_manifest_and_text_identity_verified": true,
+  "no_old_fitted_checkpoint_head_or_score_used_during_generation": true,
+  "GPU": 5,
+  "runtime_seconds": 306.7032930101268,
+  "new_hyperparameter_or_threshold_search": false,
+  "new_accuracy_or_generalization_claim": false,
+  "full_training_chain_complete": false,
+  "limits": "One fixed development inner recipe with historical selection settings frozen, not all-five selection/calibration reproduction. Qwen4B input-only vectors were a declared cached pure transform; supervised features and model heads were regenerated."
+}

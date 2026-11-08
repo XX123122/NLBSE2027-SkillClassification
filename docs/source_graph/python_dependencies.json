@@ -1,0 +1,2130 @@
+{
+  "scope": "AST imports and literal workers only; dynamic producer closure incomplete",
+  "local_import_edges": [
+    {
+      "source": "src/skillcomp/availability_inference.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "src/skillcomp/availability_inference.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "src/skillcomp/availability_inference.py",
+      "target": "src/skillcomp/matchability.py",
+      "module": "skillcomp.matchability"
+    },
+    {
+      "source": "src/skillcomp/availability_inference.py",
+      "target": "src/skillcomp/technical_text.py",
+      "module": "skillcomp.technical_text"
+    },
+    {
+      "source": "src/skillcomp/availability_inference.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "src/skillcomp/capability_search.py",
+      "target": "src/skillcomp/threshold_frontier.py",
+      "module": "skillcomp.threshold_frontier"
+    },
+    {
+      "source": "src/skillcomp/conditional_tree_inference.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "src/skillcomp/conditional_tree_inference.py",
+      "target": "src/skillcomp/availability_inference.py",
+      "module": "skillcomp.availability_inference"
+    },
+    {
+      "source": "src/skillcomp/conditional_tree_inference.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "src/skillcomp/conditional_tree_inference.py",
+      "target": "src/skillcomp/peer_union_model.py",
+      "module": "skillcomp.peer_union_model"
+    },
+    {
+      "source": "src/skillcomp/conditional_tree_inference.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "src/skillcomp/conditional_tree_inference.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "src/skillcomp/data.py",
+      "target": "src/skillcomp/schema.py",
+      "module": "skillcomp.schema"
+    },
+    {
+      "source": "src/skillcomp/frozen_inference.py",
+      "target": "src/skillcomp/paired_dimensions.py",
+      "module": "skillcomp.paired_dimensions"
+    },
+    {
+      "source": "src/skillcomp/frozen_inference.py",
+      "target": "src/skillcomp/technical_text.py",
+      "module": "skillcomp.technical_text"
+    },
+    {
+      "source": "src/skillcomp/gpu_policy.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "src/skillcomp/hierarchical_loss.py",
+      "target": "src/skillcomp/label_hierarchy.py",
+      "module": "skillcomp.label_hierarchy"
+    },
+    {
+      "source": "src/skillcomp/hierarchical_readout.py",
+      "target": "src/skillcomp/label_hierarchy.py",
+      "module": "skillcomp.label_hierarchy"
+    },
+    {
+      "source": "src/skillcomp/matchability.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "src/skillcomp/neighbor_inference.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "src/skillcomp/neighbor_inference.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "src/skillcomp/neighbor_inference.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "src/skillcomp/neighbor_inference.py",
+      "target": "src/skillcomp/residual_inference.py",
+      "module": "skillcomp.residual_inference"
+    },
+    {
+      "source": "src/skillcomp/peer_union_model.py",
+      "target": "src/skillcomp/peer_publication.py",
+      "module": "skillcomp.peer_publication"
+    },
+    {
+      "source": "src/skillcomp/positive_overlap_metric.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "src/skillcomp/residual_inference.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "src/skillcomp/residual_inference.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "src/skillcomp/residual_inference.py",
+      "target": "src/skillcomp/frozen_inference.py",
+      "module": "skillcomp.frozen_inference"
+    },
+    {
+      "source": "src/skillcomp/residual_inference.py",
+      "target": "src/skillcomp/paired_dimensions.py",
+      "module": "skillcomp.paired_dimensions"
+    },
+    {
+      "source": "src/skillcomp/residual_inference.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "src/skillcomp/residual_inference.py",
+      "target": "src/skillcomp/repository_conditioning.py",
+      "module": "skillcomp.repository_conditioning"
+    },
+    {
+      "source": "src/skillcomp/retrieval_evidence.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "src/skillcomp/retrieval_evidence.py",
+      "target": "src/skillcomp/known_proxy_neighbors.py",
+      "module": "skillcomp.known_proxy_neighbors"
+    },
+    {
+      "source": "src/skillcomp/runtime.py",
+      "target": "src/skillcomp/gpu_policy.py",
+      "module": "skillcomp.gpu_policy"
+    },
+    {
+      "source": "src/skillcomp/score_ensemble.py",
+      "target": "src/skillcomp/availability_inference.py",
+      "module": "skillcomp.availability_inference"
+    },
+    {
+      "source": "src/skillcomp/score_ensemble.py",
+      "target": "src/skillcomp/residual_inference.py",
+      "module": "skillcomp.residual_inference"
+    },
+    {
+      "source": "src/skillcomp/technical_text.py",
+      "target": "src/skillcomp/features.py",
+      "module": "skillcomp.features"
+    },
+    {
+      "source": "scripts/audit_conditional_peer_union_capability.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/audit_conditional_peer_union_capability.py",
+      "target": "scripts/audit_peer_publication_information.py",
+      "module": "audit_peer_publication_information"
+    },
+    {
+      "source": "scripts/audit_conditional_peer_union_capability.py",
+      "target": "scripts/audit_proxy_replacement_scores.py",
+      "module": "audit_proxy_replacement_scores"
+    },
+    {
+      "source": "scripts/audit_conditional_peer_union_capability.py",
+      "target": "scripts/run_conditional_peer_union_capability.py",
+      "module": "run_conditional_peer_union_capability"
+    },
+    {
+      "source": "scripts/audit_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "scripts/audit_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/audit_proxy_tree_readout_capability.py",
+      "module": "audit_proxy_tree_readout_capability"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/audit_conditional_peer_union_capability.py",
+      "module": "audit_conditional_peer_union_capability"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/audit_peer_publication_information.py",
+      "module": "audit_peer_publication_information"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/select_full_conditional_peer_union.py",
+      "module": "select_full_conditional_peer_union"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/build_full_auxiliary_portfolio.py",
+      "module": "build_full_auxiliary_portfolio"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/run_peer_publication_information.py",
+      "module": "run_peer_publication_information"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/peer_union_model.py",
+      "module": "skillcomp.peer_union_model"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/conditional_tree_inference.py",
+      "module": "skillcomp.conditional_tree_inference"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/availability_inference.py",
+      "module": "skillcomp.availability_inference"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/proxy_tree_readout.py",
+      "module": "skillcomp.proxy_tree_readout"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/frozen_inference.py",
+      "module": "skillcomp.frozen_inference"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/audit_full_tree_conditional_selection.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/audit_full_tree_conditional_selection.py",
+      "target": "scripts/audit_proxy_tree_readout_capability.py",
+      "module": "audit_proxy_tree_readout_capability"
+    },
+    {
+      "source": "scripts/audit_full_tree_conditional_selection.py",
+      "target": "scripts/audit_proxy_replacement_scores.py",
+      "module": "audit_proxy_replacement_scores"
+    },
+    {
+      "source": "scripts/audit_full_tree_conditional_selection.py",
+      "target": "scripts/select_full_tree_conditional_union.py",
+      "module": "select_full_tree_conditional_union"
+    },
+    {
+      "source": "scripts/audit_full_tree_conditional_selection.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/audit_full_tree_conditional_selection.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/audit_peer_publication_information.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/audit_peer_publication_information.py",
+      "target": "scripts/audit_token_late_interaction.py",
+      "module": "audit_token_late_interaction"
+    },
+    {
+      "source": "scripts/audit_peer_publication_information.py",
+      "target": "scripts/run_peer_publication_information.py",
+      "module": "run_peer_publication_information"
+    },
+    {
+      "source": "scripts/audit_peer_publication_information.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/audit_proxy_replacement_scores.py",
+      "target": "scripts/run_channel_residual_capability.py",
+      "module": "run_channel_residual_capability"
+    },
+    {
+      "source": "scripts/audit_proxy_replacement_scores.py",
+      "target": "scripts/run_hierarchy_strength_capability.py",
+      "module": "run_hierarchy_strength_capability"
+    },
+    {
+      "source": "scripts/audit_proxy_replacement_scores.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "scripts/audit_proxy_replacement_scores.py",
+      "module": "audit_proxy_replacement_scores"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "scripts/run_channel_residual_capability.py",
+      "module": "run_channel_residual_capability"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "scripts/run_hierarchy_strength_capability.py",
+      "module": "run_hierarchy_strength_capability"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "scripts/run_proxy_tree_readout_capability.py",
+      "module": "run_proxy_tree_readout_capability"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/proxy_tree_readout.py",
+      "module": "skillcomp.proxy_tree_readout"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "scripts/audit_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "scripts/run_positive_overlap_metric_pilot.py",
+      "module": "run_positive_overlap_metric_pilot"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "scripts/run_proxy_tree_readout_capability.py",
+      "module": "run_proxy_tree_readout_capability"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "scripts/run_token_late_interaction.py",
+      "module": "run_token_late_interaction"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "src/skillcomp/matchability.py",
+      "module": "skillcomp.matchability"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "src/skillcomp/structure_offset.py",
+      "module": "skillcomp.structure_offset"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "scripts/joint_evidence_channel_workers.py",
+      "module": "joint_evidence_channel_workers"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "scripts/density_channel_workers.py",
+      "module": "density_channel_workers"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "scripts/joint_evidence_channel_workers.py",
+      "module": "joint_evidence_channel_workers"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "scripts/density_channel_workers.py",
+      "module": "density_channel_workers"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "src/skillcomp/structured_availability.py",
+      "module": "skillcomp.structured_availability"
+    },
+    {
+      "source": "scripts/availability_channel_workers.py",
+      "target": "src/skillcomp/kernel_availability.py",
+      "module": "skillcomp.kernel_availability"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/frozen_inference.py",
+      "module": "skillcomp.frozen_inference"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/models.py",
+      "module": "skillcomp.models"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/paired_dimensions.py",
+      "module": "skillcomp.paired_dimensions"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/residual_inference.py",
+      "module": "skillcomp.residual_inference"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/hierarchical_readout.py",
+      "module": "skillcomp.hierarchical_readout"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/repository_conditioning.py",
+      "module": "skillcomp.repository_conditioning"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/capability_search_workers.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/capability_search_workers.py",
+      "target": "src/skillcomp/models.py",
+      "module": "skillcomp.models"
+    },
+    {
+      "source": "scripts/capability_search_workers.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/capability_search_workers.py",
+      "target": "src/skillcomp/technical_text.py",
+      "module": "skillcomp.technical_text"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "scripts/title_body_workers.py",
+      "module": "title_body_workers"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/residual_inference.py",
+      "module": "skillcomp.residual_inference"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/matchability.py",
+      "module": "skillcomp.matchability"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/availability_inference.py",
+      "module": "skillcomp.availability_inference"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/peer_publication.py",
+      "module": "skillcomp.peer_publication"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/conditional_peer_prior.py",
+      "module": "skillcomp.conditional_peer_prior"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/peer_union_model.py",
+      "module": "skillcomp.peer_union_model"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/proxy_tree_readout.py",
+      "module": "skillcomp.proxy_tree_readout"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/competition_active_role_worker.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/competition_inference_reservation.py",
+      "target": "src/skillcomp/gpu_policy.py",
+      "module": "skillcomp.gpu_policy"
+    },
+    {
+      "source": "scripts/competition_inference_reservation.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/conditional_inference_reservation.py",
+      "target": "scripts/run_qwen06_split_lora.py",
+      "module": "run_qwen06_split_lora"
+    },
+    {
+      "source": "scripts/conditional_inference_reservation.py",
+      "target": "src/skillcomp/gpu_policy.py",
+      "module": "skillcomp.gpu_policy"
+    },
+    {
+      "source": "scripts/conditional_inference_reservation.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/density_channel_workers.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/density_channel_workers.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/density_channel_workers.py",
+      "target": "src/skillcomp/density_channel.py",
+      "module": "skillcomp.density_channel"
+    },
+    {
+      "source": "scripts/density_channel_workers.py",
+      "target": "src/skillcomp/matchability.py",
+      "module": "skillcomp.matchability"
+    },
+    {
+      "source": "scripts/density_channel_workers.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/download_pinned_model.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/encode_auxiliary_candidate_inputs.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/encode_frozen_candidate_inputs.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/encode_proxy_candidate_inputs.py",
+      "target": "scripts/modernbert_full_worker.py",
+      "module": "modernbert_full_worker"
+    },
+    {
+      "source": "scripts/encode_proxy_candidate_inputs.py",
+      "target": "src/skillcomp/hierarchical_loss.py",
+      "module": "skillcomp.hierarchical_loss"
+    },
+    {
+      "source": "scripts/encode_proxy_candidate_inputs.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "scripts/conditional_inference_reservation.py",
+      "module": "conditional_inference_reservation"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "scripts/select_full_conditional_peer_union.py",
+      "module": "select_full_conditional_peer_union"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "scripts/build_full_auxiliary_portfolio.py",
+      "module": "build_full_auxiliary_portfolio"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "scripts/run_peer_publication_information.py",
+      "module": "run_peer_publication_information"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/conditional_peer_prior.py",
+      "module": "skillcomp.conditional_peer_prior"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/peer_union_model.py",
+      "module": "skillcomp.peer_union_model"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/proxy_tree_readout.py",
+      "module": "skillcomp.proxy_tree_readout"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/frozen_inference.py",
+      "module": "skillcomp.frozen_inference"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/residual_inference.py",
+      "module": "skillcomp.residual_inference"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/availability_inference.py",
+      "module": "skillcomp.availability_inference"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/conditional_tree_inference.py",
+      "module": "skillcomp.conditional_tree_inference"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/extract_learned_context_features.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/isolated_data_root.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/isolated_data_root.py",
+      "target": "src/skillcomp/component_targets.py",
+      "module": "skillcomp.component_targets"
+    },
+    {
+      "source": "scripts/isolated_data_root.py",
+      "target": "src/skillcomp/data.py",
+      "module": "skillcomp.data"
+    },
+    {
+      "source": "scripts/isolated_data_root.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/joint_evidence_channel_workers.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/joint_evidence_channel_workers.py",
+      "target": "scripts/availability_channel_workers.py",
+      "module": "availability_channel_workers"
+    },
+    {
+      "source": "scripts/joint_evidence_channel_workers.py",
+      "target": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "module": "run_auxiliary_lexical_residual_capability"
+    },
+    {
+      "source": "scripts/joint_evidence_channel_workers.py",
+      "target": "scripts/run_evidence_coverage_gate_capability.py",
+      "module": "run_evidence_coverage_gate_capability"
+    },
+    {
+      "source": "scripts/joint_evidence_channel_workers.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/joint_evidence_channel_workers.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "scripts/joint_evidence_channel_workers.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/joint_evidence_channel_workers.py",
+      "target": "src/skillcomp/joint_evidence_channel.py",
+      "module": "skillcomp.joint_evidence_channel"
+    },
+    {
+      "source": "scripts/joint_evidence_channel_workers.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/modernbert_full_worker.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/modernbert_full_worker.py",
+      "target": "src/skillcomp/neural_loss.py",
+      "module": "skillcomp.neural_loss"
+    },
+    {
+      "source": "scripts/modernbert_full_worker.py",
+      "target": "src/skillcomp/auxiliary_loss.py",
+      "module": "skillcomp.auxiliary_loss"
+    },
+    {
+      "source": "scripts/modernbert_full_worker.py",
+      "target": "src/skillcomp/hierarchical_loss.py",
+      "module": "skillcomp.hierarchical_loss"
+    },
+    {
+      "source": "scripts/positive_overlap_metric_worker.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/frozen_inference.py",
+      "module": "skillcomp.frozen_inference"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/competition_io.py",
+      "module": "skillcomp.competition_io"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/residual_inference.py",
+      "module": "skillcomp.residual_inference"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/availability_inference.py",
+      "module": "skillcomp.availability_inference"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/score_ensemble.py",
+      "module": "skillcomp.score_ensemble"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/neighbor_inference.py",
+      "module": "skillcomp.neighbor_inference"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/conditional_tree_inference.py",
+      "module": "skillcomp.conditional_tree_inference"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/gpu_policy.py",
+      "module": "skillcomp.gpu_policy"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "src/skillcomp/competition_assets.py",
+      "module": "skillcomp.competition_assets"
+    },
+    {
+      "source": "scripts/predict_competition_reserved.py",
+      "target": "src/skillcomp/competition_assets.py",
+      "module": "skillcomp.competition_assets"
+    },
+    {
+      "source": "scripts/predict_competition_reserved.py",
+      "target": "src/skillcomp/frozen_inference.py",
+      "module": "skillcomp.frozen_inference"
+    },
+    {
+      "source": "scripts/predict_competition_reserved.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/predict_competition_reserved.py",
+      "target": "scripts/competition_inference_reservation.py",
+      "module": "competition_inference_reservation"
+    },
+    {
+      "source": "scripts/predict_competition_reserved.py",
+      "target": "src/skillcomp/competition_io.py",
+      "module": "skillcomp.competition_io"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "src/skillcomp/frozen_inference.py",
+      "module": "skillcomp.frozen_inference"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "src/skillcomp/residual_inference.py",
+      "module": "skillcomp.residual_inference"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "src/skillcomp/availability_inference.py",
+      "module": "skillcomp.availability_inference"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "src/skillcomp/score_ensemble.py",
+      "module": "skillcomp.score_ensemble"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "src/skillcomp/neighbor_inference.py",
+      "module": "skillcomp.neighbor_inference"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "src/skillcomp/conditional_tree_inference.py",
+      "module": "skillcomp.conditional_tree_inference"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "src/skillcomp/gpu_policy.py",
+      "module": "skillcomp.gpu_policy"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "src/skillcomp/frozen_inference.py",
+      "module": "skillcomp.frozen_inference"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "src/skillcomp/residual_inference.py",
+      "module": "skillcomp.residual_inference"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "src/skillcomp/availability_inference.py",
+      "module": "skillcomp.availability_inference"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "src/skillcomp/score_ensemble.py",
+      "module": "skillcomp.score_ensemble"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "src/skillcomp/neighbor_inference.py",
+      "module": "skillcomp.neighbor_inference"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "src/skillcomp/gpu_policy.py",
+      "module": "skillcomp.gpu_policy"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/prepare_competition_role_smoke.py",
+      "target": "scripts/isolated_data_root.py",
+      "module": "isolated_data_root"
+    },
+    {
+      "source": "scripts/prepare_competition_role_smoke.py",
+      "target": "scripts/title_body_workers.py",
+      "module": "title_body_workers"
+    },
+    {
+      "source": "scripts/prepare_competition_role_smoke.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/prepare_competition_role_smoke.py",
+      "target": "src/skillcomp/technical_text.py",
+      "module": "skillcomp.technical_text"
+    },
+    {
+      "source": "scripts/prepare_role.py",
+      "target": "scripts/isolated_data_root.py",
+      "module": "isolated_data_root"
+    },
+    {
+      "source": "scripts/prepare_role.py",
+      "target": "scripts/title_body_workers.py",
+      "module": "title_body_workers"
+    },
+    {
+      "source": "scripts/prepare_role.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/prepare_role.py",
+      "target": "src/skillcomp/technical_text.py",
+      "module": "skillcomp.technical_text"
+    },
+    {
+      "source": "scripts/prepare_role.py",
+      "target": "src/skillcomp/reproduction_plan.py",
+      "module": "skillcomp.reproduction_plan"
+    },
+    {
+      "source": "scripts/prepare_training_teacher.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/prepare_training_teacher.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/prepare_training_teacher.py",
+      "target": "src/skillcomp/models.py",
+      "module": "skillcomp.models"
+    },
+    {
+      "source": "scripts/prepare_training_teacher.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/qwen06_split_lora_worker.py",
+      "target": "src/skillcomp/compact_lora.py",
+      "module": "skillcomp.compact_lora"
+    },
+    {
+      "source": "scripts/qwen06_split_lora_worker.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/reproduce.py",
+      "target": "src/skillcomp/reproduction_plan.py",
+      "module": "skillcomp.reproduction_plan"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "scripts/run_qwen06_split_lora.py",
+      "module": "run_qwen06_split_lora"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "src/skillcomp/component_targets.py",
+      "module": "skillcomp.component_targets"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "src/skillcomp/learned_features.py",
+      "module": "skillcomp.learned_features"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "src/skillcomp/models.py",
+      "module": "skillcomp.models"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "scripts/run_annotation_channel_capability.py",
+      "module": "run_annotation_channel_capability"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "scripts/run_channel_residual_capability.py",
+      "module": "run_channel_residual_capability"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/models.py",
+      "module": "skillcomp.models"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/paired_dimensions.py",
+      "module": "skillcomp.paired_dimensions"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/learned_features.py",
+      "module": "skillcomp.learned_features"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/hierarchical_readout.py",
+      "module": "skillcomp.hierarchical_readout"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/repository_conditioning.py",
+      "module": "skillcomp.repository_conditioning"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/repository_interactions.py",
+      "module": "skillcomp.repository_interactions"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "scripts/run_evidence_coverage_gate_capability.py",
+      "module": "run_evidence_coverage_gate_capability"
+    },
+    {
+      "source": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/run_channel_residual_capability.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_channel_residual_capability.py",
+      "target": "scripts/run_annotation_channel_capability.py",
+      "module": "run_annotation_channel_capability"
+    },
+    {
+      "source": "scripts/run_channel_residual_capability.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/run_channel_residual_capability.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_channel_residual_capability.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_channel_residual_capability.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/run_channel_residual_capability.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "scripts/availability_channel_workers.py",
+      "module": "availability_channel_workers"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "scripts/run_hierarchy_strength_capability.py",
+      "module": "run_hierarchy_strength_capability"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "scripts/run_proxy_tree_readout_capability.py",
+      "module": "run_proxy_tree_readout_capability"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "scripts/run_peer_publication_information.py",
+      "module": "run_peer_publication_information"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "scripts/run_channel_residual_capability.py",
+      "module": "run_channel_residual_capability"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "module": "run_auxiliary_lexical_residual_capability"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/conditional_peer_prior.py",
+      "module": "skillcomp.conditional_peer_prior"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/peer_union_model.py",
+      "module": "skillcomp.peer_union_model"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/run_conditional_peer_union_capability.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_evidence_coverage_gate_capability.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_evidence_coverage_gate_capability.py",
+      "target": "scripts/run_channel_residual_capability.py",
+      "module": "run_channel_residual_capability"
+    },
+    {
+      "source": "scripts/run_evidence_coverage_gate_capability.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_evidence_coverage_gate_capability.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_evidence_coverage_gate_capability.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/run_evidence_coverage_gate_capability.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/run_evidence_coverage_gate_capability.py",
+      "target": "src/skillcomp/matchability.py",
+      "module": "skillcomp.matchability"
+    },
+    {
+      "source": "scripts/run_evidence_coverage_gate_capability.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_hierarchy_strength_capability.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_hierarchy_strength_capability.py",
+      "target": "scripts/run_channel_residual_capability.py",
+      "module": "run_channel_residual_capability"
+    },
+    {
+      "source": "scripts/run_hierarchy_strength_capability.py",
+      "target": "scripts/run_evidence_coverage_gate_capability.py",
+      "module": "run_evidence_coverage_gate_capability"
+    },
+    {
+      "source": "scripts/run_hierarchy_strength_capability.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_hierarchy_strength_capability.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_hierarchy_strength_capability.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/run_hierarchy_strength_capability.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/run_hierarchy_strength_capability.py",
+      "target": "src/skillcomp/label_hierarchy.py",
+      "module": "skillcomp.label_hierarchy"
+    },
+    {
+      "source": "scripts/run_hierarchy_strength_capability.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_peer_publication_information.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_peer_publication_information.py",
+      "target": "scripts/run_proxy_tree_readout_capability.py",
+      "module": "run_proxy_tree_readout_capability"
+    },
+    {
+      "source": "scripts/run_peer_publication_information.py",
+      "target": "src/skillcomp/data.py",
+      "module": "skillcomp.data"
+    },
+    {
+      "source": "scripts/run_peer_publication_information.py",
+      "target": "src/skillcomp/peer_publication.py",
+      "module": "skillcomp.peer_publication"
+    },
+    {
+      "source": "scripts/run_peer_publication_information.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "scripts/run_channel_residual_capability.py",
+      "module": "run_channel_residual_capability"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "scripts/run_retrieval_plateau_diagnostics.py",
+      "module": "run_retrieval_plateau_diagnostics"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "scripts/run_qwen06_split_lora.py",
+      "module": "run_qwen06_split_lora"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "src/skillcomp/gpu_policy.py",
+      "module": "skillcomp.gpu_policy"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "src/skillcomp/positive_overlap_metric.py",
+      "module": "skillcomp.positive_overlap_metric"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "module": "run_auxiliary_lexical_residual_capability"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "scripts/run_channel_residual_capability.py",
+      "module": "run_channel_residual_capability"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "scripts/run_hierarchy_strength_capability.py",
+      "module": "run_hierarchy_strength_capability"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/proxy_tree_readout.py",
+      "module": "skillcomp.proxy_tree_readout"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "scripts/run_proxy_tree_readout_capability.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "src/skillcomp/models.py",
+      "module": "skillcomp.models"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "src/skillcomp/component_targets.py",
+      "module": "skillcomp.component_targets"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "src/skillcomp/schema.py",
+      "module": "skillcomp.schema"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "src/skillcomp/gpu_policy.py",
+      "module": "skillcomp.gpu_policy"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "scripts/availability_channel_workers.py",
+      "module": "availability_channel_workers"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "scripts/run_auxiliary_lexical_residual_capability.py",
+      "module": "run_auxiliary_lexical_residual_capability"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "scripts/run_channel_residual_capability.py",
+      "module": "run_channel_residual_capability"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "scripts/run_hierarchy_strength_capability.py",
+      "module": "run_hierarchy_strength_capability"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "scripts/run_retrieval_plateau_diagnostics.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/run_token_late_interaction.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/run_token_late_interaction.py",
+      "target": "scripts/download_pinned_model.py",
+      "module": "download_pinned_model"
+    },
+    {
+      "source": "scripts/run_token_late_interaction.py",
+      "target": "scripts/run_positive_overlap_metric_pilot.py",
+      "module": "run_positive_overlap_metric_pilot"
+    },
+    {
+      "source": "scripts/run_token_late_interaction.py",
+      "target": "src/skillcomp/token_late_interaction.py",
+      "module": "skillcomp.token_late_interaction"
+    },
+    {
+      "source": "scripts/run_token_late_interaction.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/score_token_late_interaction.py",
+      "target": "src/skillcomp/token_late_interaction.py",
+      "module": "skillcomp.token_late_interaction"
+    },
+    {
+      "source": "scripts/score_token_late_interaction.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/score_token_late_safe_replay.py",
+      "target": "scripts/score_token_late_interaction.py",
+      "module": "score_token_late_interaction"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "scripts/build_full_auxiliary_portfolio.py",
+      "module": "build_full_auxiliary_portfolio"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "scripts/run_peer_publication_information.py",
+      "module": "run_peer_publication_information"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/availability_calibration.py",
+      "module": "skillcomp.availability_calibration"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/availability_inference.py",
+      "module": "skillcomp.availability_inference"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/conditional_peer_prior.py",
+      "module": "skillcomp.conditional_peer_prior"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/peer_union_model.py",
+      "module": "skillcomp.peer_union_model"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/matchability.py",
+      "module": "skillcomp.matchability"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/evidence_coverage.py",
+      "module": "skillcomp.evidence_coverage"
+    },
+    {
+      "source": "scripts/select_full_conditional_peer_union.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "scripts/build_full_auxiliary_portfolio.py",
+      "module": "build_full_auxiliary_portfolio"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "scripts/run_peer_publication_information.py",
+      "module": "run_peer_publication_information"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "src/skillcomp/proxy_tree_readout.py",
+      "module": "skillcomp.proxy_tree_readout"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "src/skillcomp/retrieval_evidence.py",
+      "module": "skillcomp.retrieval_evidence"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "src/skillcomp/annotation_channel.py",
+      "module": "skillcomp.annotation_channel"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "src/skillcomp/channel_residual.py",
+      "module": "skillcomp.channel_residual"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "src/skillcomp/benchmark.py",
+      "module": "skillcomp.benchmark"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/select_full_tree_conditional_union.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/title_body_workers.py",
+      "target": "src/skillcomp/models.py",
+      "module": "skillcomp.models"
+    },
+    {
+      "source": "scripts/title_body_workers.py",
+      "target": "src/skillcomp/runtime.py",
+      "module": "skillcomp.runtime"
+    },
+    {
+      "source": "scripts/title_body_workers.py",
+      "target": "src/skillcomp/capability_search.py",
+      "module": "skillcomp.capability_search"
+    },
+    {
+      "source": "scripts/title_body_workers.py",
+      "target": "src/skillcomp/learned_features.py",
+      "module": "skillcomp.learned_features"
+    },
+    {
+      "source": "scripts/title_body_workers.py",
+      "target": "src/skillcomp/paired_dimensions.py",
+      "module": "skillcomp.paired_dimensions"
+    },
+    {
+      "source": "scripts/title_body_workers.py",
+      "target": "scripts/capability_search_workers.py",
+      "module": "capability_search_workers"
+    }
+  ],
+  "literal_worker_edges": [
+    {
+      "source": "src/skillcomp/reproduction_plan.py",
+      "target": "scripts/prepare_role.py"
+    },
+    {
+      "source": "src/skillcomp/reproduction_plan.py",
+      "target": "scripts/modernbert_full_worker.py"
+    },
+    {
+      "source": "src/skillcomp/reproduction_plan.py",
+      "target": "scripts/modernbert_full_worker.py"
+    },
+    {
+      "source": "src/skillcomp/reproduction_plan.py",
+      "target": "scripts/encode_frozen_candidate_inputs.py"
+    },
+    {
+      "source": "src/skillcomp/reproduction_plan.py",
+      "target": "scripts/extract_learned_context_features.py"
+    },
+    {
+      "source": "src/skillcomp/reproduction_plan.py",
+      "target": "scripts/prepare_role.py"
+    },
+    {
+      "source": "src/skillcomp/reproduction_plan.py",
+      "target": "scripts/encode_frozen_candidate_inputs.py"
+    },
+    {
+      "source": "src/skillcomp/reproduction_plan.py",
+      "target": "scripts/competition_active_role_worker.py"
+    },
+    {
+      "source": "src/skillcomp/reproduction_plan.py",
+      "target": "scripts/competition_active_role_worker.py"
+    },
+    {
+      "source": "scripts/audit_conditional_peer_union_capability.py",
+      "target": "scripts/run_conditional_peer_union_capability.py"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/select_full_conditional_peer_union.py"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/select_full_tree_conditional_union.py"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/export_full_conditional_tree_candidate.py"
+    },
+    {
+      "source": "scripts/audit_full_conditional_tree_export.py",
+      "target": "scripts/predict_conditional_tree_candidate.py"
+    },
+    {
+      "source": "scripts/audit_full_tree_conditional_selection.py",
+      "target": "scripts/select_full_tree_conditional_union.py"
+    },
+    {
+      "source": "scripts/audit_peer_publication_information.py",
+      "target": "scripts/run_peer_publication_information.py"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "scripts/run_token_late_interaction.py"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "scripts/score_token_late_interaction.py"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "scripts/score_token_late_safe_replay.py"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "scripts/score_token_late_safe_replay.py"
+    },
+    {
+      "source": "scripts/audit_token_late_interaction.py",
+      "target": "scripts/audit_token_late_tokenization.py"
+    },
+    {
+      "source": "scripts/build_full_auxiliary_portfolio.py",
+      "target": "scripts/predict_frozen_candidate.py"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "scripts/predict_conditional_tree_candidate.py"
+    },
+    {
+      "source": "scripts/export_full_conditional_tree_candidate.py",
+      "target": "scripts/predict_conditional_tree_candidate.py"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "scripts/encode_auxiliary_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "scripts/encode_frozen_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "scripts/encode_frozen_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_competition_candidate.py",
+      "target": "scripts/encode_proxy_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_competition_reserved.py",
+      "target": "scripts/predict_competition_candidate.py"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "scripts/encode_auxiliary_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "scripts/encode_frozen_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "scripts/encode_frozen_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_conditional_tree_candidate.py",
+      "target": "scripts/encode_proxy_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "scripts/encode_auxiliary_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "scripts/encode_frozen_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "scripts/encode_frozen_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/predict_frozen_candidate.py",
+      "target": "scripts/encode_proxy_candidate_inputs.py"
+    },
+    {
+      "source": "scripts/run_annotation_channel_capability.py",
+      "target": "scripts/extract_learned_context_features.py"
+    },
+    {
+      "source": "scripts/run_positive_overlap_metric_pilot.py",
+      "target": "scripts/positive_overlap_metric_worker.py"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "scripts/qwen06_split_lora_worker.py"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "scripts/prepare_training_teacher.py"
+    },
+    {
+      "source": "scripts/run_qwen06_split_lora.py",
+      "target": "scripts/qwen06_split_lora_worker.py"
+    },
+    {
+      "source": "scripts/verify_repository.py",
+      "target": "scripts/verify_repository.py"
+    }
+  ],
+  "external_top_level_imports": [
+    "joblib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "sklearn",
+    "threadpoolctl",
+    "torch",
+    "transformers"
+  ],
+  "unresolved_local_imports": []
+}

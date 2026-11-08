@@ -1,0 +1,10 @@
+{
+  "state": "passed",
+  "local_archive": "final_model_20261026.zip",
+  "bytes": 13728968436,
+  "sha256": "5b07609c7f523cd667174a5e3bdc9220e4ffb6b3e715c95825a098074e365642",
+  "manifest_members_verified": 177,
+  "all_member_CRC_verified": true,
+  "deserialization_or_forward": false,
+  "runtime_seconds": 30.73399999999674
+}

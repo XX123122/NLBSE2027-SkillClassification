@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-08",
+  "complete_training_reproduction": false,
+  "public_release_ready_without_review": false,
+  "gaps": [
+    {
+      "id": "official_protocol",
+      "status": "unresolved_upstream",
+      "blocks": [
+        "formal_qualification",
+        "official_score"
+      ],
+      "missing": [
+        "official train/test assignment",
+        "217 versus142 label scope",
+        "final matched reference values"
+      ],
+      "source": "docs/third_party/official_TODO.md"
+    },
+    {
+      "id": "full_training_closure",
+      "status": "source_and_historical_caches_only",
+      "blocks": [
+        "complete clean reproduction"
+      ],
+      "missing": [
+        "remaining roles from public roots",
+        "candidate/reference producer dependencies",
+        "all training OOF choices",
+        "all validation thresholds",
+        "held evaluation",
+        "root-to-final export"
+      ],
+      "historical_independent_role": "fold0_inner0"
+    },
+    {
+      "id": "portable_role_adapters",
+      "status": "synthetic_static_only_this_round",
+      "blocks": [
+        "claim of numerical equivalence for newly packaged runner"
+      ],
+      "missing": [
+        "real execution of new adapters, explicitly outside current task"
+      ]
+    },
+    {
+      "id": "full_four_epoch_schedule",
+      "status": "execution_blocked",
+      "blocks": [
+        "four full-data encoder roles"
+      ],
+      "missing": [
+        "resolve original worker scheduler horizon, checkpoint save policy and exact roles before execution"
+      ],
+      "guessing_schedule_allowed": false
+    },
+    {
+      "id": "input_only_qwen4_cache",
+      "status": "not_distributed",
+      "blocks": [
+        "experts-fit"
+      ],
+      "missing": [
+        "pure frozen input transform or trusted cache",
+        "original input text identity provenance"
+      ],
+      "hash_check_alone_establishes_label_free_provenance": false
+    },
+    {
+      "id": "other_role_active_policies",
+      "status": "not_connected",
+      "blocks": [
+        "active-policy producers except fold0_inner0"
+      ],
+      "missing": [
+        "role-specific selected base and expert policies; do not apply fold0 recipe universally"
+      ]
+    },
+    {
+      "id": "release_weights",
+      "status": "private_release_preparation",
+      "blocks": [
+        "public asset availability"
+      ],
+      "public_url": null,
+      "manifest": "assets/attachment_manifest.json",
+      "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
+      "public_asset_availability_still_unresolved": true
+    },
+    {
+      "id": "asset_rights",
+      "status": "requires_confirmation",
+      "blocks": [
+        "public weights redistribution"
+      ],
+      "missing": [
+        "pinned CodeBERT weight/derivative redistribution terms",
+        "final fitted asset/data provenance review",
+        "complete asset license and attribution dossier"
+      ],
+      "hash_is_license_evidence": false
+    },
+    {
+      "id": "source_release_authorization",
+      "status": "private_upload_authorized_public_release_not_authorized",
+      "blocks": [
+        "public repository"
+      ],
+      "public_url": null,
+      "missing": [
+        "Rightsholder approval and separate authorization for public distribution"
+      ],
+      "private_repository_url": "https://github.com/XX123122/NLBSE2027-SkillClassification"
+    },
+    {
+      "id": "fresh_environment",
+      "status": "not_installed_or_benchmarked_this_round",
+      "blocks": [
+        "fresh-install reproducibility claim"
+      ],
+      "missing": [
+        "fresh Linux CPU and compatible CUDA environment install test",
+        "measured full inference peak/runtime"
+      ]
+    },
+    {
+      "id": "pinned_dependency_availability",
+      "status": "metadata_unavailable_for_safetensors_0.8.0",
+      "blocks": [
+        "fresh publicly installable encoder environment claim"
+      ],
+      "missing": [
+        "verify distribution availability and license for exact historical build"
+      ],
+      "do_not_silently_change_frozen_requirements": true
+    }
+  ],
+  "private_hosting_authorized": true
+}

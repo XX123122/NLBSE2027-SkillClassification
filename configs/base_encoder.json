@@ -1,0 +1,9 @@
+{
+  "model": "assets/Qwen3-Embedding-0.6B",
+  "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "dtype": "float32",
+  "batch_size": 4,
+  "whitespace": "original",
+  "max_length": 512,
+  "instruction": "Instruct: Represent the software issue for predicting the programming skills required to solve it.\nQuery: "
+}

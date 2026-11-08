@@ -1,0 +1,21 @@
+{
+  "model": "assets/codebert-base",
+  "model_revision": "3b0952feddeffad0063f274080e3c23d75e7eb39",
+  "max_length": 512,
+  "micro_batch_size": 8,
+  "effective_batch_size": 32,
+  "prediction_batch_size": 16,
+  "encoder_learning_rate": 2e-05,
+  "head_learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "dropout": 0.1,
+  "warmup_fraction": 0.1,
+  "seed": 1234,
+  "epochs": [
+    2,
+    4,
+    8
+  ],
+  "primary_targets": "auxiliary_targets.npz",
+  "save_fit_reference_scores": true
+}

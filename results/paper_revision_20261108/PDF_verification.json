@@ -1,0 +1,158 @@
+{
+  "state": "passed",
+  "date_client": "2026-11-08",
+  "pages": 4,
+  "PDF": "output/pdf/competition_tool_candidate_named_revised_20261108.pdf",
+  "PDF_sha256": "a18673b5fc593d806fb4225293363f777f961d8fa27327f41ac95d7f704d184a",
+  "source": "submission/competition_tool_paper_v3_20261108/main.tex",
+  "source_sha256": "aab68c92398002c9b8433807cfa600b590d9db4dc3226d7e57f8a96c70008e34",
+  "compiler": "TeX Live2026 pdflatex",
+  "desktop_editor_compiler_previous_success": true,
+  "relocated_rebuild_byte_identical": true,
+  "page_bounds": [
+    {
+      "page": 1,
+      "words": 677,
+      "text_bounds": [
+        48.96402359008789,
+        53.00267028808594,
+        563.0392456054688,
+        718.851806640625
+      ]
+    },
+    {
+      "page": 2,
+      "words": 772,
+      "text_bounds": [
+        48.963985443115234,
+        51.12394714355469,
+        563.0454711914062,
+        719.4625854492188
+      ]
+    },
+    {
+      "page": 3,
+      "words": 720,
+      "text_bounds": [
+        48.9640007019043,
+        52.865474700927734,
+        563.0554809570312,
+        718.8519287109375
+      ]
+    },
+    {
+      "page": 4,
+      "words": 630,
+      "text_bounds": [
+        48.96399688720703,
+        51.35420227050781,
+        563.036376953125,
+        584.4727172851562
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "font": "/LUNVYW+NimbusRomNo9L-Regu",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/LREKMX+NimbusRomNo9L-MediItal",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/RHXPQK+NimbusRomNo9L-Medi",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/UPXPOT+NimbusRomNo9L-ReguItal",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/AGXELV+NimbusMonL-Regu",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/YSNPYC+CMMI10",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/AVEGUD+CMMI7",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/UMPNHS+CMR10",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/VTDBWH+CMSY10",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/VHEJYF+CMSY8",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/JGZDBO+CMSY7",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/LREMLB+CMR7",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/SISXYC+CMEX10",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/RVPZIX+CMMI5",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/BWVGNT+CMSY9",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "font": "/MZCXSG+CMR9",
+      "subtype": "/Type1",
+      "embedded": true
+    }
+  ],
+  "Type3_fonts": false,
+  "all_fonts_embedded": true,
+  "authors_order_emails_and_correspondence_verified": true,
+  "approved_author_block_exactly_preserved": true,
+  "overfull_or_unresolved_citations": false,
+  "font_size_margins_spacing_compression": false,
+  "format": "IEEEtran10pt conference letter paper; 4pages including references",
+  "protected_originals_hashes_verified": {
+    "output/pdf/competition_tool_candidate_named_20261107.pdf": "28a58aaeb76841f4138e1d5517f4e13738972da0f293d083046cb0123e883d34",
+    "release/nlbse2027-skill-classification-source-candidate-20261107.zip": "7d20182df2ae711a3a185a05eb6dc5ec561c36f5135e9a757ae3e33758eb941e",
+    "submission/competition_review_bundle_v4.zip": "5e2cf9600e345de5b602ea3197fdd24fefbd5cd54c89eb37da5258005999cb1e"
+  },
+  "new_model_or_data_computations": 0,
+  "experiments_stopped": true,
+  "final_rendered_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "figures_tables_and_columns_visually_checked": true,
+  "word_shapes_footnote_and_body_legibility_checked": true
+}

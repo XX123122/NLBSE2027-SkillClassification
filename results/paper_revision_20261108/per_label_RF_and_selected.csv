@@ -1,0 +1,435 @@
+method,label_index,label,support,TP,FP,FN,precision,recall,F1
+RF,0,Application,0,0,0,0,0.0,0.0,0.0
+RF,1,Application-Integration,0,0,0,0,0.0,0.0,0.0
+RF,2,Application-Plugin Management,0,0,0,0,0.0,0.0,0.0
+RF,3,Application-User Customization,0,0,0,0,0.0,0.0,0.0
+RF,4,Application-App Configuration,0,0,0,0,0.0,0.0,0.0
+RF,5,Application-Version Control,0,0,0,0,0.0,0.0,0.0
+RF,6,Application-Compatibility Checks,0,0,0,0,0.0,0.0,0.0
+RF,7,Application Performance Manager,342,0,12,342,0.0,0.0,0.0
+RF,8,Application Performance Manager-Performance Monitoring,0,0,0,0,0.0,0.0,0.0
+RF,9,Application Performance Manager-Resource Allocation,0,0,0,0,0.0,0.0,0.0
+RF,10,Application Performance Manager-Error Detection,0,0,0,0,0.0,0.0,0.0
+RF,11,Application Performance Manager-Load Balancing,0,0,0,0,0.0,0.0,0.0
+RF,12,Application Performance Manager-Traffic Management,0,0,0,0,0.0,0.0,0.0
+RF,13,Application Performance Manager-Diagnostic Tools,139,0,7,139,0.0,0.0,0.0
+RF,14,Big Data,517,2,16,515,0.1111111111111111,0.0038684719535783366,0.007476635514018692
+RF,15,Big Data-Data Processing,416,2,12,414,0.14285714285714285,0.004807692307692308,0.009302325581395349
+RF,16,Big Data-Data Storage,36,0,1,36,0.0,0.0,0.0
+RF,17,Big Data-Data Analysis,0,0,0,0,0.0,0.0,0.0
+RF,18,Big Data-Real-Time Processing,116,0,1,116,0.0,0.0,0.0
+RF,19,Big Data-Batch Processing,0,0,0,0,0.0,0.0,0.0
+RF,20,Big Data-Data Visualization,0,0,0,0,0.0,0.0,0.0
+RF,21,Cloud,231,0,12,231,0.0,0.0,0.0
+RF,22,Cloud-Resource Management,137,0,8,137,0.0,0.0,0.0
+RF,23,Cloud-Virtualization,0,0,0,0,0.0,0.0,0.0
+RF,24,Cloud-Scalability Solutions,0,0,0,0,0.0,0.0,0.0
+RF,25,Cloud-Cloud Security,0,0,0,0,0.0,0.0,0.0
+RF,26,Cloud-Data Migration,28,0,1,28,0.0,0.0,0.0
+RF,27,Cloud-Service Configuration,76,0,7,76,0.0,0.0,0.0
+RF,28,Computer Graphics,5799,5734,1341,65,0.8104593639575972,0.988791170891533,0.8907876339909896
+RF,29,Computer Graphics-Image Rendering,2977,400,567,2577,0.4136504653567735,0.13436345314074571,0.2028397565922921
+RF,30,Computer Graphics-Animation,690,2,18,688,0.1,0.002898550724637681,0.005633802816901409
+RF,31,Computer Graphics-Modeling,3218,823,911,2395,0.4746251441753172,0.2557489123679304,0.3323909531502423
+RF,32,Computer Graphics-Texture Mapping,2352,116,198,2236,0.36942675159235666,0.04931972789115646,0.08702175543885972
+RF,33,Computer Graphics-Visual Effects,187,0,7,187,0.0,0.0,0.0
+RF,34,Computer Graphics-Graphics Optimization,4204,3296,2256,908,0.5936599423631124,0.7840152235965747,0.6756867568675686
+RF,35,Data Structure,7004,7000,150,4,0.9790209790209791,0.9994288977727013,0.9891196834817013
+RF,36,Data Structure-Linear Structures,3484,1259,1287,2225,0.49450117831893164,0.3613662456946039,0.4175787728026534
+RF,37,Data Structure-Tree Structures,3807,1999,1824,1808,0.522887784462464,0.5250853690570003,0.5239842726081259
+RF,38,Data Structure-Graph Structures,804,7,27,797,0.20588235294117646,0.008706467661691543,0.016706443914081145
+RF,39,Data Structure-Data Sorting,4034,2578,2003,1456,0.5627592228771011,0.639067922657412,0.5984910040626814
+RF,40,Data Structure-Search Algorithms,3881,2185,1746,1696,0.5558382091070975,0.5629992270033497,0.5593958013312852
+RF,41,Data Structure-Data Manipulation,5467,5386,1659,81,0.764513839602555,0.9851838302542528,0.8609335038363172
+RF,42,Databases,3906,2446,1975,1460,0.553268491291563,0.626216077828981,0.5874864897321964
+RF,43,Databases-Query Execution,2081,109,170,1972,0.3906810035842294,0.052378664103796255,0.0923728813559322
+RF,44,Databases-Transaction Management,1363,21,58,1342,0.26582278481012656,0.015407190022010272,0.02912621359223301
+RF,45,Databases-Schema Design,1209,22,46,1187,0.3235294117647059,0.018196856906534328,0.03445575567736883
+RF,46,Databases-Database Security,1407,25,66,1382,0.27472527472527475,0.017768301350390904,0.03337783711615487
+RF,47,Databases-Backup and Recovery,667,5,20,662,0.2,0.0074962518740629685,0.014450867052023121
+RF,48,Databases-Database Optimization,1273,13,52,1260,0.2,0.01021209740769835,0.01943198804185351
+RF,49,Software Development and IT Operations,6895,6889,259,6,0.9637660884163403,0.9991298042059463,0.9811293883073418
+RF,50,Software Development and IT Operations-Continuous Integration,68,1,4,67,0.2,0.014705882352941176,0.0273972602739726
+RF,51,Software Development and IT Operations-Continuous Deployment,0,0,0,0,0.0,0.0,0.0
+RF,52,Software Development and IT Operations-Automated Testing,5622,5558,1518,64,0.785472018089316,0.9886161508360014,0.8754134509371555
+RF,53,Software Development and IT Operations-Configuration Management,4113,2872,2083,1241,0.5796165489404642,0.6982737661074642,0.6334362593736216
+RF,54,Software Development and IT Operations-Version Control,2680,323,420,2357,0.4347240915208614,0.12052238805970149,0.18872334209757521
+RF,55,Software Development and IT Operations-Monitoring and Logging,4917,4739,2147,178,0.6882079581760093,0.9637990644702054,0.8030161823265272
+RF,56,Error Handling,6596,6589,557,7,0.9220542961097117,0.9989387507580352,0.9589579391646048
+RF,57,Error Handling-Exception Handling,599,2,24,597,0.07692307692307693,0.00333889816360601,0.0064
+RF,58,Error Handling-Error Logging,346,3,12,343,0.2,0.008670520231213872,0.01662049861495845
+RF,59,Error Handling-Fault Tolerance,26,0,0,26,0.0,0.0,0.0
+RF,60,Error Handling-Debugging Tools,164,0,8,164,0.0,0.0,0.0
+RF,61,Error Handling-User Notification,0,0,0,0,0.0,0.0,0.0
+RF,62,Error Handling-Error Prevention,0,0,0,0,0.0,0.0,0.0
+RF,63,Event Handling,2968,521,661,2447,0.4407783417935702,0.17553908355795148,0.2510843373493976
+RF,64,Event Handling-User Interactions,868,2,28,866,0.06666666666666667,0.002304147465437788,0.004454342984409799
+RF,65,Event Handling-System Events,0,0,0,0,0.0,0.0,0.0
+RF,66,Event Handling-Event Logging,9,0,0,9,0.0,0.0,0.0
+RF,67,Event Handling-Event Driven Processing,1354,8,59,1346,0.11940298507462686,0.005908419497784343,0.011259676284306826
+RF,68,Event Handling-Notifications,22,0,2,22,0.0,0.0,0.0
+RF,69,Event Handling-Asynchronous Processing,0,0,0,0,0.0,0.0,0.0
+RF,70,Geographic Information System,0,0,0,0,0.0,0.0,0.0
+RF,71,Geographic Information System-Mapping,0,0,0,0,0.0,0.0,0.0
+RF,72,Geographic Information System-Spatial Analysis,0,0,0,0,0.0,0.0,0.0
+RF,73,Geographic Information System-Data Collection,0,0,0,0,0.0,0.0,0.0
+RF,74,Geographic Information System-Geographic Visualization,0,0,0,0,0.0,0.0,0.0
+RF,75,Geographic Information System-Location Services,0,0,0,0,0.0,0.0,0.0
+RF,76,Geographic Information System-Environmental Modeling,0,0,0,0,0.0,0.0,0.0
+RF,77,Input-Output,4044,2759,2061,1285,0.5724066390041493,0.6822453016815034,0.6225180505415162
+RF,78,Input-Output-Data Reading,2289,92,205,2197,0.30976430976430974,0.04019222367846221,0.0711523588553751
+RF,79,Input-Output-Data Writing,1328,14,46,1314,0.23333333333333334,0.010542168674698794,0.020172910662824207
+RF,80,Input-Output-Stream Management,2072,55,134,2017,0.291005291005291,0.026544401544401543,0.048651039363113664
+RF,81,Input-Output-Buffering Strategies,642,3,26,639,0.10344827586206896,0.004672897196261682,0.00894187779433681
+RF,82,Input-Output-File Management,177,0,6,177,0.0,0.0,0.0
+RF,83,Input-Output-Network IO,0,0,0,0,0.0,0.0,0.0
+RF,84,Interpreter,2622,185,373,2437,0.33154121863799285,0.07055682684973302,0.11635220125786164
+RF,85,Interpreter-Script Execution,375,0,11,375,0.0,0.0,0.0
+RF,86,Interpreter-Code Translation,306,0,13,306,0.0,0.0,0.0
+RF,87,Interpreter-Memory Management,110,0,4,110,0.0,0.0,0.0
+RF,88,Interpreter-Syntax Analysis,324,0,11,324,0.0,0.0,0.0
+RF,89,Interpreter-Optimization,179,0,5,179,0.0,0.0,0.0
+RF,90,Interpreter-Debugging,533,1,16,532,0.058823529411764705,0.001876172607879925,0.0036363636363636364
+RF,91,Internationalization,0,0,0,0,0.0,0.0,0.0
+RF,92,Internationalization-Localization,0,0,0,0,0.0,0.0,0.0
+RF,93,Internationalization-Language Support,0,0,0,0,0.0,0.0,0.0
+RF,94,Internationalization-Cultural Adaptation,0,0,0,0,0.0,0.0,0.0
+RF,95,Internationalization-Currency Conversion,0,0,0,0,0.0,0.0,0.0
+RF,96,Internationalization-Date/Time Formatting,0,0,0,0,0.0,0.0,0.0
+RF,97,Internationalization-Right-to-Left Layouts,0,0,0,0,0.0,0.0,0.0
+RF,98,Logic,5679,5621,1461,58,0.7937023439706298,0.9897869343194224,0.8809654415798135
+RF,99,Logic-Control Structures,730,2,32,728,0.058823529411764705,0.0027397260273972603,0.005235602094240838
+RF,100,Logic-Algorithm Implementation,627,1,31,626,0.03125,0.001594896331738437,0.0030349013657056147
+RF,101,Logic-Logic Optimization,996,5,37,991,0.11904761904761904,0.0050200803212851405,0.009633911368015413
+RF,102,Logic-Validation Checks,1927,42,123,1885,0.2545454545454545,0.021795537104307212,0.040152963671128104
+RF,103,Logic-Rule Processing,1904,37,122,1867,0.23270440251572327,0.019432773109243698,0.03587009209888512
+RF,104,Logic-Decision Making,789,1,27,788,0.03571428571428571,0.0012674271229404308,0.0024479804161566705
+RF,105,Language,7030,7030,124,0,0.9826670394185071,1.0,0.9912577552171461
+RF,106,Language-Syntax Features,1317,12,45,1305,0.21052631578947367,0.009111617312072893,0.017467248908296942
+RF,107,Language-Compiler/Interpreter Enhancements,772,2,30,770,0.0625,0.0025906735751295338,0.004975124378109453
+RF,108,Language-Runtime Optimization,2108,48,115,2060,0.294478527607362,0.022770398481973434,0.04227212681638045
+RF,109,Language-Standard Libraries,6326,6309,828,17,0.8839848675914249,0.997312677837496,0.937235385872391
+RF,110,Language-Language Extensions,988,7,35,981,0.16666666666666666,0.00708502024291498,0.013592233009708738
+RF,111,Language-Type Systems,1287,12,47,1275,0.2033898305084746,0.009324009324009324,0.017830609212481426
+RF,112,Logging,4370,3629,2300,741,0.6120762354528588,0.8304347826086956,0.7047286144285853
+RF,113,Logging-Event Logging,1229,10,29,1219,0.2564102564102564,0.008136696501220505,0.015772870662460567
+RF,114,Logging-System Monitoring,300,0,6,300,0.0,0.0,0.0
+RF,115,Logging-Performance Tracking,59,0,0,59,0.0,0.0,0.0
+RF,116,Logging-Error Logs,3984,2608,2055,1376,0.559296590177997,0.6546184738955824,0.6032149878570603
+RF,117,Logging-User Activity Logs,285,0,7,285,0.0,0.0,0.0
+RF,118,Logging-Audit Trails,525,4,13,521,0.23529411764705882,0.007619047619047619,0.014760147601476014
+RF,119,Machine Learning,4939,4783,2131,156,0.6917847844952271,0.9684146588378214,0.8070530667341601
+RF,120,Machine Learning-Training Models,2679,294,393,2385,0.4279475982532751,0.10974244120940649,0.1746880570409982
+RF,121,Machine Learning-Prediction,2885,420,521,2465,0.4463336875664187,0.14558058925476602,0.2195504443282802
+RF,122,Machine Learning-Data Preprocessing,2523,218,315,2305,0.4090056285178236,0.08640507332540626,0.14267015706806283
+RF,123,Machine Learning-Feature Extraction,2180,102,203,2078,0.3344262295081967,0.046788990825688076,0.08209255533199195
+RF,124,Machine Learning-Model Evaluation,1726,32,102,1694,0.23880597014925373,0.01853997682502897,0.034408602150537634
+RF,125,Machine Learning-Deployment,620,3,32,617,0.08571428571428572,0.004838709677419355,0.00916030534351145
+RF,126,Microservices/Services,418,4,13,414,0.23529411764705882,0.009569377990430622,0.01839080459770115
+RF,127,Microservices/Services-Service Discovery,0,0,0,0,0.0,0.0,0.0
+RF,128,Microservices/Services-Load Balancing,0,0,0,0,0.0,0.0,0.0
+RF,129,Microservices/Services-API Gateway,0,0,0,0,0.0,0.0,0.0
+RF,130,Microservices/Services-Service Communication,0,0,0,0,0.0,0.0,0.0
+RF,131,Microservices/Services-Fault Tolerance,0,0,0,0,0.0,0.0,0.0
+RF,132,Microservices/Services-Service Deployment,0,0,0,0,0.0,0.0,0.0
+RF,133,Multimedia,2367,121,183,2246,0.3980263157894737,0.05111956062526405,0.09060277049794084
+RF,134,Multimedia-Media Playback,287,1,4,286,0.2,0.003484320557491289,0.00684931506849315
+RF,135,Multimedia-Media Editing,0,0,0,0,0.0,0.0,0.0
+RF,136,Multimedia-Encoding and Decoding,627,2,11,625,0.15384615384615385,0.003189792663476874,0.00625
+RF,137,Multimedia-Streaming,609,0,11,609,0.0,0.0,0.0
+RF,138,Multimedia-Content Delivery,971,9,21,962,0.3,0.009268795056642637,0.017982017982017984
+RF,139,Multimedia-Media Storage,165,0,3,165,0.0,0.0,0.0
+RF,140,Multi-Thread,4515,4099,2398,416,0.630906572264122,0.9078626799557032,0.7444605884489648
+RF,141,Multi-Thread-Concurrency Control,3784,2108,1868,1676,0.5301810865191147,0.5570824524312896,0.5432989690721649
+RF,142,Multi-Thread-Synchronization,0,0,0,0,0.0,0.0,0.0
+RF,143,Multi-Thread-Thread Safety,2213,76,166,2137,0.3140495867768595,0.03434252146407592,0.06191446028513238
+RF,144,Multi-Thread-Parallel Processing,5,0,0,5,0.0,0.0,0.0
+RF,145,Multi-Thread-Resource Sharing,14,0,0,14,0.0,0.0,0.0
+RF,146,Multi-Thread-Deadlock Resolution,0,0,0,0,0.0,0.0,0.0
+RF,147,Natural Language Processing,571,1,15,570,0.0625,0.0017513134851138354,0.0034071550255536627
+RF,148,Natural Language Processing-Text Analysis,457,0,11,457,0.0,0.0,0.0
+RF,149,Natural Language Processing-Speech Recognition,0,0,0,0,0.0,0.0,0.0
+RF,150,Natural Language Processing-Language Generation,0,0,0,0,0.0,0.0,0.0
+RF,151,Natural Language Processing-Sentiment Analysis,0,0,0,0,0.0,0.0,0.0
+RF,152,Natural Language Processing-Machine Translation,0,0,0,0,0.0,0.0,0.0
+RF,153,Natural Language Processing-Chatbot Interfaces,0,0,0,0,0.0,0.0,0.0
+RF,154,Network,1788,36,89,1752,0.288,0.020134228187919462,0.03763721902770518
+RF,155,Network-Protocol Implementation,337,2,13,335,0.13333333333333333,0.005934718100890208,0.011363636363636364
+RF,156,Network-Connection Management,825,6,22,819,0.21428571428571427,0.007272727272727273,0.01406799531066823
+RF,157,Network-Data Transmission,1005,10,27,995,0.2702702702702703,0.009950248756218905,0.019193857965451054
+RF,158,Network-Network Security,127,0,5,127,0.0,0.0,0.0
+RF,159,Network-Bandwidth Optimization,0,0,0,0,0.0,0.0,0.0
+RF,160,Network-Network Monitoring,82,0,1,82,0.0,0.0,0.0
+RF,161,Operating System,0,0,0,0,0.0,0.0,0.0
+RF,162,Operating System-Process Management,0,0,0,0,0.0,0.0,0.0
+RF,163,Operating System-Memory Management,0,0,0,0,0.0,0.0,0.0
+RF,164,Operating System-Device Drivers,0,0,0,0,0.0,0.0,0.0
+RF,165,Operating System-File Systems,0,0,0,0,0.0,0.0,0.0
+RF,166,Operating System-User Interface,0,0,0,0,0.0,0.0,0.0
+RF,167,Operating System-System Security,0,0,0,0,0.0,0.0,0.0
+RF,168,Parser,5343,5258,1768,85,0.7483632223171078,0.9840913344562979,0.8501899911067993
+RF,169,Parser-Syntax Parsing,2508,186,313,2322,0.3727454909819639,0.07416267942583732,0.12371134020618557
+RF,170,Parser-Error Recovery,1701,41,96,1660,0.29927007299270075,0.024103468547912992,0.04461371055495103
+RF,171,Parser-Data Conversion,2139,83,189,2056,0.30514705882352944,0.03880317905563347,0.06885109912899212
+RF,172,Parser-Optimization,15,0,0,15,0.0,0.0,0.0
+RF,173,Parser-Code Generation,71,0,5,71,0.0,0.0,0.0
+RF,174,Parser-Validation,2614,220,357,2394,0.38128249566724437,0.08416220351951033,0.13788780946411783
+RF,175,Search,902,6,37,896,0.13953488372093023,0.0066518847006651885,0.012698412698412698
+RF,176,Search-Indexing,31,0,0,31,0.0,0.0,0.0
+RF,177,Search-Query Processing,206,0,7,206,0.0,0.0,0.0
+RF,178,Search-Ranking,0,0,0,0,0.0,0.0,0.0
+RF,179,Search-Optimization,0,0,0,0,0.0,0.0,0.0
+RF,180,Search-Caching,0,0,0,0,0.0,0.0,0.0
+RF,181,Search-Personalization,0,0,0,0,0.0,0.0,0.0
+RF,182,Security,855,5,38,850,0.11627906976744186,0.005847953216374269,0.011135857461024499
+RF,183,Security-Authentication,145,0,3,145,0.0,0.0,0.0
+RF,184,Security-Authorization,83,0,1,83,0.0,0.0,0.0
+RF,185,Security-Encryption,227,0,3,227,0.0,0.0,0.0
+RF,186,Security-Intrusion Detection,0,0,0,0,0.0,0.0,0.0
+RF,187,Security-Compliance,5,0,0,5,0.0,0.0,0.0
+RF,188,Security-Data Integrity,165,0,7,165,0.0,0.0,0.0
+RF,189,Setup,23,0,1,23,0.0,0.0,0.0
+RF,190,Setup-Installation,0,0,0,0,0.0,0.0,0.0
+RF,191,Setup-Configuration,14,0,0,14,0.0,0.0,0.0
+RF,192,Setup-System Requirements,0,0,0,0,0.0,0.0,0.0
+RF,193,Setup-Update Management,0,0,0,0,0.0,0.0,0.0
+RF,194,Setup-Licensing,0,0,0,0,0.0,0.0,0.0
+RF,195,Setup-Environment Setup,14,0,0,14,0.0,0.0,0.0
+RF,196,User Interface,4254,3263,2163,991,0.6013638039071139,0.7670427832628115,0.6741735537190082
+RF,197,User Interface-Layout Design,2930,453,599,2477,0.4306083650190114,0.15460750853242322,0.2275238573581115
+RF,198,User Interface-Interaction Design,3666,1738,1550,1928,0.5285888077858881,0.47408619749045283,0.4998561978717285
+RF,199,User Interface-Accessibility,1625,27,94,1598,0.2231404958677686,0.016615384615384615,0.030927835051546393
+RF,200,User Interface-Animation,646,2,16,644,0.1111111111111111,0.0030959752321981426,0.006024096385542169
+RF,201,User Interface-Responsive Design,79,0,1,79,0.0,0.0,0.0
+RF,202,User Interface-User Feedback,2631,246,380,2385,0.3929712460063898,0.09350057012542759,0.15105925698495548
+RF,203,Utility,4097,3120,2293,977,0.5763901718086089,0.7615328288991945,0.6561514195583596
+RF,204,Utility-Data Conversion,1403,9,68,1394,0.11688311688311688,0.006414825374198147,0.012162162162162163
+RF,205,Utility-System Tools,686,4,24,682,0.14285714285714285,0.0058309037900874635,0.011204481792717087
+RF,206,Utility-Automation Scripts,576,1,18,575,0.05263157894736842,0.001736111111111111,0.0033613445378151263
+RF,207,Utility-Performance Tools,241,0,16,241,0.0,0.0,0.0
+RF,208,Utility-Diagnostic Utilities,811,6,25,805,0.1935483870967742,0.007398273736128237,0.014251781472684086
+RF,209,Utility-Backup Tools,0,0,0,0,0.0,0.0,0.0
+RF,210,Test,2215,76,157,2139,0.3261802575107296,0.03431151241534989,0.06209150326797386
+RF,211,Test-Unit Testing,1363,18,59,1345,0.23376623376623376,0.013206162876008804,0.025
+RF,212,Test-Integration Testing,0,0,0,0,0.0,0.0,0.0
+RF,213,Test-Performance Testing,0,0,0,0,0.0,0.0,0.0
+RF,214,Test-Security Testing,0,0,0,0,0.0,0.0,0.0
+RF,215,Test-Usability Testing,0,0,0,0,0.0,0.0,0.0
+RF,216,Test-Regression Testing,0,0,0,0,0.0,0.0,0.0
+best_policy,0,Application,0,0,0,0,0.0,0.0,0.0
+best_policy,1,Application-Integration,0,0,0,0,0.0,0.0,0.0
+best_policy,2,Application-Plugin Management,0,0,0,0,0.0,0.0,0.0
+best_policy,3,Application-User Customization,0,0,0,0,0.0,0.0,0.0
+best_policy,4,Application-App Configuration,0,0,0,0,0.0,0.0,0.0
+best_policy,5,Application-Version Control,0,0,0,0,0.0,0.0,0.0
+best_policy,6,Application-Compatibility Checks,0,0,0,0,0.0,0.0,0.0
+best_policy,7,Application Performance Manager,342,0,0,342,0.0,0.0,0.0
+best_policy,8,Application Performance Manager-Performance Monitoring,0,0,0,0,0.0,0.0,0.0
+best_policy,9,Application Performance Manager-Resource Allocation,0,0,0,0,0.0,0.0,0.0
+best_policy,10,Application Performance Manager-Error Detection,0,0,0,0,0.0,0.0,0.0
+best_policy,11,Application Performance Manager-Load Balancing,0,0,0,0,0.0,0.0,0.0
+best_policy,12,Application Performance Manager-Traffic Management,0,0,0,0,0.0,0.0,0.0
+best_policy,13,Application Performance Manager-Diagnostic Tools,139,0,0,139,0.0,0.0,0.0
+best_policy,14,Big Data,517,0,0,517,0.0,0.0,0.0
+best_policy,15,Big Data-Data Processing,416,0,0,416,0.0,0.0,0.0
+best_policy,16,Big Data-Data Storage,36,0,0,36,0.0,0.0,0.0
+best_policy,17,Big Data-Data Analysis,0,0,0,0,0.0,0.0,0.0
+best_policy,18,Big Data-Real-Time Processing,116,0,0,116,0.0,0.0,0.0
+best_policy,19,Big Data-Batch Processing,0,0,0,0,0.0,0.0,0.0
+best_policy,20,Big Data-Data Visualization,0,0,0,0,0.0,0.0,0.0
+best_policy,21,Cloud,231,0,0,231,0.0,0.0,0.0
+best_policy,22,Cloud-Resource Management,137,0,0,137,0.0,0.0,0.0
+best_policy,23,Cloud-Virtualization,0,0,0,0,0.0,0.0,0.0
+best_policy,24,Cloud-Scalability Solutions,0,0,0,0,0.0,0.0,0.0
+best_policy,25,Cloud-Cloud Security,0,0,0,0,0.0,0.0,0.0
+best_policy,26,Cloud-Data Migration,28,0,0,28,0.0,0.0,0.0
+best_policy,27,Cloud-Service Configuration,76,0,0,76,0.0,0.0,0.0
+best_policy,28,Computer Graphics,5799,5799,1355,0,0.8105954710651384,1.0,0.8953910291052266
+best_policy,29,Computer Graphics-Image Rendering,2977,399,287,2578,0.5816326530612245,0.13402754450789386,0.21785421785421785
+best_policy,30,Computer Graphics-Animation,690,0,0,690,0.0,0.0,0.0
+best_policy,31,Computer Graphics-Modeling,3218,908,817,2310,0.5263768115942029,0.28216283405842135,0.3673882257738216
+best_policy,32,Computer Graphics-Texture Mapping,2352,133,64,2219,0.6751269035532995,0.05654761904761905,0.10435464888191448
+best_policy,33,Computer Graphics-Visual Effects,187,0,0,187,0.0,0.0,0.0
+best_policy,34,Computer Graphics-Graphics Optimization,4204,4194,2941,10,0.5878065872459706,0.9976213130352045,0.7397477731722374
+best_policy,35,Data Structure,7004,7004,150,0,0.9790327089740005,1.0,0.989405283232095
+best_policy,36,Data Structure-Linear Structures,3484,2082,2067,1402,0.5018076644974693,0.5975889781859931,0.5455260055024237
+best_policy,37,Data Structure-Tree Structures,3807,3486,3037,321,0.5344166794419746,0.9156816390858944,0.6749273959341723
+best_policy,38,Data Structure-Graph Structures,804,0,0,804,0.0,0.0,0.0
+best_policy,39,Data Structure-Data Sorting,4034,3971,3070,63,0.563982388865218,0.9843827466534457,0.7171106094808126
+best_policy,40,Data Structure-Search Algorithms,3881,3747,3158,134,0.5426502534395365,0.9654728162844628,0.6947895419988874
+best_policy,41,Data Structure-Data Manipulation,5467,5467,1687,0,0.764187866927593,1.0,0.8663338879645036
+best_policy,42,Databases,3906,3755,3126,151,0.545705566051446,0.9613415258576549,0.6962083989987948
+best_policy,43,Databases-Query Execution,2081,148,91,1933,0.6192468619246861,0.071119654012494,0.12758620689655173
+best_policy,44,Databases-Transaction Management,1363,6,6,1357,0.5,0.004402054292002935,0.008727272727272728
+best_policy,45,Databases-Schema Design,1209,2,5,1207,0.2857142857142857,0.0016542597187758478,0.003289473684210526
+best_policy,46,Databases-Database Security,1407,9,4,1398,0.6923076923076923,0.006396588486140725,0.01267605633802817
+best_policy,47,Databases-Backup and Recovery,667,0,0,667,0.0,0.0,0.0
+best_policy,48,Databases-Database Optimization,1273,4,4,1269,0.5,0.003142183817753339,0.00624512099921936
+best_policy,49,Software Development and IT Operations,6895,6895,259,0,0.9637964774951077,1.0,0.9815645241654211
+best_policy,50,Software Development and IT Operations-Continuous Integration,68,0,0,68,0.0,0.0,0.0
+best_policy,51,Software Development and IT Operations-Continuous Deployment,0,0,0,0,0.0,0.0,0.0
+best_policy,52,Software Development and IT Operations-Automated Testing,5622,5622,1532,0,0.7858540676544591,1.0,0.8800876643706951
+best_policy,53,Software Development and IT Operations-Configuration Management,4113,4108,3034,5,0.5751890226827219,0.9987843423292001,0.72998667258996
+best_policy,54,Software Development and IT Operations-Version Control,2680,250,128,2430,0.6613756613756614,0.09328358208955224,0.16350555918901244
+best_policy,55,Software Development and IT Operations-Monitoring and Logging,4917,4917,2237,0,0.6873077998322616,1.0,0.8146798111175545
+best_policy,56,Error Handling,6596,6596,558,0,0.9220016773832821,1.0,0.9594181818181818
+best_policy,57,Error Handling-Exception Handling,599,0,0,599,0.0,0.0,0.0
+best_policy,58,Error Handling-Error Logging,346,0,0,346,0.0,0.0,0.0
+best_policy,59,Error Handling-Fault Tolerance,26,0,0,26,0.0,0.0,0.0
+best_policy,60,Error Handling-Debugging Tools,164,0,0,164,0.0,0.0,0.0
+best_policy,61,Error Handling-User Notification,0,0,0,0,0.0,0.0,0.0
+best_policy,62,Error Handling-Error Prevention,0,0,0,0,0.0,0.0,0.0
+best_policy,63,Event Handling,2968,345,255,2623,0.575,0.11623989218328841,0.19338565022421525
+best_policy,64,Event Handling-User Interactions,868,0,0,868,0.0,0.0,0.0
+best_policy,65,Event Handling-System Events,0,0,0,0,0.0,0.0,0.0
+best_policy,66,Event Handling-Event Logging,9,0,0,9,0.0,0.0,0.0
+best_policy,67,Event Handling-Event Driven Processing,1354,2,2,1352,0.5,0.0014771048744460858,0.0029455081001472753
+best_policy,68,Event Handling-Notifications,22,0,0,22,0.0,0.0,0.0
+best_policy,69,Event Handling-Asynchronous Processing,0,0,0,0,0.0,0.0,0.0
+best_policy,70,Geographic Information System,0,0,0,0,0.0,0.0,0.0
+best_policy,71,Geographic Information System-Mapping,0,0,0,0,0.0,0.0,0.0
+best_policy,72,Geographic Information System-Spatial Analysis,0,0,0,0,0.0,0.0,0.0
+best_policy,73,Geographic Information System-Data Collection,0,0,0,0,0.0,0.0,0.0
+best_policy,74,Geographic Information System-Geographic Visualization,0,0,0,0,0.0,0.0,0.0
+best_policy,75,Geographic Information System-Location Services,0,0,0,0,0.0,0.0,0.0
+best_policy,76,Geographic Information System-Environmental Modeling,0,0,0,0,0.0,0.0,0.0
+best_policy,77,Input-Output,4044,4020,3087,24,0.5656395103419164,0.9940652818991098,0.7210115684691956
+best_policy,78,Input-Output-Data Reading,2289,49,42,2240,0.5384615384615384,0.021406727828746176,0.041176470588235294
+best_policy,79,Input-Output-Data Writing,1328,0,1,1328,0.0,0.0,0.0
+best_policy,80,Input-Output-Stream Management,2072,23,18,2049,0.5609756097560976,0.0111003861003861,0.021769995267392334
+best_policy,81,Input-Output-Buffering Strategies,642,0,0,642,0.0,0.0,0.0
+best_policy,82,Input-Output-File Management,177,0,0,177,0.0,0.0,0.0
+best_policy,83,Input-Output-Network IO,0,0,0,0,0.0,0.0,0.0
+best_policy,84,Interpreter,2622,201,127,2421,0.6128048780487805,0.07665903890160183,0.13627118644067795
+best_policy,85,Interpreter-Script Execution,375,0,0,375,0.0,0.0,0.0
+best_policy,86,Interpreter-Code Translation,306,0,0,306,0.0,0.0,0.0
+best_policy,87,Interpreter-Memory Management,110,0,0,110,0.0,0.0,0.0
+best_policy,88,Interpreter-Syntax Analysis,324,0,0,324,0.0,0.0,0.0
+best_policy,89,Interpreter-Optimization,179,0,0,179,0.0,0.0,0.0
+best_policy,90,Interpreter-Debugging,533,0,0,533,0.0,0.0,0.0
+best_policy,91,Internationalization,0,0,0,0,0.0,0.0,0.0
+best_policy,92,Internationalization-Localization,0,0,0,0,0.0,0.0,0.0
+best_policy,93,Internationalization-Language Support,0,0,0,0,0.0,0.0,0.0
+best_policy,94,Internationalization-Cultural Adaptation,0,0,0,0,0.0,0.0,0.0
+best_policy,95,Internationalization-Currency Conversion,0,0,0,0,0.0,0.0,0.0
+best_policy,96,Internationalization-Date/Time Formatting,0,0,0,0,0.0,0.0,0.0
+best_policy,97,Internationalization-Right-to-Left Layouts,0,0,0,0,0.0,0.0,0.0
+best_policy,98,Logic,5679,5679,1475,0,0.7938216382443388,1.0,0.8850619496610301
+best_policy,99,Logic-Control Structures,730,0,0,730,0.0,0.0,0.0
+best_policy,100,Logic-Algorithm Implementation,627,0,0,627,0.0,0.0,0.0
+best_policy,101,Logic-Logic Optimization,996,0,0,996,0.0,0.0,0.0
+best_policy,102,Logic-Validation Checks,1927,2,4,1925,0.3333333333333333,0.0010378827192527244,0.0020693222969477496
+best_policy,103,Logic-Rule Processing,1904,2,0,1902,1.0,0.0010504201680672268,0.002098635886673662
+best_policy,104,Logic-Decision Making,789,0,0,789,0.0,0.0,0.0
+best_policy,105,Language,7030,7030,124,0,0.9826670394185071,1.0,0.9912577552171461
+best_policy,106,Language-Syntax Features,1317,0,1,1317,0.0,0.0,0.0
+best_policy,107,Language-Compiler/Interpreter Enhancements,772,0,0,772,0.0,0.0,0.0
+best_policy,108,Language-Runtime Optimization,2108,92,61,2016,0.6013071895424836,0.04364326375711575,0.08137992038920831
+best_policy,109,Language-Standard Libraries,6326,6326,828,0,0.8842605535364831,1.0,0.9385756676557864
+best_policy,110,Language-Language Extensions,988,0,0,988,0.0,0.0,0.0
+best_policy,111,Language-Type Systems,1287,4,10,1283,0.2857142857142857,0.003108003108003108,0.006149116064565719
+best_policy,112,Logging,4370,4338,2757,32,0.6114164904862579,0.9926773455377574,0.7567378979502835
+best_policy,113,Logging-Event Logging,1229,0,0,1229,0.0,0.0,0.0
+best_policy,114,Logging-System Monitoring,300,0,0,300,0.0,0.0,0.0
+best_policy,115,Logging-Performance Tracking,59,0,0,59,0.0,0.0,0.0
+best_policy,116,Logging-Error Logs,3984,3869,3057,115,0.558619693907017,0.9711345381526104,0.7092575618698442
+best_policy,117,Logging-User Activity Logs,285,0,0,285,0.0,0.0,0.0
+best_policy,118,Logging-Audit Trails,525,0,0,525,0.0,0.0,0.0
+best_policy,119,Machine Learning,4939,4937,2212,2,0.6905860959574766,0.99959505972869,0.8168431502316347
+best_policy,120,Machine Learning-Training Models,2679,325,89,2354,0.785024154589372,0.12131392310563643,0.2101519560297446
+best_policy,121,Machine Learning-Prediction,2885,328,118,2557,0.7354260089686099,0.11369150779896015,0.19693785649954967
+best_policy,122,Machine Learning-Data Preprocessing,2523,298,95,2225,0.7582697201017812,0.11811335711454618,0.20438957475994513
+best_policy,123,Machine Learning-Feature Extraction,2180,221,103,1959,0.6820987654320988,0.10137614678899083,0.17651757188498401
+best_policy,124,Machine Learning-Model Evaluation,1726,95,36,1631,0.7251908396946565,0.05504055619930475,0.10231556273559504
+best_policy,125,Machine Learning-Deployment,620,0,0,620,0.0,0.0,0.0
+best_policy,126,Microservices/Services,418,0,0,418,0.0,0.0,0.0
+best_policy,127,Microservices/Services-Service Discovery,0,0,0,0,0.0,0.0,0.0
+best_policy,128,Microservices/Services-Load Balancing,0,0,0,0,0.0,0.0,0.0
+best_policy,129,Microservices/Services-API Gateway,0,0,0,0,0.0,0.0,0.0
+best_policy,130,Microservices/Services-Service Communication,0,0,0,0,0.0,0.0,0.0
+best_policy,131,Microservices/Services-Fault Tolerance,0,0,0,0,0.0,0.0,0.0
+best_policy,132,Microservices/Services-Service Deployment,0,0,0,0,0.0,0.0,0.0
+best_policy,133,Multimedia,2367,84,55,2283,0.60431654676259,0.035487959442332066,0.0670391061452514
+best_policy,134,Multimedia-Media Playback,287,0,0,287,0.0,0.0,0.0
+best_policy,135,Multimedia-Media Editing,0,0,0,0,0.0,0.0,0.0
+best_policy,136,Multimedia-Encoding and Decoding,627,0,0,627,0.0,0.0,0.0
+best_policy,137,Multimedia-Streaming,609,0,0,609,0.0,0.0,0.0
+best_policy,138,Multimedia-Content Delivery,971,0,0,971,0.0,0.0,0.0
+best_policy,139,Multimedia-Media Storage,165,0,0,165,0.0,0.0,0.0
+best_policy,140,Multi-Thread,4515,4514,2639,1,0.6310638892772263,0.9997785160575858,0.7737401439835447
+best_policy,141,Multi-Thread-Concurrency Control,3784,3578,3154,206,0.5314913844325609,0.9455602536997886,0.6804868771395968
+best_policy,142,Multi-Thread-Synchronization,0,0,0,0,0.0,0.0,0.0
+best_policy,143,Multi-Thread-Thread Safety,2213,38,23,2175,0.6229508196721312,0.01717126073203796,0.03342128408091469
+best_policy,144,Multi-Thread-Parallel Processing,5,0,0,5,0.0,0.0,0.0
+best_policy,145,Multi-Thread-Resource Sharing,14,0,0,14,0.0,0.0,0.0
+best_policy,146,Multi-Thread-Deadlock Resolution,0,0,0,0,0.0,0.0,0.0
+best_policy,147,Natural Language Processing,571,0,0,571,0.0,0.0,0.0
+best_policy,148,Natural Language Processing-Text Analysis,457,0,0,457,0.0,0.0,0.0
+best_policy,149,Natural Language Processing-Speech Recognition,0,0,0,0,0.0,0.0,0.0
+best_policy,150,Natural Language Processing-Language Generation,0,0,0,0,0.0,0.0,0.0
+best_policy,151,Natural Language Processing-Sentiment Analysis,0,0,0,0,0.0,0.0,0.0
+best_policy,152,Natural Language Processing-Machine Translation,0,0,0,0,0.0,0.0,0.0
+best_policy,153,Natural Language Processing-Chatbot Interfaces,0,0,0,0,0.0,0.0,0.0
+best_policy,154,Network,1788,2,6,1786,0.25,0.0011185682326621924,0.0022271714922048997
+best_policy,155,Network-Protocol Implementation,337,0,0,337,0.0,0.0,0.0
+best_policy,156,Network-Connection Management,825,0,0,825,0.0,0.0,0.0
+best_policy,157,Network-Data Transmission,1005,0,0,1005,0.0,0.0,0.0
+best_policy,158,Network-Network Security,127,0,0,127,0.0,0.0,0.0
+best_policy,159,Network-Bandwidth Optimization,0,0,0,0,0.0,0.0,0.0
+best_policy,160,Network-Network Monitoring,82,0,0,82,0.0,0.0,0.0
+best_policy,161,Operating System,0,0,0,0,0.0,0.0,0.0
+best_policy,162,Operating System-Process Management,0,0,0,0,0.0,0.0,0.0
+best_policy,163,Operating System-Memory Management,0,0,0,0,0.0,0.0,0.0
+best_policy,164,Operating System-Device Drivers,0,0,0,0,0.0,0.0,0.0
+best_policy,165,Operating System-File Systems,0,0,0,0,0.0,0.0,0.0
+best_policy,166,Operating System-User Interface,0,0,0,0,0.0,0.0,0.0
+best_policy,167,Operating System-System Security,0,0,0,0,0.0,0.0,0.0
+best_policy,168,Parser,5343,5343,1811,0,0.7468549063461001,1.0,0.8550852204529087
+best_policy,169,Parser-Syntax Parsing,2508,169,115,2339,0.5950704225352113,0.06738437001594896,0.12106017191977077
+best_policy,170,Parser-Error Recovery,1701,49,29,1652,0.6282051282051282,0.02880658436213992,0.05508712759977515
+best_policy,171,Parser-Data Conversion,2139,94,64,2045,0.5949367088607594,0.04394576905095839,0.08184588593818024
+best_policy,172,Parser-Optimization,15,0,0,15,0.0,0.0,0.0
+best_policy,173,Parser-Code Generation,71,0,0,71,0.0,0.0,0.0
+best_policy,174,Parser-Validation,2614,186,126,2428,0.5961538461538461,0.07115531752104055,0.127136021872864
+best_policy,175,Search,902,0,0,902,0.0,0.0,0.0
+best_policy,176,Search-Indexing,31,0,0,31,0.0,0.0,0.0
+best_policy,177,Search-Query Processing,206,0,0,206,0.0,0.0,0.0
+best_policy,178,Search-Ranking,0,0,0,0,0.0,0.0,0.0
+best_policy,179,Search-Optimization,0,0,0,0,0.0,0.0,0.0
+best_policy,180,Search-Caching,0,0,0,0,0.0,0.0,0.0
+best_policy,181,Search-Personalization,0,0,0,0,0.0,0.0,0.0
+best_policy,182,Security,855,0,0,855,0.0,0.0,0.0
+best_policy,183,Security-Authentication,145,0,0,145,0.0,0.0,0.0
+best_policy,184,Security-Authorization,83,0,0,83,0.0,0.0,0.0
+best_policy,185,Security-Encryption,227,0,0,227,0.0,0.0,0.0
+best_policy,186,Security-Intrusion Detection,0,0,0,0,0.0,0.0,0.0
+best_policy,187,Security-Compliance,5,0,0,5,0.0,0.0,0.0
+best_policy,188,Security-Data Integrity,165,0,0,165,0.0,0.0,0.0
+best_policy,189,Setup,23,0,0,23,0.0,0.0,0.0
+best_policy,190,Setup-Installation,0,0,0,0,0.0,0.0,0.0
+best_policy,191,Setup-Configuration,14,0,0,14,0.0,0.0,0.0
+best_policy,192,Setup-System Requirements,0,0,0,0,0.0,0.0,0.0
+best_policy,193,Setup-Update Management,0,0,0,0,0.0,0.0,0.0
+best_policy,194,Setup-Licensing,0,0,0,0,0.0,0.0,0.0
+best_policy,195,Setup-Environment Setup,14,0,0,14,0.0,0.0,0.0
+best_policy,196,User Interface,4254,4251,2897,3,0.594711807498601,0.9992947813822285,0.7456586563760744
+best_policy,197,User Interface-Layout Design,2930,353,192,2577,0.6477064220183486,0.12047781569965871,0.2031654676258993
+best_policy,198,User Interface-Interaction Design,3666,2980,2767,686,0.5185314076909692,0.8128750681942172,0.6331668968447891
+best_policy,199,User Interface-Accessibility,1625,32,10,1593,0.7619047619047619,0.019692307692307693,0.03839232153569286
+best_policy,200,User Interface-Animation,646,0,0,646,0.0,0.0,0.0
+best_policy,201,User Interface-Responsive Design,79,0,0,79,0.0,0.0,0.0
+best_policy,202,User Interface-User Feedback,2631,227,110,2404,0.6735905044510386,0.0862789813759027,0.15296495956873316
+best_policy,203,Utility,4097,4084,3046,13,0.5727910238429172,0.9968269465462534,0.7275318428787744
+best_policy,204,Utility-Data Conversion,1403,0,1,1403,0.0,0.0,0.0
+best_policy,205,Utility-System Tools,686,0,0,686,0.0,0.0,0.0
+best_policy,206,Utility-Automation Scripts,576,0,0,576,0.0,0.0,0.0
+best_policy,207,Utility-Performance Tools,241,0,0,241,0.0,0.0,0.0
+best_policy,208,Utility-Diagnostic Utilities,811,0,0,811,0.0,0.0,0.0
+best_policy,209,Utility-Backup Tools,0,0,0,0,0.0,0.0,0.0
+best_policy,210,Test,2215,12,10,2203,0.5454545454545454,0.005417607223476298,0.010728654447921324
+best_policy,211,Test-Unit Testing,1363,0,0,1363,0.0,0.0,0.0
+best_policy,212,Test-Integration Testing,0,0,0,0,0.0,0.0,0.0
+best_policy,213,Test-Performance Testing,0,0,0,0,0.0,0.0,0.0
+best_policy,214,Test-Security Testing,0,0,0,0,0.0,0.0,0.0
+best_policy,215,Test-Usability Testing,0,0,0,0,0.0,0.0,0.0
+best_policy,216,Test-Regression Testing,0,0,0,0,0.0,0.0,0.0

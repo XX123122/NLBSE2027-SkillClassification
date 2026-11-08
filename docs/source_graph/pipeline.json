@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "complete_executable_training_graph": false,
+  "nodes": [
+    {
+      "id": "public_roots",
+      "depends_on": [],
+      "status": "declared_input",
+      "scope": "data and pretrained revisions/hashes; separate assets"
+    },
+    {
+      "id": "data_roles",
+      "depends_on": [
+        "public_roots"
+      ],
+      "status": "historically_rebuilt",
+      "scope": "published labels, diagnostic proxies, component roles"
+    },
+    {
+      "id": "frozen_inputs",
+      "depends_on": [
+        "data_roles"
+      ],
+      "status": "partly_reencoded_one_role",
+      "scope": "Qwen0.6 fresh; Qwen4 pure cache explicitly reused"
+    },
+    {
+      "id": "supervised_encoder",
+      "depends_on": [
+        "data_roles"
+      ],
+      "status": "one_role_rebuilt",
+      "scope": "fixed observed proxy supervision and8epoch development recipe"
+    },
+    {
+      "id": "lexical_base",
+      "depends_on": [
+        "data_roles",
+        "frozen_inputs"
+      ],
+      "status": "one_role_rebuilt",
+      "scope": "lexical fit-only vocab and original base branch"
+    },
+    {
+      "id": "learned_features",
+      "depends_on": [
+        "supervised_encoder"
+      ],
+      "status": "one_role_rebuilt",
+      "scope": "201tensor checkpoint comparison and feature identity"
+    },
+    {
+      "id": "active_experts",
+      "depends_on": [
+        "learned_features",
+        "frozen_inputs",
+        "lexical_base"
+      ],
+      "status": "one_role_rebuilt",
+      "scope": "normalized base, SVD,4forests, NN, availability and conditional prior"
+    },
+    {
+      "id": "all_role_producers",
+      "depends_on": [
+        "active_experts"
+      ],
+      "status": "source_only_unconnected",
+      "scope": "do not apply one role settings to all24 roles"
+    },
+    {
+      "id": "training_selection",
+      "depends_on": [
+        "all_role_producers"
+      ],
+      "status": "historical_source_only",
+      "scope": "all candidate/reference choices locked before validation"
+    },
+    {
+      "id": "validation_thresholds",
+      "depends_on": [
+        "training_selection"
+      ],
+      "status": "historical_source_only",
+      "scope": "all five thresholds locked before held predictions"
+    },
+    {
+      "id": "held_evaluation",
+      "depends_on": [
+        "validation_thresholds"
+      ],
+      "status": "historical_saved_results_only",
+      "scope": "internal weak-label evidence; official protocol unresolved"
+    },
+    {
+      "id": "full_export",
+      "depends_on": [
+        "training_selection",
+        "active_experts"
+      ],
+      "status": "existing_artifact_component_verified",
+      "scope": "full4epoch producer schedule and clean complete rebuild missing"
+    },
+    {
+      "id": "raw_inference",
+      "depends_on": [
+        "full_export"
+      ],
+      "status": "historical_migration_verified",
+      "scope": "no query labels/PR/patch/DB; this candidate only synthetic/static tested"
+    }
+  ],
+  "new_portable_runner": "scripts/reproduce.py",
+  "historical_configuration_graph": "docs/source_graph/historical_run_graph.json",
+  "gaps": "docs/reproduction_gaps.json"
+}

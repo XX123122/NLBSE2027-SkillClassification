@@ -1,0 +1,33 @@
+{
+  "state": "local_manuscript_revision_complete",
+  "date_client": "2026-11-08",
+  "title": "An Auditable Tool for API-Derived Skill Classification",
+  "authors": [
+    {
+      "name": "Xin Xu",
+      "email": "xuxin123122@mail.ustc.edu.cn",
+      "department": "Department of Automation"
+    },
+    {
+      "name": "Jun Yu",
+      "email": "harryjun@ustc.edu.cn",
+      "department": "Department of Automation and Institute of Advanced Technology",
+      "corresponding": true
+    }
+  ],
+  "institution": "University of Science and Technology of China",
+  "parent_named_PDF_sha256": "28a58aaeb76841f4138e1d5517f4e13738972da0f293d083046cb0123e883d34",
+  "parent_named_source_sha256": "29cd0438f01e77ec5e706a8989c74c58c88c0d3970f00e3d2f6f64cff3550f4b",
+  "PDF_sha256": "a18673b5fc593d806fb4225293363f777f961d8fa27327f41ac95d7f704d184a",
+  "source_sha256": "aab68c92398002c9b8433807cfa600b590d9db4dc3226d7e57f8a96c70008e34",
+  "pages": 4,
+  "no_model_replacement": true,
+  "experiments_stopped": true,
+  "submission_or_publication": false,
+  "evaluation_scope": "Internal7154-rowfivefold;4640-rowtrainingpilots;650-roweditconfirmationdistinct;noneofficial/independent.",
+  "paper_is_complete_training_reproduction_artifact": false,
+  "public_repository_URL": null,
+  "public_model_URL": null,
+  "source": "main.tex",
+  "pdf": "skill_classification_named.pdf"
+}

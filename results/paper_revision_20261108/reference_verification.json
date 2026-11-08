@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "id": "official_TODO",
+      "url": "https://raw.githubusercontent.com/nlbse2027/skill-classification/main/competition_baseline/TODO.md",
+      "checked_date": "2026-11-08",
+      "bytes": 2311,
+      "sha256": "8b7a1d457b9fff025f2a624bd41ddabb967f8b68c04ba86cae9db936bf0d12e6"
+    },
+    {
+      "id": "official_skill_README",
+      "url": "https://raw.githubusercontent.com/nlbse2027/skill-classification/main/README.md",
+      "checked_date": "2026-11-08",
+      "bytes": 6316,
+      "sha256": "a1149ed15092f4f195698560cb511afeac6589fc66a03aad122d9e91cea26f37"
+    },
+    {
+      "id": "DENN",
+      "url": "https://arxiv.org/abs/2408.03202",
+      "checked_date": "2026-11-08",
+      "bytes": 42817,
+      "sha256": "7b8ac83869c595226ac42fde8bb48d6664a88da87f72b1d20a00619f3c5ac007"
+    },
+    {
+      "id": "CbMLC",
+      "url": "https://arxiv.org/abs/2102.08427",
+      "checked_date": "2026-11-08",
+      "bytes": 42395,
+      "sha256": "8270383c7c0906487f46c456a3641576db2796abb41d2b3380f3c863cb1bc8b0"
+    },
+    {
+      "id": "CCMN",
+      "url": "https://arxiv.org/abs/2105.07338",
+      "checked_date": "2026-11-08",
+      "bytes": 42248,
+      "sha256": "56ae6381aae6393d58bda99342a8e25750dbf5a81943c47052f662c5d1cda1fd"
+    },
+    {
+      "id": "PLM_review",
+      "url": "https://arxiv.org/abs/2204.03954",
+      "checked_date": "2026-11-08",
+      "bytes": 43551,
+      "sha256": "d48f07e67e728f8b5b216bd290ee198e4df54963a628eebed62a80e2e996e4ce"
+    }
+  ],
+  "form_opened_or_filled": false,
+  "external_messages_sent": false
+}

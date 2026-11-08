@@ -1,0 +1,16 @@
+{
+  "state": "private_preparation",
+  "date": "2026-11-08",
+  "repository_url": "https://github.com/XX123122/NLBSE2027-SkillClassification",
+  "repository_visibility": "private",
+  "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
+  "public_repository_url": null,
+  "public_model_url": null,
+  "paper_sha256": "a18673b5fc593d806fb4225293363f777f961d8fa27327f41ac95d7f704d184a",
+  "paper_source_sha256": "aab68c92398002c9b8433807cfa600b590d9db4dc3226d7e57f8a96c70008e34",
+  "new_real_model_forwards": 0,
+  "training": 0,
+  "data_scoring": 0,
+  "formal_submission": false,
+  "experiments_stopped": true
+}

@@ -1,0 +1,870 @@
+{
+  "state": "inventory_complete",
+  "new_training_or_scoring": false,
+  "endpoint_runs": [
+    "outputs/experiments/20261025_conditional_peer_union_capability_v1",
+    "outputs/deployment/20261025_full_tree_conditional_union_candidate_v1"
+  ],
+  "recorded_run_nodes": 51,
+  "nodes": [
+    {
+      "run_directory": "outputs/deployment/20261023_full_frozen_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "4ad6dde0ca3dc92111edcf5be5d7e9bce6da3576ee2fa644baa06cc527b91f4c"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_markdown_semantic_features_v1",
+        "outputs/experiments/20261023_split_semantic_features_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261024_full_availability_publication_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "3bf5c7ed3503fbd18a034c7b557027560e8e6bd467a264e06e02bed40ac4dfed"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261024_full_coverage_gate_candidate_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261024_full_calibrated_availability_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "6358a7163a3d82fdfd29af978b0d5e1dfb9e31d3566b972d3991d551f9ab3507"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261024_full_availability_publication_candidate_v1",
+        "outputs/deployment/20261024_full_coverage_gate_candidate_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261024_full_codebert_long_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "74325e00c31014eb4fddb48003a5f07ba07b513be442a2b36acc886ad90eb90b"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261023_full_frozen_candidate_v1",
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_channel_residual_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_modernbert_multitask_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_long_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_markdown_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261024_full_codebert_regularized_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "2aaee348f4cdf4c84e575754a53866292d9858ddd6f7f53cd225241cc1617ce0"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261023_full_frozen_candidate_v1",
+        "outputs/deployment/20261024_full_codebert_long_candidate_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261024_codebert_qwen_hierarchical_auxiliary_capability_v1",
+        "outputs/experiments/20261024_full_codebert_probe_features_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261024_full_coverage_gate_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "c715d325dd04a316ab5ea291ea5655db9e0fa1118ba71292a5676c3ddc6a24fd"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261024_full_codebert_regularized_candidate_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261024_full_neighbor_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "6da69d13592057d40cb5593800e451b27ed4c6402258329906e8fcafdffd13d2"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261023_full_frozen_candidate_v1",
+        "outputs/deployment/20261024_full_codebert_long_candidate_v1",
+        "outputs/deployment/20261024_full_repository_auxiliary_candidate_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261024_full_codebert_probe_features_v1",
+        "outputs/experiments/20261024_repository_auxiliary_ensemble_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261024_full_repository_auxiliary_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "2bf54c73b19fd764f386961f7fb4c174325b062b8db82745629b824069c04e84"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261023_full_frozen_candidate_v1",
+        "outputs/deployment/20261024_full_codebert_long_candidate_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261024_full_codebert_probe_features_v1",
+        "outputs/experiments/20261024_repository_auxiliary_ensemble_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261024_full_semantic_availability_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "18b37882bc0ae1b1cae9a444dba181450d4bc3da55ea15c8bee3f6264bf809be"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261024_full_calibrated_availability_candidate_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261025_full_conditional_peer_union_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "2481815838b89b3e6c43378b3282cea5d5ea34b4b3c480ef980fcffbabfe8a0e"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261023_full_frozen_candidate_v1",
+        "outputs/deployment/20261024_full_codebert_long_candidate_v1",
+        "outputs/deployment/20261024_full_neighbor_candidate_v1",
+        "outputs/deployment/20261024_full_repository_auxiliary_candidate_v1",
+        "outputs/deployment/20261024_full_semantic_availability_candidate_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261024_full_codebert_probe_features_v1",
+        "outputs/experiments/20261024_repository_auxiliary_ensemble_capability_v1",
+        "outputs/experiments/20261025_conditional_peer_union_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/deployment/20261025_full_tree_conditional_union_candidate_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "59e55c7b873437b2e7bfd137d38bed3c637d47e04c7706cc0bb425da87f63d53"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261023_full_frozen_candidate_v1",
+        "outputs/deployment/20261024_full_codebert_long_candidate_v1",
+        "outputs/deployment/20261024_full_neighbor_candidate_v1",
+        "outputs/deployment/20261024_full_repository_auxiliary_candidate_v1",
+        "outputs/deployment/20261025_full_conditional_peer_union_candidate_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261024_full_codebert_probe_features_v1",
+        "outputs/experiments/20261024_repository_auxiliary_ensemble_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_annotation_channel_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "9bd5746bf68656fa50d19663ab4984168895399bcf146db3c5c07116485110ee"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_learned_encoder_probe_capability_v2_preflightfix",
+        "outputs/experiments/20261023_markdown_semantic_features_v1",
+        "outputs/experiments/20261023_split_semantic_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_channel_residual_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "c1f4bed1948d40418be325afa05d239c4992027e52659c1768964bc8e74f248e"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_learned_encoder_probe_capability_v2_preflightfix",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "4366a36f3ff6ae847bee7a5a8d74ba708ad002c3cc418c66d454d0f6c343c64b"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_modernbert_multitask_capability_v1",
+        "outputs/experiments/20261023_split_semantic_capability_v1",
+        "outputs/experiments/20261023_split_semantic_features_v1",
+        "outputs/experiments/20261023_title_body_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_markdown_semantic_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "916ce25b7313b40bbc110505dfad45510380de8cbe8354af4b6ffaab2ec78692"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_markdown_semantic_features_v1",
+        "outputs/experiments/20261023_split_semantic_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_markdown_semantic_features_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "b49a2cb5f62b77f6814505407edfbf9a4b381b11047b970f936bfb59172c2381"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_split_semantic_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_modernbert_asl_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "fbbf81aa5a9e9012260592351288aaa0856d7c839de32393f0a408238b61f519"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_split_semantic_capability_v1",
+        "outputs/experiments/20261023_split_semantic_features_v1",
+        "outputs/experiments/20261023_title_body_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_modernbert_multitask_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "a36293b0b74bf51a72b752a590498ed4b1600b618667b6f706f65199c7aaa99f"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_modernbert_asl_capability_v1",
+        "outputs/experiments/20261023_split_semantic_capability_v1",
+        "outputs/experiments/20261023_split_semantic_features_v1",
+        "outputs/experiments/20261023_title_body_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_qwen4_embedding_features_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "5ff8e6e583d31f6b58e02ab2be0271f2c2a441a2abbfa4f5a68016ce7feaa223"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_split_semantic_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_split_semantic_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "22659b6563c3e7768e15c74eb51cf81041508f077030ded0e5d4d7543d32d495"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_split_semantic_features_v1",
+        "outputs/experiments/20261023_title_body_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_split_semantic_features_v1",
+      "metadata_kind": "feature_preparation_metadata",
+      "metadata_sha256": {
+        "encoder_settings.json": "b231d51c10852ce4bd286e6bf62550a7dd07fa95901446566af3b494dd93a498",
+        "feature_manifest.json": "e1045f8d9aa571f5c67a738a4ecf1987cc5c90382fd50a40f403d73a18899c2a"
+      },
+      "recorded_state": "complete",
+      "dependencies": []
+    },
+    {
+      "run_directory": "outputs/experiments/20261023_title_body_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "a4c7567f71ac19f71462b0d3a3288ef11abed0e7815cf886c9b1c85d1ee9387b"
+      },
+      "recorded_state": "complete",
+      "dependencies": []
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_availability_publication_channel_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "853fa5558b78ec40f086c7bfa2a5581529fc8081a3455662937bcf07e1f24df7"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_learned_matchability_gate_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_calibrated_availability_channel_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "f620d1404446e2d17d7940b54bc58896fb88296486061f97cb7a636d4e21ab14"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_availability_publication_channel_capability_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_learned_matchability_gate_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_auxiliary_long_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "abadbee30cb12e2639deda5e393ae78a6dd21a78c98f6b53fc38440e2df7bba8"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_channel_residual_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_modernbert_multitask_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_markdown_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_auxiliary_markdown_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "c6e78b568407a518b1ff7621d54a05dcfe7143417298f6b05c54696a3188cff8"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_channel_residual_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_features_v1",
+        "outputs/experiments/20261023_modernbert_multitask_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_auxiliary_probe_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "48581bda973099fd9cd71e1651b929366a8924f099fcb93bab395ae006359702"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_long_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_probe_features_v1",
+        "outputs/experiments/20261024_codebert_seed_ensemble_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_auxiliary_probe_features_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "2e71cceb8598a94f9a7619bfcc4c91da358ca9d587bff6a1ffe56060ddf0b6a0"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_long_capability_v1",
+        "outputs/experiments/20261024_codebert_seed_ensemble_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_auxiliary_residual_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "d669ae8968773ead16e127072c99ee5a643656db587baffa60def1ca9a95b619"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_channel_residual_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_modernbert_multitask_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_auxiliary_seed4321_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "2370cc84f36d9be58d8bba2529a47e3a232d9c2c7fcdd5c349c7bf270bef9037"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_channel_residual_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_modernbert_multitask_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_followups_finalizer_v1",
+      "metadata_kind": "control_finalizer_records",
+      "metadata_sha256": {
+        "records.json": "f573bb3cb73c6ca702115eaa240e5da03e87005bdbb5643c56465da9f0a8a167"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261024_codebert_auxiliary_markdown_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_seed4321_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_qwen_fused_auxiliary_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "e29241a6c5ba2b4a50b05929834f791025621e140f019baada50809853d72509"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_probe_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_probe_features_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_qwen_hierarchical_auxiliary_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "aace8aa06bc1fc284b747f6f36e92685683654917551bc2dd3d739ce6ed41daa"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_probe_features_v1",
+        "outputs/experiments/20261024_codebert_qwen_fused_auxiliary_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_codebert_seed_ensemble_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "71f133b8a0751e6762cc95b59c898381a23622a5c96f09ff11b98da143a25274"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261024_codebert_auxiliary_residual_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_seed4321_capability_v1",
+        "outputs/experiments/20261024_codebert_followups_finalizer_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "c30c2d8fdc349b30199b2202796ad653f041aba796824b9bcccca7cb0a4e5038"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261024_codebert_qwen_hierarchical_auxiliary_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_full_codebert_probe_features_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "b06dcc1f9b9f2cf9d9bcc33c42073bb10d3dbe0db278f40385b425b2df5a1fff"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/deployment/20261023_full_frozen_candidate_v1",
+        "outputs/deployment/20261024_full_codebert_long_candidate_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261024_codebert_qwen_hierarchical_auxiliary_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_known_proxy_neighbors_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "58dbf95eb88a8e7fccb6f14d032ccdc541f8985cd08036a054517bfe60a4e105"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_known_proxy_neighbors_pilot_v1",
+        "outputs/experiments/20261024_repository_auxiliary_capability_v1",
+        "outputs/experiments/20261024_repository_auxiliary_ensemble_capability_v1",
+        "outputs/experiments/20261024_semantic_availability_channel_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_known_proxy_neighbors_pilot_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "d4a76be754a64abaeee3578f3f324dc7a0f83033c2e0ada7cb1d9b1d6163dc17"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_repository_auxiliary_capability_v1",
+        "outputs/experiments/20261024_repository_auxiliary_ensemble_capability_v1",
+        "outputs/experiments/20261024_semantic_availability_channel_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_learned_matchability_gate_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "95092806f0d46ba81a3ea71074464a9e4ce6d89c3a688fa8bb6f606646dc911b"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_codebert_qwen_hierarchical_auxiliary_capability_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_proxy_tree_readout_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "d102f201f74a027a41c12f322229028f86c5572fc79072f68a0ef49e60bbb0d4"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_known_proxy_neighbors_capability_v1",
+        "outputs/experiments/20261024_proxy_tree_readout_pilot_v1",
+        "outputs/experiments/20261024_repository_auxiliary_capability_v1",
+        "outputs/experiments/20261024_semantic_availability_channel_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_proxy_tree_readout_pilot_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "7297d761531e50a3f885b8059463151862a4ab4299186e6849e51c1dec5fc083"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_known_proxy_neighbors_capability_v1",
+        "outputs/experiments/20261024_repository_auxiliary_capability_v1",
+        "outputs/experiments/20261024_retrieval_plateau_diagnostics_v1",
+        "outputs/experiments/20261024_semantic_availability_channel_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_repository_auxiliary_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "94841a1a4fea24b0d904dc324ea1f0849e92029222b8dad2dcc6732f6be2a91d"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_probe_features_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_repository_auxiliary_pilot_v1",
+        "outputs/experiments/20261024_semantic_availability_channel_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_repository_auxiliary_ensemble_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "412698f974179360fbac35aefc1970eaa5dba9f7c4ca3274f13f2dbf18a56a3b"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261024_repository_auxiliary_capability_v1",
+        "outputs/experiments/20261024_repository_auxiliary_finalizer_v1",
+        "outputs/experiments/20261024_semantic_availability_channel_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_repository_auxiliary_finalizer_v1",
+      "metadata_kind": "control_finalizer_records",
+      "metadata_sha256": {
+        "records.json": "ac68ae2b72966dba8d95fbd75106cbdcc15307307a5a8900b903bd7a73cad9fe"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261024_repository_auxiliary_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_repository_auxiliary_pilot_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "fe2cf78e457a0334d7f93081524c2dc70c4900016e014661b877e45c2272142f"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_codebert_auxiliary_probe_features_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_semantic_availability_channel_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_retrieval_plateau_diagnostics_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "35f743b69162359fb38b7fd06ce1cfe08fb7983a3c10f06da04b8bfc79d63ec7"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_known_proxy_neighbors_capability_v1",
+        "outputs/experiments/20261024_repository_auxiliary_capability_v1",
+        "outputs/experiments/20261024_semantic_availability_channel_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261024_semantic_availability_channel_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "e42cd7a6f229b40cc6f798ee5500f4daa2ae017d554122b7680e2f64119ff162"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_annotation_channel_capability_v1",
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261023_qwen4_embedding_features_v1",
+        "outputs/experiments/20261023_title_body_capability_v1",
+        "outputs/experiments/20261024_calibrated_availability_channel_capability_v1",
+        "outputs/experiments/20261024_evidence_coverage_gate_capability_v1",
+        "outputs/experiments/20261024_learned_matchability_gate_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261025_conditional_peer_union_capability_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "883bd2a01654dd14956773cca9fa051aed85dbfb13904cae53ec3d6311d81871"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261024_proxy_tree_readout_capability_v1",
+        "outputs/experiments/20261025_conditional_peer_union_pilot_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261025_conditional_peer_union_pilot_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "24a17762058ab284dcd6983153148def46fc830dca5fbe8047e28903d404aa07"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261024_proxy_tree_readout_capability_v1",
+        "outputs/experiments/20261025_peer_publication_information_v1",
+        "outputs/experiments/20261025_peer_union_main_pilot_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261025_peer_publication_information_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "4f7016d1a14ca319a63b0742d0e0b5f2016ac1d0c97eeb6d8728941b0bb7c65a"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261024_proxy_tree_readout_capability_v1"
+      ]
+    },
+    {
+      "run_directory": "outputs/experiments/20261025_peer_union_main_pilot_v1",
+      "metadata_kind": "training_config",
+      "metadata_sha256": {
+        "config.json": "1f7fd34a84e35f0395f9a4af77d75bc66e4d72f633fb66619d506128486a0251"
+      },
+      "recorded_state": "complete",
+      "dependencies": [
+        "outputs/experiments/20261023_markdown_semantic_capability_v1",
+        "outputs/experiments/20261024_proxy_tree_readout_capability_v1",
+        "outputs/experiments/20261025_peer_publication_information_v1"
+      ]
+    }
+  ],
+  "recorded_dependency_configs_missing": [],
+  "static_training_source_import_closure_files": 87,
+  "literal_subprocess_script_references_followed": true,
+  "source_sha256": {
+    "scripts/audit_conditional_peer_union_capability.py": "40d3321968d2156701e8a92f733e420d73df240e2aa9e92eded6a6612a9889a4",
+    "scripts/audit_full_conditional_tree_export.py": "e0505a2e6536e30be814edb9dfa87c70fcd099d7e246c3a22634d49a23b8f768",
+    "scripts/audit_full_tree_conditional_selection.py": "005a478be08a7a80b81442724cb2c6fc456c4392bec0d1ff140c93936322bb13",
+    "scripts/audit_peer_publication_information.py": "7e0efd9e38afdb746c6c4c5073a868f5f1052b1734c1cc7f6484fe1a0443824d",
+    "scripts/audit_proxy_replacement_scores.py": "7eaefe6659a3855d04fef0db18c2815559d427c454aca94bc106fe6cc1a73aa7",
+    "scripts/audit_proxy_tree_readout_capability.py": "2656efddeb126e93b72c4ae03ce5257df4eb134943f0c0513ab2dcfdba5dc476",
+    "scripts/audit_token_late_interaction.py": "0497f2d7e9d8c2a46d5cc4278ee62e014de32e4be465b87b3a8d49b58f0467c1",
+    "scripts/audit_token_late_tokenization.py": "5d94243d317c0ed053259726a821a0cdb3588c57017a4d8124caf93998274973",
+    "scripts/availability_channel_workers.py": "b3d3f806408103a74d90dfde829929b143905b3f49dde499dbbfbb4e0f820e20",
+    "scripts/build_full_auxiliary_portfolio.py": "230b0cb0944250ce083853d39eb126ffffb12a837ceb315b13be8bc385a3f62b",
+    "scripts/capability_search_workers.py": "1d47533ef6b9ce7775f4c157ccc007c0d9ed82d317cf5bb6982e8040739d51ee",
+    "scripts/conditional_inference_reservation.py": "93fd9fe93083218bc2a8704919521b4c4ebc789edbbf50403cc2e88bffd5daa2",
+    "scripts/density_channel_workers.py": "e459e60a4f26756fc42c09b60327c031a5361633d40c84d572c62d7369d11dd9",
+    "scripts/download_pinned_model.py": "76a83718bd708bb4ddbcb085c7e6424aca1379becdcdcea5687933cbeef05bee",
+    "scripts/encode_auxiliary_candidate_inputs.py": "bcc13c1909b03ba477e73bdb1f79ae9e4721a4cbb3a79b3a59479d5dd9e9c8b8",
+    "scripts/encode_frozen_candidate_inputs.py": "4fda03e66e3bbaac89e08b3f86e34e1dc9c8c47ad114ea8866491f7485d43884",
+    "scripts/encode_proxy_candidate_inputs.py": "ba175ca542fcf586aadc07534188e97bd5398a85f1950dea8f74a664f207bf2a",
+    "scripts/export_full_conditional_tree_candidate.py": "dbca7b74ce7c27ce2c2f7f3af435f756ae8b15b335f09dfd4dab21162c98fd24",
+    "scripts/extract_learned_context_features.py": "ea02590462e24a9577bec16bb1f05625a369866617ccba566608ae91635f0236",
+    "scripts/joint_evidence_channel_workers.py": "42350840f68c0faa4bdb478f0e567d7cb2cd5ad1cf7c2eb209e1a93aaf200207",
+    "scripts/modernbert_full_worker.py": "a2c2ef406327a8f2f21ff0a132472fce11c452dac7a6f0749c74826b404f7618",
+    "scripts/positive_overlap_metric_worker.py": "32ecd228109cecf27e1d532725f2a8d0ff2ca21c7419db03c4815db200e6423b",
+    "scripts/predict_conditional_tree_candidate.py": "9249b1a7052e8c87e4c06ac0a1972191b4fc9ca661a4733b709ae1f072086ac3",
+    "scripts/predict_frozen_candidate.py": "1496558f40edccd320f6b6990193833acc5638b915038a0b5c6ab33ee21b1581",
+    "scripts/prepare_training_teacher.py": "acbc113385e128346186b2d6c26480852548e833ff2df5ac39f9681eccf1fa99",
+    "scripts/qwen06_split_lora_worker.py": "3b072bd2576e108b422f8636b197458bec00a1e7fcabe90b2a51b405b484ae53",
+    "scripts/run_annotation_channel_capability.py": "23344980c7b752d55e0d5d7da67f16131713399fc481d3afb8f27f11b09e0991",
+    "scripts/run_auxiliary_lexical_residual_capability.py": "5c356d2822ad144c07fc6f8aa073408d19b0800c7cd93714f0bcc649d6ab1ce3",
+    "scripts/run_channel_residual_capability.py": "e17b7fb52a29a55fbed84bdd6ac16a540fc8ed5f16af6a647647813c6e7c689f",
+    "scripts/run_conditional_peer_union_capability.py": "ffdc53ebf3eaabecd8074430d616335d2f7eea16c90bfdea9fbe5fc84c887543",
+    "scripts/run_evidence_coverage_gate_capability.py": "e0ce5c9fa5c8bbc36b1e1577df4e54c6ef12862e248719746f0f1d4b210e66c7",
+    "scripts/run_hierarchy_strength_capability.py": "91b9c017dcf38e52bdb4979fd3a126dfbcedb4db2122d175712e6c434bcd9d90",
+    "scripts/run_peer_publication_information.py": "c2f494f1ffa6798ac76ae7a0cbc9b7473df83a892d24b5be5b6318ed3cd6a016",
+    "scripts/run_positive_overlap_metric_pilot.py": "bf360cbd9db8000f00345995ca637a81ec2fc3b517719b5a8a142494fc7284db",
+    "scripts/run_proxy_tree_readout_capability.py": "befff4b3c0dfe0a5bbbca3b3a7bc170e59ee45838b4b8dc54d154e0c345fb032",
+    "scripts/run_qwen06_split_lora.py": "3127b86a30e3110adad58a58cdd5ea0a07c7a133b06fcd7001a3fc982b31f32c",
+    "scripts/run_retrieval_plateau_diagnostics.py": "2b1b6a5cc0aede767d75c0fa51985de272aabcc387e4fc1137f4f941f246bb96",
+    "scripts/run_token_late_interaction.py": "5eca69e06475bafd9df1ec495ec145e18629bdf24018711310eab87e537a6116",
+    "scripts/score_token_late_interaction.py": "02088155848f9f7e1eda5462bf5c47b860a1de3a170b78ab524105e86d19263e",
+    "scripts/score_token_late_safe_replay.py": "9c33f3d7c7c9366678457efe4ba5f11a4288fec8ffd29bfaa79d70333cc667ad",
+    "scripts/select_full_conditional_peer_union.py": "50611aa435b54bd710bc69cb49b564f8ee08675f09dfe86f897ba7c9862bd411",
+    "scripts/select_full_tree_conditional_union.py": "ae52eb56fce9159dd98d74340ac999f4616e01e4a30e47375f13425d42d8ccb6",
+    "src/skillcomp/annotation_channel.py": "ba64954efc74654356079c647a57e712d842f90a85b2fbc455b2ffd956a2b782",
+    "src/skillcomp/auxiliary_loss.py": "c1924fbad31ebe0197acd975c26329453addaee645a4be12984110f9a1e7ac40",
+    "src/skillcomp/availability_calibration.py": "5df03d48ad83b32b8317b0753f9c4170472209cf0e309f299bb49b757f05eeb5",
+    "src/skillcomp/availability_inference.py": "2c08a6d1fd79c320b602c670351f989596429101711f821385ce9fb569c461a9",
+    "src/skillcomp/benchmark.py": "f8549e2aa952fe6cc421485b057cf41d8b50bb5488244c3df9ef8e75177f327b",
+    "src/skillcomp/capability_search.py": "8641d87d8f58dc26c293d72756ca9a5708765f0c83c3a35ae9597190ae16bbc9",
+    "src/skillcomp/channel_residual.py": "16254191a5cc698cb7c8a298955ee3af9675572013a214fe9c63389370bfdcf0",
+    "src/skillcomp/compact_lora.py": "de2e8b984e1a4612fd3350544273f21688688c01e2930d68a6ff643c6e01a9f3",
+    "src/skillcomp/component_targets.py": "3fef80011b106b328305219c1a1ecb0c6c9546498325030abd08dd1b1e8c0804",
+    "src/skillcomp/conditional_peer_prior.py": "209c882e51a6974e27ff1e831271aadeba3843602b12512e8185449288a34411",
+    "src/skillcomp/conditional_tree_inference.py": "cbbcbb60acf6e4294b50310d9e346815fdb23e78fa6bf37d9b1018a0d0368fe0",
+    "src/skillcomp/data.py": "f547081b5953499706f03eaf9c418f6997901115983a466a05ee37be0ed769db",
+    "src/skillcomp/density_channel.py": "bb8c8ab84e80885ac4baa952f8ccbfc09d70f7fa235ffaa4c6aa85723df0773e",
+    "src/skillcomp/evidence_coverage.py": "b8d9f3ba9a967d58de544acb33a4dbbf6722619acb4453bd793ddb62ae4f0443",
+    "src/skillcomp/features.py": "0c3ce7cd7f54bf88728369023196a0f95e4b9eb439f950bec706c30d811d7755",
+    "src/skillcomp/frozen_inference.py": "41d43cc40d9e052966051dea26decb8e4d6c05cbfd9130df1d999fa41628475b",
+    "src/skillcomp/gpu_policy.py": "e0bedbaf9f8b3eaae4665011d0332c1eb73026760a027fecc0cedd1e9afed0bd",
+    "src/skillcomp/hierarchical_loss.py": "97ccaa774b4722f6c369dd56c38a85a97151b579ea981c1dab2a3b8b84b55c3d",
+    "src/skillcomp/hierarchical_readout.py": "6cb96e7794091ab4aa2c05daf9d5d6f9af1732cd7d1a7c8cddd5e9dde0e44ad9",
+    "src/skillcomp/joint_evidence_channel.py": "f21e8cf63227b41e3e7159b0eb1ffe7cc8399707d1e4b603f126e543ec0e7aaf",
+    "src/skillcomp/kernel_availability.py": "96b238b9fdb786b17a3563b03bb79a0f30c9caa35346e0e3f65e40fef983ade5",
+    "src/skillcomp/known_proxy_neighbors.py": "4dd49093e85eb9bac160f062b35ce749ac4366b819ba7c00a39f5fa20a6d9c44",
+    "src/skillcomp/label_hierarchy.py": "91d783dddce81485c75138f20d8fc2f3c782aaaaf3ce1f836c29bc3aa427be98",
+    "src/skillcomp/learned_features.py": "f1580f6667acd47d93ca62ec727e7f8aea1d555d6f7bc2f7a2be0441f0598e7f",
+    "src/skillcomp/matchability.py": "33f33f9057e7b1e9edc86992d89655533fad1eff5a2e7497c49546384003d4b1",
+    "src/skillcomp/models.py": "97122021a7e9ec5dc0e16c7834c0eeab401b9f03a9eeab7d7575d2ba74786e01",
+    "src/skillcomp/neighbor_inference.py": "64800875119730e25bbacff08dd89b72359bdea8513d538908b7488430d6413d",
+    "src/skillcomp/neural_loss.py": "551abeccdb7c82a44a21cd1667c4875d48701b37053379a12f2d835b59a6e330",
+    "src/skillcomp/paired_dimensions.py": "2b6c435c8c542926d34f74350f3fe2637b19a919ce8063331e3ef6b90c1bc5f2",
+    "src/skillcomp/peer_publication.py": "865e747976501a2a7575ab980441af75564cd96ed2f25668618d97592004922c",
+    "src/skillcomp/peer_union_model.py": "13a74619b8c17817640b85a8816a020c5f613edebaa28edb4eada461f2f2d6a5",
+    "src/skillcomp/positive_overlap_metric.py": "d51a57fac7c359342c0da1124946020869b5242774e0bf563eb423e5e01e4dea",
+    "src/skillcomp/proxy_tree_readout.py": "95e27fbe3c85b1ca691a5de076ea64b568736301d254ffdc7b07e7edc1e280ff",
+    "src/skillcomp/repository_conditioning.py": "8aed82b1c71a506ddd62b74c6c384d13412af2c61c33f5ce3f4aaf7ff671a25f",
+    "src/skillcomp/repository_interactions.py": "0272548b337eb63a8fb51b1a4960aaa7a746c9720e92d0aba64d188f579d43d7",
+    "src/skillcomp/residual_inference.py": "5fa0bfaeb1daeda145d02de8c26770a1d9fc8a4d8d4b2ed7e2e87791ccea964e",
+    "src/skillcomp/retrieval_evidence.py": "3cb00c752b5a65e2da1af0aa4a55898cfb5987b53a79eab3d7821c84bfd242b4",
+    "src/skillcomp/runtime.py": "55da9c2a6e5a4e996ec4d0d9348ea1731daf967d8c28c4556dbc60c2bec4a7e4",
+    "src/skillcomp/schema.py": "b2ec34f4ea800262cdf32e618099b49b4e87132972b0343e62a734289b2412eb",
+    "src/skillcomp/score_ensemble.py": "260b2da20679bcbd2d49f63f4afeaf157a519d8a04496427b1088be979245706",
+    "src/skillcomp/structure_offset.py": "f277b6f0674ddebf2ed4ff8345be5c94ffab2097b8db0c6ccde8a6169e4cba5c",
+    "src/skillcomp/structured_availability.py": "2e720267e60d108823626879f172d84162153ce4eee3ecf5333b363b30ab4e07",
+    "src/skillcomp/technical_text.py": "f706cf282d78ff2e7f7c2f1f0dd840f56850fb9f3730fe7c2a6d0463e683cd3a",
+    "src/skillcomp/threshold_frontier.py": "c693bf436c303d8876c4bf4d30206e6d17713f2b3e5b10ef280a6f320365100d",
+    "src/skillcomp/token_late_interaction.py": "d265cc88abf2441d8d7a8f3f1e01f3795ea349ff56de8ef90adc85d08b5632d5"
+  },
+  "external_import_roots": [
+    "argparse",
+    "collections",
+    "concurrent",
+    "contextlib",
+    "copy",
+    "datetime",
+    "fcntl",
+    "gc",
+    "hashlib",
+    "importlib",
+    "joblib",
+    "json",
+    "math",
+    "multiprocessing",
+    "numpy",
+    "os",
+    "pathlib",
+    "platform",
+    "pwd",
+    "re",
+    "schema",
+    "scipy",
+    "shutil",
+    "sklearn",
+    "sqlite3",
+    "subprocess",
+    "sys",
+    "tempfile",
+    "threadpoolctl",
+    "time",
+    "torch",
+    "traceback",
+    "transformers",
+    "urllib",
+    "warnings"
+  ],
+  "training_from_scratch_verified": false,
+  "limits": [
+    "Recorded configuration edges and static Python imports only; dynamically constructed cache/model paths are not proven complete.",
+    "Historical completed runs and independent fitted-parameter audits do not establish a fresh portable full-chain execution.",
+    "No database, issue text, label array, checkpoint training or new predictions were read or generated by this inventory."
+  ]
+}

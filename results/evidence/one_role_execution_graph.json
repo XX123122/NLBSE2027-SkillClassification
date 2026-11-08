@@ -1,0 +1,187 @@
+{
+  "state": "observed_one_role_execution_path_verified",
+  "role": "fold0_inner0",
+  "stages": [
+    {
+      "id": "root",
+      "depends": [],
+      "producer": "isolated_data_root.rebuild",
+      "inputs": [
+        "pinned SQLite",
+        "declared reference preprocessing source"
+      ],
+      "outputs": [
+        "released targets",
+        "proxy targets/mask",
+        "PR/text components",
+        "fivefold outer roles"
+      ]
+    },
+    {
+      "id": "role",
+      "depends": [
+        "root"
+      ],
+      "producer": "prepare_competition_role_smoke.prepare",
+      "outputs": [
+        "inner fit3094",
+        "encoder-known fit1317",
+        "query1546",
+        "normalized lexical fields",
+        "original query records"
+      ]
+    },
+    {
+      "id": "tokens",
+      "depends": [
+        "role"
+      ],
+      "producer": "modernbert_full_worker.py --mode tokenize",
+      "inputs": [
+        "pinned CodeBERT tokenizer"
+      ],
+      "outputs": [
+        "new7154x512 token IDs/masks"
+      ]
+    },
+    {
+      "id": "encoder",
+      "depends": [
+        "tokens"
+      ],
+      "producer": "modernbert_full_worker.py --mode fit",
+      "inputs": [
+        "public base weights",
+        "known fit labels",
+        "frozen8epoch recipe"
+      ],
+      "outputs": [
+        "new2/4/8epoch checkpoints"
+      ]
+    },
+    {
+      "id": "learned_features",
+      "depends": [
+        "encoder"
+      ],
+      "producer": "extract_learned_context_features.py",
+      "outputs": [
+        "new7154x768 feature matrix"
+      ]
+    },
+    {
+      "id": "lexical",
+      "depends": [
+        "role"
+      ],
+      "producer": "title_body_workers.prepare",
+      "outputs": [
+        "own-fit TFIDF vectorizers",
+        "all-row sparse matrices"
+      ]
+    },
+    {
+      "id": "frozen_raw",
+      "depends": [
+        "role"
+      ],
+      "producer": "encode_frozen_candidate_inputs.py",
+      "inputs": [
+        "public Qwen0.6B weights",
+        "original whitespace"
+      ],
+      "outputs": [
+        "new7154x2048 embeddings"
+      ]
+    },
+    {
+      "id": "frozen_normalized",
+      "depends": [
+        "role"
+      ],
+      "producer": "encode_competition_normalized_inputs.py",
+      "inputs": [
+        "public Qwen0.6B weights",
+        "normalized whitespace"
+      ],
+      "outputs": [
+        "new7154x2048 embeddings"
+      ]
+    },
+    {
+      "id": "base_candidate",
+      "depends": [
+        "lexical",
+        "frozen_raw"
+      ],
+      "producer": "title_body_workers.fit",
+      "outputs": [
+        "fixed C1 readout",
+        "query scores"
+      ]
+    },
+    {
+      "id": "base_active",
+      "depends": [
+        "lexical",
+        "frozen_normalized"
+      ],
+      "producer": "title_body_workers.fit",
+      "outputs": [
+        "fixed C1 readout",
+        "query scores"
+      ]
+    },
+    {
+      "id": "auxiliary",
+      "depends": [
+        "role",
+        "lexical",
+        "learned_features"
+      ],
+      "producer": "competition_active_role_worker.fit_experts",
+      "inputs": [
+        "explicit immutable input-only Qwen4B cache",
+        "fixed tree/gate/NN settings"
+      ],
+      "outputs": [
+        "4forests",
+        "4availability heads",
+        "component-excluded NN/conditional stats",
+        "coverage/publication state"
+      ]
+    },
+    {
+      "id": "compose",
+      "depends": [
+        "base_active",
+        "auxiliary"
+      ],
+      "producer": "competition_active_role_worker.fit_active_base",
+      "inputs": [
+        "historical training-selected weights frozen before this run"
+      ],
+      "outputs": [
+        "fixed one-role candidate probabilities"
+      ]
+    },
+    {
+      "id": "compare",
+      "depends": [
+        "compose",
+        "base_candidate"
+      ],
+      "producer": "separate post-lock comparison scripts",
+      "inputs": [
+        "historical references only after generated artifacts locked"
+      ],
+      "outputs": [
+        "numeric/parameter comparisons, not accuracy metrics"
+      ]
+    }
+  ],
+  "declared_frozen_Qwen4B_cache_sha_scope": "Pure immutable transform explicitly reused; not reencoded in this continuation.",
+  "all_historical_selection_procedures_reexecuted": false,
+  "all_roles_or_full_data_rebuilt": false,
+  "new_accuracy_claimed": false
+}

@@ -1,0 +1,798 @@
+{
+  "fivefold": {
+    "state": "complete",
+    "scope": "Descriptive re-reporting of frozen internal grouped5 predictions, not a new model evaluation or independent confirmation.",
+    "rows": 7154,
+    "labels": 217,
+    "positive_labels": 142,
+    "globally_empty_labels": 75,
+    "summary": {
+      "RF": {
+        "precision": 0.685467028279964,
+        "recall": 0.48480246322841036,
+        "micro_f1": 0.5679309016996739,
+        "macro_F1_all217": 0.10896651750860017,
+        "macro_precision_all217": 0.16284611775529717,
+        "macro_recall_all217": 0.1106858025761651,
+        "diagnostic_macro_F1_positive_labels": 0.16651925562933972,
+        "no_positive_label_count": 75,
+        "no_positive_label_FP": 0
+      },
+      "previous_best": {
+        "precision": 0.686177617284014,
+        "recall": 0.5558200012482576,
+        "micro_f1": 0.6141577703603579,
+        "macro_F1_all217": 0.11384666576323803,
+        "macro_precision_all217": 0.18211248631670704,
+        "macro_recall_all217": 0.1292304963725499,
+        "diagnostic_macro_F1_positive_labels": 0.17397694697621588,
+        "no_positive_label_count": 75,
+        "no_positive_label_FP": 0
+      },
+      "new_policy": {
+        "precision": 0.686047168406513,
+        "recall": 0.5559198618594878,
+        "micro_f1": 0.6141664598100597,
+        "macro_F1_all217": 0.11359200627731014,
+        "macro_precision_all217": 0.17317523804543247,
+        "macro_recall_all217": 0.12920143791227814,
+        "diagnostic_macro_F1_positive_labels": 0.17358778424067817,
+        "no_positive_label_count": 75,
+        "no_positive_label_FP": 0
+      },
+      "best_policy": {
+        "precision": 0.6860585657247842,
+        "recall": 0.5562402479871845,
+        "micro_f1": 0.6143664994611586,
+        "macro_F1_all217": 0.11383338824848348,
+        "macro_precision_all217": 0.1783523805148802,
+        "macro_recall_all217": 0.12934383513667078,
+        "diagnostic_macro_F1_positive_labels": 0.1739566566895839,
+        "no_positive_label_count": 75,
+        "no_positive_label_FP": 0
+      }
+    },
+    "tail_bins": {
+      "RF": {
+        "zero_fit_support": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 48,
+          "fold_label_units": 382,
+          "fold_label_units_with_held_positives": 5
+        },
+        "fit_support_1_9": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 1,
+          "FN": 75,
+          "fold_label_units": 23,
+          "fold_label_units_with_held_positives": 8
+        },
+        "fit_support_10_49": {
+          "precision": 0.058823529411764705,
+          "recall": 0.0022522522522522522,
+          "micro_f1": 0.004338394793926247,
+          "TP": 1,
+          "FP": 16,
+          "FN": 443,
+          "fold_label_units": 51,
+          "fold_label_units_with_held_positives": 31
+        },
+        "fit_support_ge50": {
+          "precision": 0.6855337400933156,
+          "recall": 0.4859447465883688,
+          "micro_f1": 0.5687368968269271,
+          "TP": 116514,
+          "FP": 53447,
+          "FN": 123254,
+          "fold_label_units": 629,
+          "fold_label_units_with_held_positives": 625
+        }
+      },
+      "previous_best": {
+        "zero_fit_support": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 48,
+          "fold_label_units": 382,
+          "fold_label_units_with_held_positives": 5
+        },
+        "fit_support_1_9": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 75,
+          "fold_label_units": 23,
+          "fold_label_units_with_held_positives": 8
+        },
+        "fit_support_10_49": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 444,
+          "fold_label_units": 51,
+          "fold_label_units_with_held_positives": 31
+        },
+        "fit_support_ge50": {
+          "precision": 0.686177617284014,
+          "recall": 0.5571343965833639,
+          "micro_f1": 0.6149593159088032,
+          "TP": 133583,
+          "FP": 61094,
+          "FN": 106185,
+          "fold_label_units": 629,
+          "fold_label_units_with_held_positives": 625
+        }
+      },
+      "new_policy": {
+        "zero_fit_support": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 48,
+          "fold_label_units": 382,
+          "fold_label_units_with_held_positives": 5
+        },
+        "fit_support_1_9": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 75,
+          "fold_label_units": 23,
+          "fold_label_units_with_held_positives": 8
+        },
+        "fit_support_10_49": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 444,
+          "fold_label_units": 51,
+          "fold_label_units_with_held_positives": 31
+        },
+        "fit_support_ge50": {
+          "precision": 0.686047168406513,
+          "recall": 0.5572344933435655,
+          "micro_f1": 0.6149678838802625,
+          "TP": 133607,
+          "FP": 61142,
+          "FN": 106161,
+          "fold_label_units": 629,
+          "fold_label_units_with_held_positives": 625
+        }
+      },
+      "best_policy": {
+        "zero_fit_support": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 48,
+          "fold_label_units": 382,
+          "fold_label_units_with_held_positives": 5
+        },
+        "fit_support_1_9": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 75,
+          "fold_label_units": 23,
+          "fold_label_units_with_held_positives": 8
+        },
+        "fit_support_10_49": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "micro_f1": 0.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 444,
+          "fold_label_units": 51,
+          "fold_label_units_with_held_positives": 31
+        },
+        "fit_support_ge50": {
+          "precision": 0.6860585657247842,
+          "recall": 0.5575556371158786,
+          "micro_f1": 0.6151679835076594,
+          "TP": 133684,
+          "FP": 61174,
+          "FN": 106084,
+          "fold_label_units": 629,
+          "fold_label_units_with_held_positives": 625
+        }
+      }
+    },
+    "tail_bin_semantics": "Each held sample-label decision is assigned using that fold fit frequency. Pooled micro counts within bin; not a global label-frequency partition or macro over pooled fold-label units.",
+    "undefined_metric_policy": "F1/precision/recall zero_division=0. No ROC-AUC/AP inferred from hard predictions; absent-positive labels not treated as ranked-task successes.",
+    "new_encoder_or_model_forward": 0,
+    "new_fits": 0,
+    "new_threshold_search": 0,
+    "pilots_were_complete_and_choices_frozen_before_this_report": true,
+    "runtime_seconds": 0.6170777180232108
+  },
+  "pilot_ablation": {
+    "tree_original_NN": {
+      "choice": {
+        "precision": 0.6937690329299273,
+        "recall": 0.5566013253919527,
+        "micro_f1": 0.6176614163549843,
+        "threshold": 0.4799902565238132,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 5.027875623619948e-07,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 18766,
+        "candidate_thresholds": 439704,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.11319497406576504,
+      "partition_F1": [
+        0.6152871928495054,
+        0.6206990658129526,
+        0.6170098554956734
+      ],
+      "fixed_0p5": {
+        "precision": 0.7017064171827645,
+        "recall": 0.5392965422081004,
+        "micro_f1": 0.6098742014566148
+      },
+      "F1_delta_vs_control": -0.0002197387402496087,
+      "partition_delta_vs_control": [
+        -0.0004213730073915345,
+        -0.0001925095553888534,
+        -3.9979675651724556e-05
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": false,
+        "P_R": false,
+        "no_fallback": true
+      }
+    },
+    "tree_conditional_NN": {
+      "choice": {
+        "precision": 0.693772963085608,
+        "recall": 0.5569557759619219,
+        "micro_f1": 0.6178811550952339,
+        "threshold": 0.48041334241604156,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 4.43294324303789e-06,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 18884,
+        "candidate_thresholds": 440128,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.11308970090874296,
+      "partition_F1": [
+        0.6157085658568969,
+        0.6208915753683415,
+        0.6170498351713252
+      ],
+      "fixed_0p5": {
+        "precision": 0.7014830891662145,
+        "recall": 0.5400750675671399,
+        "micro_f1": 0.6102872019711832
+      },
+      "F1_delta_vs_control": 0.0,
+      "partition_delta_vs_control": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": false,
+        "P_R": true,
+        "no_fallback": true
+      }
+    },
+    "no_tree_original_NN": {
+      "choice": {
+        "precision": 0.6937705332322467,
+        "recall": 0.5560316726902166,
+        "micro_f1": 0.6173111044744655,
+        "threshold": 0.48049680943684503,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 2.00308988174136e-06,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 18665,
+        "candidate_thresholds": 439047,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.11397118804795715,
+      "partition_F1": [
+        0.6152679999169315,
+        0.6200680700869784,
+        0.6166056297187289
+      ],
+      "fixed_0p5": {
+        "precision": 0.701960396529134,
+        "recall": 0.5391762821932895,
+        "micro_f1": 0.6098931783034538
+      },
+      "F1_delta_vs_control": -0.0005700506207684253,
+      "partition_delta_vs_control": [
+        -0.0004405659399654427,
+        -0.0008235052813631016,
+        -0.0004442054525962691
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": false,
+        "P_R": false,
+        "no_fallback": true
+      }
+    },
+    "no_tree_conditional_NN": {
+      "choice": {
+        "precision": 0.6937686255341291,
+        "recall": 0.5569874233342406,
+        "micro_f1": 0.6178989091853823,
+        "threshold": 0.48066891503944853,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 9.539176415440664e-08,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 18955,
+        "candidate_thresholds": 439989,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.11376619878472577,
+      "partition_F1": [
+        0.6159175291945822,
+        0.6209509018982361,
+        0.6168270469971647
+      ],
+      "fixed_0p5": {
+        "precision": 0.7016223146337054,
+        "recall": 0.540359893918008,
+        "micro_f1": 0.610521723895033
+      },
+      "F1_delta_vs_control": 1.7754090148369706e-05,
+      "partition_delta_vs_control": [
+        0.00020896333768527509,
+        5.9326529894598856e-05,
+        -0.0002227881741604376
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": true,
+        "P_R": true,
+        "no_fallback": true
+      }
+    },
+    "base_only": {
+      "choice": {
+        "precision": 0.6937692092763341,
+        "recall": 0.5500629782709142,
+        "micro_f1": 0.6136145394978394,
+        "threshold": 0.49028810264140255,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 6.791339691725184e-07,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 16681,
+        "candidate_thresholds": 440113,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.10909713118172432,
+      "partition_F1": [
+        0.611448359304921,
+        0.61661112751508,
+        0.6127882101259805
+      ],
+      "fixed_0p5": {
+        "precision": 0.6976632274377065,
+        "recall": 0.5414042572045243,
+        "micro_f1": 0.6096808222497826
+      },
+      "F1_delta_vs_control": -0.004266615597394496,
+      "partition_delta_vs_control": [
+        -0.004260206551975898,
+        -0.0042804478532615375,
+        -0.004261625045344664
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": false,
+        "P_R": false,
+        "no_fallback": true
+      }
+    },
+    "base_plus_publication": {
+      "choice": {
+        "precision": 0.6937707998280283,
+        "recall": 0.5515440752954283,
+        "micro_f1": 0.614535619708526,
+        "threshold": 0.4883814753249474,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 2.2696856633031004e-06,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 17196,
+        "candidate_thresholds": 440298,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.1099003764220931,
+      "partition_F1": [
+        0.612112623220724,
+        0.6178681999115435,
+        0.613629741542114
+      ],
+      "fixed_0p5": {
+        "precision": 0.6985789813445337,
+        "recall": 0.5411067719047288,
+        "micro_f1": 0.6098413513667751
+      },
+      "F1_delta_vs_control": -0.0033455353867078985,
+      "partition_delta_vs_control": [
+        -0.0035959426361729108,
+        -0.003023375456797983,
+        -0.0034200936292111406
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": false,
+        "P_R": false,
+        "no_fallback": true
+      }
+    },
+    "no_publication": {
+      "choice": {
+        "precision": 0.6937776373973468,
+        "recall": 0.5561076263837813,
+        "micro_f1": 0.6173607231819443,
+        "threshold": 0.4821145361130753,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 9.107254981821633e-06,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 18579,
+        "candidate_thresholds": 440047,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.11258751990242323,
+      "partition_F1": [
+        0.6152073732718893,
+        0.6203253484000378,
+        0.6165567041327287
+      ],
+      "fixed_0p5": {
+        "precision": 0.7007794634734072,
+        "recall": 0.5411700666493661,
+        "micro_f1": 0.6107186479903428
+      },
+      "F1_delta_vs_control": -0.000520431913289543,
+      "partition_delta_vs_control": [
+        -0.0005011925850075816,
+        -0.0005662269683036625,
+        -0.0004931310385964949
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": false,
+        "P_R": false,
+        "no_fallback": true
+      }
+    },
+    "no_coverage": {
+      "choice": {
+        "precision": 0.6938506056101957,
+        "recall": 0.5554810084118715,
+        "micro_f1": 0.6170032516038316,
+        "threshold": 0.4820254027266838,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 8.20754678307889e-05,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 18526,
+        "candidate_thresholds": 440178,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.112189436354366,
+      "partition_F1": [
+        0.6145423190001766,
+        0.6202289675454259,
+        0.616248064682608
+      ],
+      "fixed_0p5": {
+        "precision": 0.7010548107255521,
+        "recall": 0.540144691786241,
+        "micro_f1": 0.6101694915254238
+      },
+      "F1_delta_vs_control": -0.0008779034914022654,
+      "partition_delta_vs_control": [
+        -0.0011662468567202877,
+        -0.0006626078229156063,
+        -0.0008017704887172128
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": false,
+        "P_R": false,
+        "no_fallback": true
+      }
+    },
+    "no_CodeBERT_in_skill_experts": {
+      "choice": {
+        "precision": 0.6937714480452063,
+        "recall": 0.5540695356064586,
+        "micro_f1": 0.6161003350130908,
+        "threshold": 0.4850999280013287,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 2.9179028413484076e-06,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 18180,
+        "candidate_thresholds": 440285,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.11185500515552359,
+      "partition_F1": [
+        0.6136599975042636,
+        0.6194915343303661,
+        0.6151526573690163
+      ],
+      "fixed_0p5": {
+        "precision": 0.7001482549329576,
+        "recall": 0.5410371476856277,
+        "micro_f1": 0.6103942473168189
+      },
+      "F1_delta_vs_control": -0.0017808200821430864,
+      "partition_delta_vs_control": [
+        -0.00204856835263334,
+        -0.0014000410379754191,
+        -0.0018971778023089136
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": false,
+        "P_R": false,
+        "no_fallback": true
+      }
+    },
+    "no_Qwen4_in_skill_experts": {
+      "choice": {
+        "precision": 0.6937975322667171,
+        "recall": 0.5566329727642714,
+        "micro_f1": 0.6176921969327157,
+        "threshold": 0.4800294794091629,
+        "precision_se_proxy": 0.0,
+        "precision_delta_guard_proxy": 2.9002124352195402e-05,
+        "fallback_rf": false,
+        "z": 0.0,
+        "eligible_thresholds": 18819,
+        "candidate_thresholds": 439965,
+        "usable_axes": []
+      },
+      "macro_F1_all217": 0.1131953545836195,
+      "partition_F1": [
+        0.6155235031648854,
+        0.6206780728455967,
+        0.6168816522925237
+      ],
+      "fixed_0p5": {
+        "precision": 0.7017484619629224,
+        "recall": 0.5393155306314916,
+        "micro_f1": 0.609902223240233
+      },
+      "F1_delta_vs_control": -0.00018895816251818243,
+      "partition_delta_vs_control": [
+        -0.00018506269201157277,
+        -0.00021350252274476844,
+        -0.00016818287880149274
+      ],
+      "potential_upgrade_admitted": false,
+      "upgrade_gates": {
+        "main_F1": false,
+        "partitions": false,
+        "P_R": false,
+        "no_fallback": true
+      }
+    }
+  },
+  "pilot_codebert": {
+    "name": "lr2e-05_epoch2",
+    "learning_rate": 2e-05,
+    "epoch": 2,
+    "RF_constrained_training_choice": {
+      "precision": 0.6937757255723308,
+      "recall": 0.5430246026672405,
+      "micro_f1": 0.6092127874114155,
+      "threshold": 0.4730220437049866,
+      "precision_se_proxy": 0.0,
+      "precision_delta_guard_proxy": 7.195429965856093e-06,
+      "fallback_rf": false,
+      "z": 0.0,
+      "eligible_thresholds": 14683,
+      "candidate_thresholds": 434232,
+      "usable_axes": []
+    },
+    "fixed_threshold_0p5": {
+      "precision": 0.7042911962532156,
+      "recall": 0.521593002133033,
+      "micro_f1": 0.5993279951126917
+    },
+    "fit_records": [
+      {
+        "context": "fold0_inner0",
+        "candidate": "modern_e2",
+        "loss": "bce",
+        "teacher_weight": 0,
+        "fit_rows": 3094,
+        "query_rows": 1546,
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.23732890114525323
+          },
+          {
+            "epoch": 2,
+            "loss": 0.23660089845185753
+          }
+        ],
+        "trainable_parameters": 124812505,
+        "peak_GPU_GiB": 3.7632203102111816,
+        "runtime_seconds": 53.660484133753926
+      },
+      {
+        "context": "fold0_inner1",
+        "candidate": "modern_e2",
+        "loss": "bce",
+        "teacher_weight": 0,
+        "fit_rows": 3091,
+        "query_rows": 1549,
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.23948809893067236
+          },
+          {
+            "epoch": 2,
+            "loss": 0.23892520564788755
+          }
+        ],
+        "trainable_parameters": 124812505,
+        "peak_GPU_GiB": 3.7632203102111816,
+        "runtime_seconds": 55.49328314000741
+      },
+      {
+        "context": "fold0_inner2",
+        "candidate": "modern_e2",
+        "loss": "bce",
+        "teacher_weight": 0,
+        "fit_rows": 3095,
+        "query_rows": 1545,
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.2413224547668112
+          },
+          {
+            "epoch": 2,
+            "loss": 0.24056918093865445
+          }
+        ],
+        "trainable_parameters": 124812505,
+        "peak_GPU_GiB": 3.7632203102111816,
+        "runtime_seconds": 54.46306637208909
+      }
+    ]
+  },
+  "pilot_repo": {
+    "name": "lr1e-05_epoch4",
+    "choice": {
+      "precision": 0.6937721098485151,
+      "recall": 0.549898411934857,
+      "micro_f1": 0.613513265399798,
+      "threshold": 0.49160250216283796,
+      "precision_se_proxy": 0.0,
+      "precision_delta_guard_proxy": 3.5797061501696703e-06,
+      "fallback_rf": false,
+      "z": 0.0,
+      "eligible_thresholds": 16552,
+      "candidate_thresholds": 440516,
+      "usable_axes": []
+    },
+    "fixed_threshold_0p5": {
+      "precision": 0.6966567619789891,
+      "recall": 0.543132203733124,
+      "micro_f1": 0.6103889175395231
+    }
+  },
+  "conditional_h": {
+    "baseline": {
+      "conditional_cells": 977734,
+      "conditional_positives": 128845,
+      "Brier": 0.07079309190883445,
+      "log_loss": 0.22396583904071757,
+      "micro_AP": 0.6472987114283772
+    },
+    "candidate": {
+      "conditional_cells": 977734,
+      "conditional_positives": 128845,
+      "Brier": 0.071596522513302,
+      "log_loss": 0.2262156796047463,
+      "micro_AP": 0.6408386122639312
+    }
+  },
+  "weight_edit_confirmation": {
+    "baseline": {
+      "precision": 0.7467586044318718,
+      "recall": 0.5207331607282292,
+      "micro_F1": 0.6135928912132879,
+      "macro_F1_217": 0.104219148210212,
+      "micro_AP": 0.7387654310678026,
+      "Brier": 0.07920917459856922
+    },
+    "head_common_050": {
+      "precision": 0.7466855223616758,
+      "recall": 0.5207742571816052,
+      "micro_F1": 0.6135967460778617,
+      "macro_F1_217": 0.10425153530136358,
+      "micro_AP": 0.7387503800374857,
+      "Brier": 0.07921156325896223
+    },
+    "ffn11_reverse_025": {
+      "precision": 0.7474831221129931,
+      "recall": 0.5187194345128016,
+      "micro_F1": 0.6124360125184988,
+      "macro_F1_217": 0.10377207341291819,
+      "micro_AP": 0.7387670356428313,
+      "Brier": 0.07925026981899547
+    },
+    "random_ffn11_matched": {
+      "precision": 0.7467735281984795,
+      "recall": 0.5207742571816052,
+      "micro_F1": 0.61362645876713,
+      "macro_F1_217": 0.10422515607791466,
+      "micro_AP": 0.7387654814348145,
+      "Brier": 0.07920939680709894
+    },
+    "temperature_090": {
+      "precision": 0.7467586044318718,
+      "recall": 0.5207331607282292,
+      "micro_F1": 0.6135928912132879,
+      "macro_F1_217": 0.104219148210212,
+      "micro_AP": 0.7387654367911498,
+      "Brier": 0.0792138276600868
+    }
+  },
+  "scope_notes": [
+    "Fivefold7154rows is historical development.",
+    "Training pilots4640rows are not new outer scores.",
+    "Edit confirmation650rows is role-specific/historically exposed; no upgrade accepted.",
+    "Local source packaging is not full training reproduction."
+  ]
+}

@@ -1,0 +1,25 @@
+NLBSE 2027 Skill Classification local repository candidate
+
+Existing project source is distributed with its existing Apache License 2.0.
+New local portability adapters, contract tests and documentation are identified
+by the source-change ledger; original rights and notices are retained.
+
+The official NLBSE 2027 baseline is copied under upstream/skill-classification,
+commit f265cd60c73f78a0a2282ae625876fd2dc4a0e1b. It is owned by its original
+contributors and retains its Apache-2.0 LICENSE. Its wrapper documents preserved
+historical SkillScope behavior and unresolved evaluation issues.
+
+Pretrained models and the dataset are separate assets, not covered merely by this
+repository's source-code license. Qwen model cards and the dataset card declare
+Apache-2.0. Microsoft CodeBERT repository code carries the included MIT notice;
+the pinned Hugging Face weights card does not itself state a license. See
+docs/licensing.md and docs/reproduction_gaps.json for redistribution gates.
+
+The paper remains attributed to Xin Xu and Jun Yu, University of Science and
+Technology of China. No publisher copyright transfer or paper relicensing is
+implied by the source repository LICENSE.
+
+This is a local candidate. No public release, external submission or official
+competition qualification is claimed.
+
+Nov.8 private hosting adds no public redistribution clearance. The original license/ownership statements and scope limitations remain.

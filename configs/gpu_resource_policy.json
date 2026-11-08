@@ -1,0 +1,7 @@
+{
+  "excluded_GPU_UUIDs": [],
+  "excluded_owners": [],
+  "allow_busy_GPU_sharing": true,
+  "Qwen06_excluded_GPU_UUIDs": [],
+  "Qwen4_excluded_GPU_UUIDs": []
+}

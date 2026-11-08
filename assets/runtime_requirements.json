@@ -1,0 +1,16 @@
+{
+  "cpu_python": "3.11",
+  "encoder_python_observed": "3.12.3",
+  "encoder_torch_observed": "2.10.0+cu130",
+  "environments_separate": true,
+  "inference_GPU_reservation_MiB": 11000,
+  "reservation_is_measured_peak": false,
+  "full_inference_peak_allocated_GiB": null,
+  "fresh_install_validated": false,
+  "observed_CodeBERT_training_peak_allocated_GiB": 3.763,
+  "CodeBERT_training_scope": "one fixed development inner role, microbatch8/effective32, max_length512",
+  "source": "docs/one_role_historical_report_zh.md",
+  "CPU_RAM_minimum_GiB_verified": null,
+  "platform": "Linux/CUDA inference previously verified; Windows validation here is synthetic/static only.",
+  "measurement_scope": "Historical report records approximate peak; not newly measured here and not full inference peak"
+}

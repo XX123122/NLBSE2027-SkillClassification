@@ -1,0 +1,11 @@
+{
+  "title_features": {
+    "word": 10000,
+    "char": 5000
+  },
+  "body_features": {
+    "word": 20000,
+    "char": 10000
+  },
+  "embedding_path": "outputs/base_embeddings.npy"
+}
