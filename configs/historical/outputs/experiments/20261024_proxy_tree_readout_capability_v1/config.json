@@ -1,0 +1,35 @@
+{
+  "study_id": "proxy_tree_readout_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "pilot_run": "20261024_proxy_tree_readout_pilot_v1",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "reference_run": "20261024_known_proxy_neighbors_capability_v1",
+  "neighbor_run": "20261024_known_proxy_neighbors_capability_v1",
+  "proxy_source_run": "20261024_repository_auxiliary_capability_v1",
+  "channel_run": "20261023_annotation_channel_capability_v1",
+  "coverage_run": "20261024_evidence_coverage_gate_capability_v1",
+  "publication_source_run": "20261024_semantic_availability_channel_capability_v1",
+  "neighbors": {
+    "neighbors": 20,
+    "power": 4,
+    "pseudocount": 1,
+    "prior_strength": 20
+  },
+  "tree": {
+    "dimensions": 128,
+    "estimators": 256,
+    "depth": 12,
+    "min_leaf": 5,
+    "seed": 1193,
+    "jobs": 16
+  },
+  "tree_fractions": [
+    0.5,
+    1.0
+  ],
+  "residual_weight": 0.5,
+  "CPU_workers": 4,
+  "report_directory": "reports/proxy_tree_readout_capability_v1",
+  "selection": "Admitted pilot .5 tree+NN gain+.00035031 with all3 partitions positive; audit required. Reuse3 complete pilot tree contexts(12forests); fit17 further contexts(68forests),3component-held heads plus full head percontext. Original own-training OOF chooses only tree_fraction .5/1; residual .5 fixed. new_policy besttree; best_policy own-training choice tree/reference currentNN. diagnostic_control fixedpureNN/residual.5 with new component-excluded statistics, independently calibrated; not used to add more candidate choices. Original validation one global RF-gated threshold perpolicy; all5 training and calibration locks precede test prediction/score access. Frozen candidate/config before expansion; no epoch/depth/leaf/SVD/seed/strength search.",
+  "limits": "Same released7154x217 rows/labels/grouped5 roles/RF. Shared original-fit supervised encoder/SVD for centre subheads, centre mapping excludes owncomponent counts but no fully nested unbiased-centre claim; actual query groups excluded from all fits. OriginalNN reference retains its original source/centres/selections. Query vectors/repo only, noqueryPR/targets/availability. No new encoder training or GPU. Historically exposed weak-label development, not official/independent. Full-data export only after verified gain>=.00020 over prior leader and RF P/R/F1 gates."
+}

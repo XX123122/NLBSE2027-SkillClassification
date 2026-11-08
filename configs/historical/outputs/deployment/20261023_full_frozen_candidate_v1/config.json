@@ -1,0 +1,161 @@
+{
+  "study_id": "full_frozen_candidate_v1",
+  "purpose": "usable full-development classifier, never a new scored benchmark",
+  "CPU_workers": 12,
+  "text_weights": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    1
+  ],
+  "development_score_reference": "reports/markdown_semantic_capability_v1/results.json; CV portfolio0.61033163 does not score these full-data weights",
+  "representations": {
+    "normalized": {
+      "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy",
+      "manifest": "reports/split_semantic_features_v1/feature_manifest.json",
+      "encoder": {
+        "model": "${PROJECT_ROOT}/models/pretrained/Qwen3-Embedding-0.6B_97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+        "dtype": "float32",
+        "batch_size": 4,
+        "instruction": "Instruct: Represent the software issue for predicting the programming skills required to solve it.\nQuery: ",
+        "max_length": 512,
+        "whitespace": "normalized"
+      }
+    },
+    "markdown": {
+      "embedding_path": "outputs/experiments/20261023_markdown_semantic_features_v1/combined_embeddings.npy",
+      "manifest": "reports/markdown_semantic_features_v1/feature_manifest.json",
+      "encoder": {
+        "model": "${PROJECT_ROOT}/models/pretrained/Qwen3-Embedding-0.6B_97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+        "dtype": "float32",
+        "batch_size": 4,
+        "instruction": "Instruct: Represent the software issue for predicting the programming skills required to solve it.\nQuery: ",
+        "max_length": 512,
+        "whitespace": "original"
+      }
+    }
+  },
+  "candidates": [
+    {
+      "name": "normalized_split_embed_c1",
+      "title_scale": 0,
+      "body": false,
+      "embedding_scale": 1,
+      "C": 1,
+      "representation": "normalized",
+      "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "normalized_split_embed_c4",
+      "title_scale": 0,
+      "body": false,
+      "embedding_scale": 1,
+      "C": 4,
+      "representation": "normalized",
+      "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "normalized_split_hybrid05_c1",
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 0.5,
+      "C": 1,
+      "representation": "normalized",
+      "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "normalized_split_hybrid1_c1",
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 1,
+      "C": 1,
+      "representation": "normalized",
+      "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "normalized_split_hybrid1_c4",
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 1,
+      "C": 4,
+      "representation": "normalized",
+      "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "normalized_title_semantic05_c1",
+      "title_scale": 1,
+      "body": false,
+      "embedding_scale": 0.5,
+      "C": 1,
+      "representation": "normalized",
+      "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "markdown_split_embed_c1",
+      "title_scale": 0,
+      "body": false,
+      "embedding_scale": 1,
+      "C": 1,
+      "representation": "markdown",
+      "embedding_path": "outputs/experiments/20261023_markdown_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "markdown_split_embed_c4",
+      "title_scale": 0,
+      "body": false,
+      "embedding_scale": 1,
+      "C": 4,
+      "representation": "markdown",
+      "embedding_path": "outputs/experiments/20261023_markdown_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "markdown_split_hybrid05_c1",
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 0.5,
+      "C": 1,
+      "representation": "markdown",
+      "embedding_path": "outputs/experiments/20261023_markdown_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "markdown_split_hybrid1_c1",
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 1,
+      "C": 1,
+      "representation": "markdown",
+      "embedding_path": "outputs/experiments/20261023_markdown_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "markdown_split_hybrid1_c4",
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 1,
+      "C": 4,
+      "representation": "markdown",
+      "embedding_path": "outputs/experiments/20261023_markdown_semantic_features_v1/combined_embeddings.npy"
+    },
+    {
+      "name": "markdown_title_semantic05_c1",
+      "title_scale": 1,
+      "body": false,
+      "embedding_scale": 0.5,
+      "C": 1,
+      "representation": "markdown",
+      "embedding_path": "outputs/experiments/20261023_markdown_semantic_features_v1/combined_embeddings.npy"
+    }
+  ],
+  "title_features": {
+    "word": 10000,
+    "char": 5000
+  },
+  "body_features": {
+    "word": 20000,
+    "char": 10000
+  },
+  "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy"
+}

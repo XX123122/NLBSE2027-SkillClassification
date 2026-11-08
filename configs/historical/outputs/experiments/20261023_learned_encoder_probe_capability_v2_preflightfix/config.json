@@ -1,0 +1,135 @@
+{
+  "study_id": "learned_encoder_probe_capability_v1",
+  "family": "modernbert",
+  "worker_script": "scripts/modernbert_full_worker.py",
+  "protocol": "grouped5_pr_components",
+  "reference_run": "20261023_split_semantic_capability_v1",
+  "model": "${PRETRAINED_ROOT}/ModernBERT-base_8949b909ec900327062f0ebf497f51aef5e6f0c8",
+  "model_revision": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+  "fields_path": "outputs/experiments/20261023_title_body_capability_v1/input_fields.json",
+  "feature_manifest": "reports/split_semantic_features_v1/feature_manifest.json",
+  "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy",
+  "frozen_features_usage": "original Qwen archive is reference identity only; probe features come from the matching context/epoch supervised ModernBERT encoder",
+  "max_length": 512,
+  "epochs": [
+    1,
+    2,
+    4
+  ],
+  "micro_batch_size": 8,
+  "effective_batch_size": 32,
+  "prediction_batch_size": 16,
+  "encoder_learning_rate": 2e-05,
+  "head_learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "dropout": 0.1,
+  "warmup_fraction": 0.1,
+  "seed": 1234,
+  "pooling": "attention-mask mean, dropout, own217 linear head; fit-only Jeffreys-smoothed logit prevalence bias",
+  "training": "full encoder gradients, BF16 autocast/FP32 parameters, AdamW, warmup/cosine schedule always planned over four epochs; selected final epoch may stop early",
+  "prediction": "FP32, fixed512 right padding, SDPA, TF32 off, reference_compileFalse",
+  "score_weights": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    1
+  ],
+  "GPU_slots": [
+    4,
+    6,
+    1
+  ],
+  "max_parallel_GPU": 3,
+  "minimum_free_GPU_MiB": 8500,
+  "maximum_GPU_utilization_at_start": 15,
+  "CPU_workers": 48,
+  "selection": "own outer-train OOF selects epoch and prior blend by RF three-metric point gate then F1; compare to frozen reference only within own train; validation threshold only; all five locks before test inference",
+  "report_directory": "reports/learned_encoder_probe_capability_v1",
+  "limits": "context-specific supervised encoder fit exactly equals probe fit; primary7154x217 released labels unchanged; no held/outer encoder training; C1 readout, FP32 mean/L2, fixed source epochs1/2/4; historical development, not official/independent test",
+  "auxiliary": {
+    "source": "data/processed/20261021_join_lineage_v2/aligned_targets.npz",
+    "sha256": "2cef7661f5a334c37cf7ddba72cc6d7872d9c4c8670f7d75b181615e4aa2c61c",
+    "expected_matched_rows": 3070,
+    "weight": 0.25,
+    "purpose": "training-only repository-consistent API proxy, not human gold",
+    "missing_rows": "masked; never negative labels",
+    "used_as_prediction_input": false
+  },
+  "reference_interpretation": "fixed frozen reference 0.61030955, distinct from tiny structure-offset scoreboard point; no adaptive change of reference",
+  "encoder_source_run": "20261023_modernbert_multitask_capability_v1",
+  "learned_feature_controller": "scripts/prepare_learned_features.py",
+  "context_embedding_pattern": "learned_e{epoch}.npy",
+  "context_embedding_dimensions": 768,
+  "reuse_feature_run": "20261023_title_body_capability_v1",
+  "text_weights": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    1
+  ],
+  "title_features": {
+    "word": 10000,
+    "char": 5000
+  },
+  "body_features": {
+    "word": 20000,
+    "char": 10000
+  },
+  "candidates": [
+    {
+      "name": "probe_e1",
+      "epoch": 1,
+      "title_scale": 0,
+      "body": false,
+      "embedding_scale": 1,
+      "C": 1
+    },
+    {
+      "name": "probe_lexical_e1",
+      "epoch": 1,
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 1,
+      "C": 1
+    },
+    {
+      "name": "probe_e2",
+      "epoch": 2,
+      "title_scale": 0,
+      "body": false,
+      "embedding_scale": 1,
+      "C": 1
+    },
+    {
+      "name": "probe_lexical_e2",
+      "epoch": 2,
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 1,
+      "C": 1
+    },
+    {
+      "name": "probe_e4",
+      "epoch": 4,
+      "title_scale": 0,
+      "body": false,
+      "embedding_scale": 1,
+      "C": 1
+    },
+    {
+      "name": "probe_lexical_e4",
+      "epoch": 4,
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 1,
+      "C": 1
+    }
+  ],
+  "embedding_manifest": "reports/split_semantic_features_v1/feature_manifest.json",
+  "preflight_repair": "v1 stopped before any encoder extraction or head fit because embedding_manifest metadata key was missing; v2 adds the identity alias without changing model/data/selection parameters",
+  "run_id": "20261023_learned_encoder_probe_capability_v2_preflightfix"
+}

@@ -1,0 +1,21 @@
+{
+  "study_id": "repository_auxiliary_ensemble_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "source_runs": [
+    "20261024_semantic_availability_channel_capability_v1",
+    "20261024_repository_auxiliary_capability_v1"
+  ],
+  "source_method": "best_policy",
+  "source_finalizer": "20261024_repository_auxiliary_finalizer_v1",
+  "comparison_run": "20261024_semantic_availability_channel_capability_v1",
+  "comparison_method": "new_policy",
+  "reconstruct_source_OOF": true,
+  "fractions": [
+    0,
+    0.5,
+    1
+  ],
+  "report_directory": "reports/repository_auxiliary_ensemble_capability_v1",
+  "selection": "Freeze both already-verified whole score policies, no encoder/head fitting. Fixed new policy equals arithmetic0.5 mixture; companion portfolio picks only0/0.5/1 by original training OOF. Validation global cutoff only, all five locks before test. Match original RF controls and compare to highest semantic-availability new_policy.",
+  "limits": "Motivated by completed repository policy higher P/lower R and changed errors; adaptive historically exposed weak-label exploration, no independent/official claim. No finer weight grid or query metadata, labels/rows/groups unchanged; no full-data export unless improved verified pooled RF-eligible point."
+}

@@ -1,0 +1,27 @@
+{
+  "study_id": "known_proxy_neighbors_pilot_v1",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "reference_run": "20261024_repository_auxiliary_ensemble_capability_v1",
+  "proxy_source_run": "20261024_repository_auxiliary_capability_v1",
+  "channel_run": "20261023_annotation_channel_capability_v1",
+  "coverage_run": "20261024_evidence_coverage_gate_capability_v1",
+  "publication_source_run": "20261024_semantic_availability_channel_capability_v1",
+  "neighbors": {
+    "neighbors": 20,
+    "power": 4,
+    "pseudocount": 1,
+    "prior_strength": 20
+  },
+  "fractions": [
+    0.5,
+    1
+  ],
+  "weights": [
+    0.125,
+    0.25,
+    0.5
+  ],
+  "report_directory": "reports/known_proxy_neighbors_pilot_v1",
+  "selection": "Original fold0 grouped training3 only; frozen own-known-fit CodeBERT/Qwen4B dense cosine features,20 same-repo observed-proxy neighbors when available otherwise global, cosine^4 votes plus1 fit-only prior pseudocount/20-repo shrinkage. Pure neighbors or0.5 blend with frozen repo-C1 probabilities; same frozen coverage/publication experts and three strengths. Strict positive training F1 gain for CPU-only expansion.",
+  "limits": "No proxy targets from unobserved rows. Query API accepts vectors and Repo Name only, never query groups/IDs/targets; source-group neighbors excluded only during fit-center prediction. Fit prior statistics still come from original fit examples, not unbiased leave-group prior estimates. Original roles/labels/RF unchanged; no outer validation/test pilot predictions, no benchmark or independent/official score."
+}

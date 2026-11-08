@@ -1,0 +1,73 @@
+{
+  "study_id": "split_semantic_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "reference_run": "20261023_title_body_capability_v1",
+  "reuse_feature_run": "20261023_title_body_capability_v1",
+  "embedding_path": "outputs/experiments/20261023_split_semantic_features_v1/combined_embeddings.npy",
+  "embedding_manifest": "reports/split_semantic_features_v1/feature_manifest.json",
+  "candidates": [
+    {
+      "name": "split_embed_c1",
+      "title_scale": 0,
+      "body": false,
+      "embedding_scale": 1,
+      "C": 1
+    },
+    {
+      "name": "split_embed_c4",
+      "title_scale": 0,
+      "body": false,
+      "embedding_scale": 1,
+      "C": 4
+    },
+    {
+      "name": "split_hybrid05_c1",
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 0.5,
+      "C": 1
+    },
+    {
+      "name": "split_hybrid1_c1",
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 1,
+      "C": 1
+    },
+    {
+      "name": "split_hybrid1_c4",
+      "title_scale": 1,
+      "body": true,
+      "embedding_scale": 1,
+      "C": 4
+    },
+    {
+      "name": "title_semantic05_c1",
+      "title_scale": 1,
+      "body": false,
+      "embedding_scale": 0.5,
+      "C": 1
+    }
+  ],
+  "text_weights": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    1
+  ],
+  "CPU_workers": 64,
+  "title_features": {
+    "word": 10000,
+    "char": 5000
+  },
+  "body_features": {
+    "word": 20000,
+    "char": 10000
+  },
+  "selection": "own train OOF RF-gated F1 selects representation and weight, validation threshold only, all five locks before assessment",
+  "report_directory": "reports/split_semantic_capability_v1",
+  "limits": "historical weak-label development, no independent or official confirmation; title/body lexical channels reused with identical fit-role hashes; frozen Qwen title and body each get their own 512-token budget",
+  "run_id": "20261023_split_semantic_capability_v1"
+}

@@ -1,0 +1,19 @@
+{
+  "study_id": "channel_residual_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "channel_run": "20261023_annotation_channel_capability_v1",
+  "weights": [
+    0,
+    0.25,
+    0.5,
+    1
+  ],
+  "CPU_workers": 8,
+  "expectation": "mean channel prediction per repository on exactly the channel fit rows; unknown repo falls back global fit prediction mean, never query mean",
+  "formula": "sigmoid(logit(base frozen portfolio)+weight*(logit(channel prediction)-logit(fit-only channel expectation)))",
+  "selection": "source channel feature/epoch policy held fixed from own-outer-train selection; residual weight by own train OOF RF-gated F1, validation threshold only, all five locks before test",
+  "report_directory": "reports/channel_residual_capability_v1",
+  "limits": "auxiliary source is a weak proxy, not human gold; base/auxiliary evidence correlated, no independence claim; same historically exposed7154x217 evaluation, not official or independent",
+  "run_id": "20261023_channel_residual_capability_v1"
+}

@@ -1,0 +1,34 @@
+{
+  "study_id": "annotation_channel_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "reference_run": "20261023_split_semantic_capability_v1",
+  "learned_feature_run": "20261023_learned_encoder_probe_capability_v2_preflightfix",
+  "auxiliary_source": "data/processed/20261021_join_lineage_v2/aligned_targets.npz",
+  "auxiliary_sha256": "2cef7661f5a334c37cf7ddba72cc6d7872d9c4c8670f7d75b181615e4aa2c61c",
+  "feature_candidates": [
+    "learned_selected",
+    "frozen_qwen"
+  ],
+  "frozen_features": "outputs/experiments/20261023_markdown_semantic_features_v1/combined_embeddings.npy",
+  "auxiliary_head_C": 1,
+  "channel_strength": 20,
+  "prior_strength": 20,
+  "channel_weights": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    1
+  ],
+  "CPU_workers": 32,
+  "selection": "own fit trains auxiliary readout on evidence-matched rows only, channel on known fit pairs only, priors on all fit rows; own train OOF RF-gated F1 chooses feature/weight; validation threshold only; all five calibration locks before test",
+  "report_directory": "reports/annotation_channel_capability_v1",
+  "limits": "observed API proxy and published-label mapping, not true-label noise identification; known-evidence selection may not generalize to missing rows; all published7154x217 evaluation retained, own predicted auxiliary scores only at inference, historical development not independent/official",
+  "learned_epoch_policy": "reuse each outer own-train-selected auxiliary model epoch, held fixed for channel comparison; exact same selected epoch for final encoder",
+  "model": "${PRETRAINED_ROOT}/ModernBERT-base_8949b909ec900327062f0ebf497f51aef5e6f0c8",
+  "model_revision": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+  "context_embedding_pattern": "learned_e{epoch}.npy",
+  "context_embedding_dimensions": 768,
+  "run_id": "20261023_annotation_channel_capability_v1"
+}

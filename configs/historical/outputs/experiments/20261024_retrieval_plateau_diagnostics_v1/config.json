@@ -1,0 +1,27 @@
+{
+  "study_id": "retrieval_plateau_diagnostics_v1",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "neighbor_run": "20261024_known_proxy_neighbors_capability_v1",
+  "proxy_source_run": "20261024_repository_auxiliary_capability_v1",
+  "channel_run": "20261023_annotation_channel_capability_v1",
+  "coverage_run": "20261024_evidence_coverage_gate_capability_v1",
+  "publication_source_run": "20261024_semantic_availability_channel_capability_v1",
+  "neighbors": {
+    "neighbors": 20,
+    "power": 4,
+    "pseudocount": 1,
+    "prior_strength": 20
+  },
+  "neighbor_fraction": 1,
+  "residual_weight": 0.5,
+  "shuffle_seeds": [
+    1927,
+    1928,
+    1929,
+    1930,
+    1931
+  ],
+  "CPU_workers": 3,
+  "report_directory": "reports/retrieval_plateau_diagnostics_v1",
+  "scope": "Original fold0 outer-training three component-held inner partitions only. Fixed original k20 recipe; new centre excludes each centre component from neighbor priors/constants and annotation mapping counts. Centre averages fit-only component-excluded predictions; supervised encoder is not retrained per centre component and no complete unbiased-centre claim is made. Never create outer validation/test predictions. Shuffle full prototype targets within repo/cardinality-quartile (all prototypes observed, availability bin constant). Preserve winning model and all original reports."
+}

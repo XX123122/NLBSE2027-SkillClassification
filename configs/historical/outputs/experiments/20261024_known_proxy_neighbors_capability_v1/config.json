@@ -1,0 +1,30 @@
+{
+  "study_id": "known_proxy_neighbors_capability_v1",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "reference_run": "20261024_repository_auxiliary_ensemble_capability_v1",
+  "proxy_source_run": "20261024_repository_auxiliary_capability_v1",
+  "channel_run": "20261023_annotation_channel_capability_v1",
+  "coverage_run": "20261024_evidence_coverage_gate_capability_v1",
+  "publication_source_run": "20261024_semantic_availability_channel_capability_v1",
+  "neighbors": {
+    "neighbors": 20,
+    "power": 4,
+    "pseudocount": 1,
+    "prior_strength": 20
+  },
+  "fractions": [
+    0.5,
+    1
+  ],
+  "weights": [
+    0.125,
+    0.25,
+    0.5
+  ],
+  "report_directory": "reports/known_proxy_neighbors_capability_v1",
+  "selection": "Admitted by audited original fold0 training-only gain+0.00044296. Reuse3 pilot neighbor models; fit17 further own-fit known-only prototypes using same20/power4/pseudocount1/repo-prior20 settings. No query groups/targets. Fractions0.5/1 and strengths0.125/0.25/0.5 selected only by own original grouped training OOF, baseline fallback retained; validation global cutoff, all five locks before test.",
+  "limits": "Training-only coarser strength1 boundary probe reduced F1 and original three strengths retained. Neighbors store only observed proxy examples; source groups excluded only during fitting-centre prediction, never supplied to query API. Same labels/rows/groups/RF; no new encoders/parametric heads, query targets/PR/author/date, independent or official claim. Historical exposed weak-label development.",
+  "protocol": "grouped5_pr_components",
+  "pilot_run": "20261024_known_proxy_neighbors_pilot_v1",
+  "CPU_workers": 8
+}

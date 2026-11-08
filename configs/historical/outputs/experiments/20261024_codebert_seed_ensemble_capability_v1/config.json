@@ -1,0 +1,17 @@
+{
+  "study_id": "codebert_seed_ensemble_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "source_runs": [
+    "20261024_codebert_auxiliary_residual_capability_v1",
+    "20261024_codebert_auxiliary_seed4321_capability_v1"
+  ],
+  "source_finalizer": "20261024_codebert_followups_finalizer_v1",
+  "fractions": [
+    0,
+    0.5,
+    1
+  ],
+  "report_directory": "reports/codebert_seed_ensemble_capability_v1",
+  "selection": "reuse each seed's own-outer-training selected epoch/residual policy; new_policy is fixed equal probability average, best_policy chooses fraction by original own-training grouped OOF; validation cutoff only; all five locks precede ensemble test read",
+  "limits": "no new base fits; source outer scores have been exposed; different training seeds alone, not independent data or gold labels; same historical weak development, not official or independent test"
+}

@@ -1,0 +1,41 @@
+{
+  "study_id": "repository_auxiliary_pilot_v1",
+  "protocol": "grouped5_pr_components",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "reference_run": "20261024_semantic_availability_channel_capability_v1",
+  "reference_method": "best_policy",
+  "channel_run": "20261023_annotation_channel_capability_v1",
+  "lexical_run": "20261023_title_body_capability_v1",
+  "contextual_auxiliary_features_run": "20261024_codebert_auxiliary_probe_features_v1",
+  "frozen_auxiliary_fusion": {
+    "embedding_path": "outputs/experiments/20261023_qwen4_embedding_features_v1/combined_embeddings.npy",
+    "manifest": "reports/qwen4_embedding_features_v1/feature_manifest.json"
+  },
+  "candidates": [
+    "codebert_dense",
+    "codebert_hybrid",
+    "codebert_dense_tree",
+    "codebert_hybrid_tree"
+  ],
+  "residual_weights": [
+    0,
+    0.125,
+    0.25,
+    0.5
+  ],
+  "auxiliary_head_C": 1,
+  "channel_strength": 20,
+  "CPU_workers": 32,
+  "report_directory": "reports/repository_auxiliary_pilot_v1",
+  "selection": "Original fold0 grouped training3; reuse existing known-only supervised CodeBERT768/frozen Qwen4B/optional TFIDF features. Append scale1 train-vocabulary Repo Name indicators without changing or renormalizing original feature columns. Fit fixed four C1 proxy head families on observed proxy rows only. Replace old expert under frozen coverage and semantic availability mapping; admit full folds only for>=0.0001 training F1 gain.",
+  "limits": "Repo Name is an explicitly allowed prediction input. No query skill/availability/PR/author/date fields. Fit-only category vocabulary, unseen repo all-zero appended block and original text scaling. No new encoders/GPU work, no outer validation/test pilot predictions or independent/official score.",
+  "role_source_run": "20261023_annotation_channel_capability_v1",
+  "coverage_run": "20261024_evidence_coverage_gate_capability_v1",
+  "reused_readout_run": "20261024_repository_auxiliary_pilot_v1",
+  "auxiliary_repository_scale": 1,
+  "conditional_candidates": [
+    "codebert_dense_tree",
+    "codebert_hybrid_tree"
+  ],
+  "pilot_minimum_training_F1_gain": 0.0001
+}

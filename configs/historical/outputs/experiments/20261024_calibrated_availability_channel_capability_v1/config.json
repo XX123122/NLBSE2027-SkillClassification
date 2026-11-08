@@ -1,0 +1,25 @@
+{
+  "study_id": "calibrated_availability_channel_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "reference_run": "20261024_availability_publication_channel_capability_v1",
+  "auxiliary_source_run": "20261023_annotation_channel_capability_v1",
+  "gate_source_run": "20261024_learned_matchability_gate_capability_v1",
+  "lexical_run": "20261023_title_body_capability_v1",
+  "channel_kind": "availability",
+  "strength": 20,
+  "weights": [
+    0,
+    0.125,
+    0.25,
+    0.5,
+    1
+  ],
+  "CPU_workers": 8,
+  "report_directory": "reports/calibrated_availability_channel_capability_v1",
+  "selection": "own-fit metadata calibrates availability intercepts to20-smoothed repository evidence rates, with exact0/1 for constant fit domains and global-fit fallback for unseen repo; same fixed availability classifier and publication stratum means; correct the original coverage source, choose correction strength/reference fallback on own train OOF; validation cutoff only; all locks before test",
+  "limits": "evidence availability is an auxiliary metadata task, not a negative skill label; every published fit target is observed; no query availability flag or proxy labels supplied; source coverage/auxiliary policies held fixed; exposed weak development, not official or independent",
+  "correction_base_run": "20261024_evidence_coverage_gate_capability_v1",
+  "mean_calibrate_availability": true,
+  "availability_intercept_strength": 20
+}

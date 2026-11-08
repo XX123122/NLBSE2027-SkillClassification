@@ -1,0 +1,33 @@
+{
+  "study_id": "full_repository_auxiliary_candidate_v1",
+  "base_deployment": "outputs/deployment/20261023_full_frozen_candidate_v1",
+  "learned_deployment": "outputs/deployment/20261024_full_codebert_long_candidate_v1",
+  "learned_features_root": "outputs/experiments/20261024_full_codebert_probe_features_v1",
+  "learned_encoder_known_subset": true,
+  "epoch": 4,
+  "frozen_features": "outputs/experiments/20261023_qwen4_embedding_features_v1/combined_embeddings.npy",
+  "frozen_manifest": "reports/qwen4_embedding_features_v1/feature_manifest.json",
+  "development_reference": "outputs/experiments/20261024_repository_auxiliary_ensemble_capability_v1",
+  "candidates": [
+    "learned_fused",
+    "learned_fused_hybrid",
+    "learned_fused_tree",
+    "learned_fused_tree_hybrid"
+  ],
+  "weights": [
+    0,
+    0.125,
+    0.25,
+    0.5
+  ],
+  "CPU_workers": 12,
+  "head_C": 1,
+  "channel_strength": 20,
+  "report_directory": "reports/full_repository_auxiliary_candidate_v1",
+  "selection": "source full-training OOF fixes encoder epoch4; matching known-fit dense/hybrid/fused conditional or independent readouts and residual strength/cutoff selected using full-training grouped OOF; refit selected readout on all3070 known proxy rows; no independent or benchmark performance claim",
+  "fractions": [
+    0.5,
+    1
+  ],
+  "auxiliary_repository_scale": 1
+}

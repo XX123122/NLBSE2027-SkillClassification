@@ -1,0 +1,30 @@
+{
+  "study_id": "semantic_availability_channel_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "reference_run": "20261024_calibrated_availability_channel_capability_v1",
+  "auxiliary_source_run": "20261023_annotation_channel_capability_v1",
+  "gate_source_run": "20261024_learned_matchability_gate_capability_v1",
+  "lexical_run": "20261023_title_body_capability_v1",
+  "channel_kind": "availability",
+  "strength": 20,
+  "weights": [
+    0,
+    0.125,
+    0.25,
+    0.5,
+    1
+  ],
+  "CPU_workers": 20,
+  "report_directory": "reports/semantic_availability_channel_capability_v1",
+  "selection": "Fixed C1 binary availability classifier on own-fit lexical/repository features plus frozen Qwen4B original Markdown semantic vectors, each block L2 then concatenate/L2; same fit-only publication stratum means and strength20 mean calibration; refine fixed coverage source; strength/reference by own train OOF, validation threshold only, all five locks before test",
+  "limits": "Availability is a separately observed metadata training target; missing proxies never become skill negatives. No true query availability, target count, proxy labels or PR metadata. Frozen semantic vectors are input-only and never finetuned here. Same released labels/component splits. Historically exposed development, not official/independent.",
+  "correction_base_run": "20261024_evidence_coverage_gate_capability_v1",
+  "mean_calibrate_availability": true,
+  "availability_intercept_strength": 20,
+  "availability_model": "semantic_availability",
+  "availability_embedding": {
+    "embedding_path": "outputs/experiments/20261023_qwen4_embedding_features_v1/combined_embeddings.npy",
+    "manifest": "reports/qwen4_embedding_features_v1/feature_manifest.json"
+  }
+}

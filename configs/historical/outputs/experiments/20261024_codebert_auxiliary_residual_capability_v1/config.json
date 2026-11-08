@@ -1,0 +1,49 @@
+{
+  "study_id": "codebert_auxiliary_residual_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "model": "${PRETRAINED_ROOT}/codebert-base_3b0952feddeffad0063f274080e3c23d75e7eb39",
+  "model_revision": "3b0952feddeffad0063f274080e3c23d75e7eb39",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "reference_run": "20261023_channel_residual_capability_v1",
+  "source_channel_run": "20261023_annotation_channel_capability_v1",
+  "token_source_run": "20261023_modernbert_multitask_capability_v1",
+  "worker_script": "scripts/modernbert_full_worker.py",
+  "retokenize": true,
+  "primary_targets": "auxiliary_targets.npz",
+  "save_fit_reference_scores": true,
+  "epochs": [
+    1,
+    2,
+    4
+  ],
+  "residual_weights": [
+    0,
+    0.125,
+    0.25,
+    0.5
+  ],
+  "channel_strength": 20,
+  "CPU_workers": 16,
+  "GPU_slots": [
+    5,
+    6,
+    1
+  ],
+  "max_parallel_GPU": 3,
+  "minimum_free_GPU_MiB": 8500,
+  "maximum_GPU_utilization_at_start": 15,
+  "report_directory": "reports/codebert_auxiliary_residual_capability_v1",
+  "selection": "code/NL-pretrained small encoder fit only known proxy rows inside each original fit role; own-training OOF selects epoch/weight; validation cutoff only; all locks precede assessment",
+  "limits": "compares a complete code-domain encoder recipe, not isolated pretraining causality; input uses same normalized title/body and512 tokens but own tokenizer; weak proxy targets and historical development, not official or independent test",
+  "fields_path": "outputs/experiments/20261023_title_body_capability_v1/input_fields.json",
+  "max_length": 512,
+  "micro_batch_size": 8,
+  "effective_batch_size": 32,
+  "prediction_batch_size": 16,
+  "encoder_learning_rate": 2e-05,
+  "head_learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "dropout": 0.1,
+  "warmup_fraction": 0.1,
+  "seed": 1234
+}

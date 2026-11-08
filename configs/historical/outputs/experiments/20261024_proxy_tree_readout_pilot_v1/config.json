@@ -1,0 +1,62 @@
+{
+  "study_id": "proxy_tree_readout_pilot_v1",
+  "diagnostics_run": "20261024_retrieval_plateau_diagnostics_v1",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "neighbor_run": "20261024_known_proxy_neighbors_capability_v1",
+  "proxy_source_run": "20261024_repository_auxiliary_capability_v1",
+  "channel_run": "20261023_annotation_channel_capability_v1",
+  "coverage_run": "20261024_evidence_coverage_gate_capability_v1",
+  "publication_source_run": "20261024_semantic_availability_channel_capability_v1",
+  "neighbors": {
+    "neighbors": 20,
+    "power": 4,
+    "pseudocount": 1,
+    "prior_strength": 20
+  },
+  "minimum_usable_anchor_fraction": 0.5,
+  "minimum_jaccard_quartile_gap": 0.1,
+  "rank": 32,
+  "seeds": [
+    4127,
+    4128,
+    4129
+  ],
+  "epochs": 30,
+  "steps_per_epoch": 16,
+  "batch_triplets": 256,
+  "learning_rate": 0.001,
+  "temperature": 0.15,
+  "gap_margin": 0.1,
+  "factor_penalty": 0.01,
+  "displacement_penalty": 1.0,
+  "neighbor_fraction": 1,
+  "residual_weight": 0.5,
+  "maximum_parallel_GPU_workers": 4,
+  "minimum_free_GPU_MiB": 2000,
+  "hard_GPU_allocated_GiB": 4,
+  "GPU_fit_timeout_seconds": 3600,
+  "GPU_queue_wait_seconds": 900,
+  "avoid_GPU_UUIDs": [
+    "SITE_GPU_EXCLUSION_REQUIRES_CONFIGURATION"
+  ],
+  "CPU_workers": 3,
+  "minimum_mean_training_F1_gain": 0.00025,
+  "require_each_seed_positive": true,
+  "report_directory": "reports/proxy_tree_readout_pilot_v1",
+  "hypothesis": "A distinct nonlinear proxy readout, after both ordinal and proper-Brier low-rank metrics failed held proxy quality/published F1 in3seeds. Preserve5888 input geometry/encoders. Fit unsupervised128 SVD and allowed Repo vocabulary only on own original main-fit inputs. Train native217-output ExtraTreesRegressor256/depth12/leaf5/sqrt features on observed proxies only; squared-error splits and leaf means yield proxy probability estimates, zeros describe API observations, missing rows never negatives. Three component-held head subfits generate fit-centre proxy predictions, with encoder/projection shared inside original fit, not fully nested or unbiased centre. Map centre with per-row group-excluded channel counts, map real query with own full-fit channel; blend mapped tree/NN at fixed .5/1, residual.5 and unchanged coverage/publication experts. Original inner-query excluded from projection, every head and all label statistics; unknown Repo indicators zero. No new encoders/GPU use, no outer validation/test predictions. One fixed forest seed with256trees, no depth/leaf/component grid.",
+  "tree": {
+    "dimensions": 128,
+    "estimators": 256,
+    "depth": 12,
+    "min_leaf": 5,
+    "seed": 1193,
+    "jobs": 16
+  },
+  "tree_fractions": [
+    0.5,
+    1.0
+  ],
+  "minimum_training_F1_gain": 0.0002,
+  "minimum_partition_F1_delta": -0.0001,
+  "maximum_precision_or_recall_loss": 0.0003
+}

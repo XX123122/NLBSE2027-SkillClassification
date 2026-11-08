@@ -1,0 +1,23 @@
+{
+  "study_id": "evidence_coverage_gate_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "reference_run": "20261024_codebert_qwen_hierarchical_auxiliary_capability_v1",
+  "auxiliary_source_run": "20261023_annotation_channel_capability_v1",
+  "coverage_strength": 20,
+  "mixes": [
+    0,
+    0.5,
+    1
+  ],
+  "weights": [
+    0,
+    0.125,
+    0.25,
+    0.5
+  ],
+  "CPU_workers": 8,
+  "report_directory": "reports/evidence_coverage_gate_capability_v1",
+  "selection": "source auxiliary head resolved from each reference own-training policy; row gate is smoothed repository known-evidence fraction divided by global fit fraction, clipped[0,2], unknown repo fallback1; gate mixture/residual strength by own training OOF; validation cutoff only; all locks before test",
+  "limits": "coverage is a heuristic for training-domain support, not calibrated skill confidence; no query evidence availability is supplied at prediction; incomplete proxy mask used only within fit; exposed weak development, not official or independent"
+}

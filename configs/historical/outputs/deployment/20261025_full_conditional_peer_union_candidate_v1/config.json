@@ -1,0 +1,47 @@
+{
+  "study_id": "full_conditional_peer_union_candidate_v1",
+  "base_deployment": "outputs/deployment/20261023_full_frozen_candidate_v1",
+  "learned_deployment": "outputs/deployment/20261024_full_codebert_long_candidate_v1",
+  "learned_features_root": "outputs/experiments/20261024_full_codebert_probe_features_v1",
+  "learned_encoder_known_subset": true,
+  "epoch": 4,
+  "frozen_features": "outputs/experiments/20261023_qwen4_embedding_features_v1/combined_embeddings.npy",
+  "frozen_manifest": "reports/qwen4_embedding_features_v1/feature_manifest.json",
+  "development_reference": "outputs/experiments/20261024_repository_auxiliary_ensemble_capability_v1",
+  "candidates": [
+    "learned_fused",
+    "learned_fused_hybrid",
+    "learned_fused_tree",
+    "learned_fused_tree_hybrid"
+  ],
+  "weights": [
+    0.125,
+    0.25,
+    0.5
+  ],
+  "CPU_workers": 3,
+  "head_C": 1,
+  "channel_strength": 20,
+  "report_directory": "reports/full_conditional_peer_union_candidate_v1",
+  "selection": "source full-training OOF fixes encoder epoch4; matching known-fit dense/hybrid/fused conditional or independent readouts and residual strength/cutoff selected using full-training grouped OOF; refit selected readout on all3070 known proxy rows; no independent or benchmark performance claim",
+  "fractions": [
+    0.5,
+    1
+  ],
+  "auxiliary_repository_scale": 1,
+  "source": "outputs/deployment/20261024_full_repository_auxiliary_candidate_v1",
+  "source_candidate": "learned_fused_hybrid",
+  "neighbors": {
+    "neighbors": 20,
+    "power": 4,
+    "pseudocount": 1,
+    "prior_strength": 20
+  },
+  "source_deployment": "outputs/deployment/20261024_full_neighbor_candidate_v1",
+  "source_model_sha256": "40ed37a1c4bacc9a79d72e0266c245f93d1d28e54df3951c9c1a721b9582adf2",
+  "availability_deployment": "outputs/deployment/20261024_full_semantic_availability_candidate_v1",
+  "development_run": "20261025_conditional_peer_union_capability_v1",
+  "minimum_verified_development_gain": 0.0002,
+  "maximum_context_seconds": 600,
+  "limits": "Full7154-own3fold OOF fixed conditionalunion vs verified40edreference. PriorFgivenS0Jeffreys.5Repo20/observedmechanism notlatentAPI, noqueryPR/group/labels/API/M inputs. SourcefullCodeBERT4epoch/frozenQwen/lexical vocabulary androle selections retained; sourceNNfraction1/residual.25/coverage1/publicationweight1 fixed, nocoeforweightgrid. Threeownfit knownEvidenceNN banks+wholecomponentexcluded priors/constants andconditionalF/Ycounts/centre;3properC1availabilityheads/context andownsubfitcalibration20, fullquerygate reused. ControloriginalKnownProxycentres keptasfixedreference, newcentre correction partofrecipe, nofullynestedencoderclaim. OriginalfulltrainRFglobalcutoff andstrictnewF1gain/noRFfallback/RF-P-R-F1 beforeexport. Tie/reference meansno forcedupgrade; savecandidate/audit, preserve40ed. No newencoder/GPUtraining/downloads/paper/submission/outerpredictions; exportedweights have no independentfivefoldscore. Phase1selectiononly, independentaudit beforefullfit/bundle/rawcached/corpusblocked tests."
+}

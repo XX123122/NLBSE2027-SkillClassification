@@ -1,0 +1,13 @@
+{
+  "study_id": "peer_publication_information_v1",
+  "tree_source_run": "20261024_proxy_tree_readout_capability_v1",
+  "CPU_workers": 3,
+  "tree_jobs_per_head": 16,
+  "repository_prior_strength": 20,
+  "maximum_head_seconds": 600,
+  "minimum_pooled_Brier_improvement": 0.0001,
+  "minimum_pooled_AP_improvement": 0.001,
+  "maximum_partition_Brier_loss": 0.0001,
+  "report_directory": "reports/peer_publication_information_v1",
+  "hypothesis": "Identified published-label component F_i=OR of own-role sameoriginalPR OTHER observed API instances, uniqueRepo perbag; not true latent API or unknown-negative imputation. Raw7245pullcount membership verified perrole, lineage7154 alignment exact, fit/queryPRcomponents disjoint. Training and heldF targets separate, heldtargets onlycreated after allpredictors finish; CPUspawn workers readonlypackedfitF/features/ownsourceprojection, noqueryPR/group/labels/API/missingness. Fixed sourceSVD128/5888dense+Repo/256depth12leaf5sqrt/no-bootstrap/seed1193, three fullheads, no newencoder/projection.3CPUworkersx16treejobs<=48 BLAS1,600shead; predictionserialtree sumdeterministic. Own-fitFglobalmean andRepo20 prior controls, all217columns/fitconstant boundaries retained. Fixed Brier+.0001/AP+.001/maxpartBrierloss.0001 againstRepo20 beforepropercentre/mainF1plan. No seed/depth/leaf/representation grids, GPU/newdownloads/mainF1/outer/paper/export/submission. Adaptiveweaklabelinformation, notgoldofficialindependent."
+}

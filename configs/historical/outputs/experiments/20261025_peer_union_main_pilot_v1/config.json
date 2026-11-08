@@ -1,0 +1,20 @@
+{
+  "study_id": "peer_union_main_pilot_v1",
+  "peer_tree_information_run": "20261025_peer_publication_information_v1",
+  "input_config": "configs/semantic_api_residual_pilot_v1.json",
+  "tree_source_run": "20261024_proxy_tree_readout_capability_v1",
+  "reference_run": "20261024_proxy_tree_readout_capability_v1",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "prior_strength": 20,
+  "availability_intercept_strength": 20,
+  "CPU_workers": 9,
+  "maximum_head_seconds": 600,
+  "neighbor_replacement_fractions": [
+    1.0
+  ],
+  "minimum_training_F1_gain": 0.0002,
+  "minimum_partition_F1_delta": -0.0001,
+  "maximum_precision_or_recall_loss": 0.0003,
+  "report_directory": "reports/peer_union_main_pilot_v1",
+  "hypothesis": "Fixed structural observed-publication union afterpeerFtree failedRepo20information control. Fit-only identified F=otherobservedAPIPRunion, notlatentcleanAPI. Predictpub=f_Repo20+(1-f)*a_text*q_sourceNN, conditionalindependence assumption NOTidentifiedcausality. Originalquery vectors/textRepo only, noqueryPR/group/proxy/missingness. CentreF/globalRepo/publishedconstantcounts removeentireowncomponent; exactsourceNNLGO proxy reused. Originalfullfit semanticavailability gate/calibration reused forquery,9properGroupKFoldsubfit C1liblinearheads+ownsubfitmean calibration20 forcentres; originalfit lexicalvocabulary shared, sourceCodeBERTcentre bias retained. Single1.0NNmappedexpert replacement, noextra sidecorrection, no change tree/coverage/publication/globalRFthreshold; zeroexactsource.9CPU*BLAS1/600shead/noGPU/newencoders/downloads/outer/paper/export/submission. Original+.00020/minpartition-.00010/P-R-.00030/RFmaingate, nocoef/weight/temperature/independencegrid. Allpriorliteraldeletes/gate9refits/union/centre/policy/metrics/heldsupervisionintervention/sourceSHA audit. Weakadaptive devnotgoldofficialindependent."
+}

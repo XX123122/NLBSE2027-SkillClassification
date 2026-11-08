@@ -1,0 +1,75 @@
+{
+  "study_id": "title_body_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "candidates": [
+    {
+      "name": "title_c1",
+      "title_scale": 1,
+      "body": false,
+      "C": 1
+    },
+    {
+      "name": "body_c1",
+      "title_scale": 0,
+      "body": true,
+      "C": 1
+    },
+    {
+      "name": "title_body1_c1",
+      "title_scale": 1,
+      "body": true,
+      "C": 1
+    },
+    {
+      "name": "title_body1_c4",
+      "title_scale": 1,
+      "body": true,
+      "C": 4
+    },
+    {
+      "name": "title_body2_c1",
+      "title_scale": 2,
+      "body": true,
+      "C": 1
+    },
+    {
+      "name": "title_body2_c4",
+      "title_scale": 2,
+      "body": true,
+      "C": 4
+    },
+    {
+      "name": "title_body4_c1",
+      "title_scale": 4,
+      "body": true,
+      "C": 1
+    },
+    {
+      "name": "title_body4_c4",
+      "title_scale": 4,
+      "body": true,
+      "C": 4
+    }
+  ],
+  "text_weights": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    1
+  ],
+  "CPU_workers": 64,
+  "title_features": {
+    "word": 10000,
+    "char": 5000
+  },
+  "body_features": {
+    "word": 20000,
+    "char": 10000
+  },
+  "selection": "choose new representation and fusion weight by each outer's own train OOF RF-gated F1; compare to previous adaptive within train; validation threshold only; all locks precede assessment",
+  "report_directory": "reports/title_body_capability_v1",
+  "limits": "same historically exposed 7154 weak-label records and 217 labels; no official or independent confirmation",
+  "run_id": "20261023_title_body_capability_v1"
+}

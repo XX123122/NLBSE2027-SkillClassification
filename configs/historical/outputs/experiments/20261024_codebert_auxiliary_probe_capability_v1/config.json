@@ -1,0 +1,27 @@
+{
+  "study_id": "codebert_auxiliary_probe_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "reference_run": "20261024_codebert_seed_ensemble_capability_v1",
+  "reference_method": "new_policy",
+  "channel_run": "20261023_annotation_channel_capability_v1",
+  "lexical_run": "20261023_title_body_capability_v1",
+  "contextual_auxiliary_features_run": "20261024_codebert_auxiliary_probe_features_v1",
+  "source_encoder_run": "20261024_codebert_auxiliary_long_capability_v1",
+  "candidates": [
+    "codebert_dense",
+    "codebert_hybrid"
+  ],
+  "residual_weights": [
+    0,
+    0.125,
+    0.25,
+    0.5
+  ],
+  "auxiliary_head_C": 1,
+  "channel_strength": 20,
+  "CPU_workers": 32,
+  "report_directory": "reports/codebert_auxiliary_probe_capability_v1",
+  "selection": "source epoch fixed by original own-outer-training proxy-only CodeBERT policy; logistic readout fits exactly the same known proxy rows as its supervised encoder; lexical vocabulary fits original full fit role; readout feature/residual strength by own train OOF; validation cutoff only; all locks before assessment",
+  "limits": "source encoder fit is a known-label subset of full channel fit role, exactly matching the auxiliary readout fit; no held rows in encoder/readout training; weak proxy and historically exposed development, not official or independent"
+}

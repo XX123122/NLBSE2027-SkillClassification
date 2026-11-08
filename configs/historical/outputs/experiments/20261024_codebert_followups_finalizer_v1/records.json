@@ -1,0 +1,14 @@
+[
+  {
+    "run_id": "20261024_codebert_auxiliary_seed4321_capability_v1",
+    "training_state": "complete",
+    "metrics_independently_verified": true,
+    "scoreboard_updated": true
+  },
+  {
+    "run_id": "20261024_codebert_auxiliary_markdown_capability_v1",
+    "training_state": "complete",
+    "metrics_independently_verified": true,
+    "scoreboard_updated": true
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "study_id": "conditional_peer_union_pilot_v1",
+  "peer_tree_information_run": "20261025_peer_publication_information_v1",
+  "input_config": "configs/semantic_api_residual_pilot_v1.json",
+  "tree_source_run": "20261024_proxy_tree_readout_capability_v1",
+  "reference_run": "20261024_proxy_tree_readout_capability_v1",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "prior_strength": 20,
+  "availability_intercept_strength": 20,
+  "CPU_workers": 9,
+  "maximum_head_seconds": 600,
+  "neighbor_replacement_fractions": [
+    1.0
+  ],
+  "minimum_training_F1_gain": 0.0002,
+  "minimum_partition_F1_delta": -0.0001,
+  "maximum_precision_or_recall_loss": 0.0003,
+  "report_directory": "reports/conditional_peer_union_pilot_v1",
+  "hypothesis": "Conditional observed union model replacingunconditional peerF: f0=P(peerobservedF=1 | no ownobservedS=1, Repo). S=knownflag AND localAPI annotatedbit, definingpublicationevent NOTclaimmissinglocalskillzero. Fitf0Jeffreys.5global/Repo20counts withwholecomponent removed forcentre inclFfallback/Yconstants. Predictf0+(1-f0)*a_text*q_originalNN, noF/S independence assumed; f0Repo-only transportapprox remains. Reuseaudited9ownsubfit C1availability heads/calibrations/features/roles bitwise, originalfullquerygate/sourceNN/treecoveragepublication unchanged, singleNNreplacement1.0/zeroexactsource. New3conditionalcountbundles/noencoder/classifier/GPU/outer/paper/export/submission. Original4640main+.00020/minpartition-.00010/P-R-.00030/RFgate, nosmooth/weight/conditiongrid. Prior.000190736near-miss remainsrejected not gate relaxed. All counts/literal15/sourceassets/centre/policy/metrics/actualheldsupervision intervention audit. Adaptiveweaklabel internalnotgoldofficialindependent.",
+  "reuse_availability_run": "20261025_peer_union_main_pilot_v1"
+}

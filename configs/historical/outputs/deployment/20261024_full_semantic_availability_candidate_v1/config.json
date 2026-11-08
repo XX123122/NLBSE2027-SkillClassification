@@ -1,0 +1,14 @@
+{
+  "study_id": "full_semantic_availability_candidate_v1",
+  "source": "outputs/deployment/20261024_full_calibrated_availability_candidate_v1",
+  "weights": [
+    0,
+    0.125,
+    0.25,
+    0.5,
+    1
+  ],
+  "channel_strength": 20,
+  "calibration": "full-training grouped OOF; not independent test",
+  "new_encoder_fits": 0
+}

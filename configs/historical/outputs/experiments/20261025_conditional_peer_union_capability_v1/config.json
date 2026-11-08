@@ -1,0 +1,13 @@
+{
+  "study_id": "conditional_peer_union_capability_v1",
+  "protocol": "grouped5_pr_components",
+  "pilot_run": "20261025_conditional_peer_union_pilot_v1",
+  "reference_run": "20261024_proxy_tree_readout_capability_v1",
+  "base_run": "20261023_markdown_semantic_capability_v1",
+  "prior_strength": 20,
+  "availability_intercept_strength": 20,
+  "CPU_workers": 8,
+  "maximum_context_seconds": 600,
+  "report_directory": "reports/conditional_peer_union_capability_v1",
+  "limits": "Fixed fivefold expansion of audited mainOOF+.000219739 conditionalF0 union; allhyperparams frozen, no sourcepolicy architecture drift: folds0/4 originaltree.5 residual.5, folds1/2 originalNNfraction1residual.25,fold3 NNfraction.5residual.25. ReplaceonlyNNmappedexpert/centre; previousnonNN/tree/coverage/publication retained. NewF0 Jeffreys.5Repo20 observedmechanismconditionalcounts andwholecomponentexclusion, atextfullsourcegate/query and3subfitC1heads/calibration20/centre, exactsourceEvidenceNNLGO. NoqueryPR/group/API/M/targets inforward; ownfitlabels onlyprepare.20contexts60CPUavailabilityheads max8BLAS1/600seccontext, noGPU/encoder/skilltraining.Originalfit lexicalvocab andsupervisedsourceencoder sharedcentres remainnotwholepipelineunbiased. EachfoldtrainOOF candidate/reference select; alllocks5training then5validationthreshold beforetest. Zeroexactsource/existingreferenceformula<=1e-13; pilotfold0bitwise. Adaptiveweaklabelinternalpointnotgoldofficialindependent. No paper/external submission/currentexport overwrite; >=+.00020verifiedouterpoint beforefull-trainingexportplan."
+}
