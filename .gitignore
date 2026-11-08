@@ -13,6 +13,7 @@ configs/local_runtime.json
 assets/*
 !assets/README.md
 !assets/attachment_manifest.json
+!assets/private_release_manifest.json
 !assets/runtime_requirements.json
 data/
 cache/
