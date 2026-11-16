@@ -1,6 +1,6 @@
 {
   "state": "local_manuscript_revision_complete",
-  "date_client": "2026-11-08",
+  "date_client": "2026-11-16",
   "title": "An Auditable Tool for API-Derived Skill Classification",
   "authors": [
     {
@@ -18,8 +18,8 @@
   "institution": "University of Science and Technology of China",
   "parent_named_PDF_sha256": "28a58aaeb76841f4138e1d5517f4e13738972da0f293d083046cb0123e883d34",
   "parent_named_source_sha256": "29cd0438f01e77ec5e706a8989c74c58c88c0d3970f00e3d2f6f64cff3550f4b",
-  "PDF_sha256": "a18673b5fc593d806fb4225293363f777f961d8fa27327f41ac95d7f704d184a",
-  "source_sha256": "aab68c92398002c9b8433807cfa600b590d9db4dc3226d7e57f8a96c70008e34",
+  "PDF_sha256": "26e7059ed5467673b7597d095bef7af9888f8e64818d88ddb9aa8aaf22516953",
+  "source_sha256": "15721dd4bd71a219b146c289252b9efa48165dda4014b9b851c2158f2b619304",
   "pages": 4,
   "no_model_replacement": true,
   "experiments_stopped": true,
@@ -29,5 +29,6 @@
   "public_repository_URL": null,
   "public_model_URL": null,
   "source": "main.tex",
-  "pdf": "skill_classification_named.pdf"
+  "pdf": "skill_classification_named.pdf",
+  "parent_revision": "2026-11-08"
 }

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-16",
+  "upstream_commit": "f265cd60c73f78a0a2282ae625876fd2dc4a0e1b",
+  "sources": [
+    {
+      "name": "official_TODO.md",
+      "url": "https://raw.githubusercontent.com/nlbse2027/skill-classification/main/competition_baseline/TODO.md",
+      "sha256": "8b7a1d457b9fff025f2a624bd41ddabb967f8b68c04ba86cae9db936bf0d12e6",
+      "bytes": 2311
+    },
+    {
+      "name": "official_README.md",
+      "url": "https://raw.githubusercontent.com/nlbse2027/skill-classification/main/README.md",
+      "sha256": "a1149ed15092f4f195698560cb511afeac6589fc66a03aad122d9e91cea26f37",
+      "bytes": 6316
+    },
+    {
+      "name": "official_commit.json",
+      "url": "https://api.github.com/repos/nlbse2027/skill-classification/commits/main",
+      "sha256": "0c8f618944c96645d76039a41e4180fe5e64fc39fac6323a2646c68a455bdd75",
+      "bytes": 6998
+    },
+    {
+      "name": "official_tools.html",
+      "url": "https://nlbse2027.github.io/tools/",
+      "sha256": "bfa9ef1635d722ac9d46b884d17ef893d60ef27db7d00280a881ae37a54e9142",
+      "bytes": 30301
+    }
+  ],
+  "split_label_scope_reference_unresolved": true,
+  "public_code_required": true,
+  "scoring": "P/R/microF1 not below baseline; rank delta microF1, precision then runtime",
+  "tool_deadline_AoE": "2026-11-27T23:59:59-12:00",
+  "tool_deadline_Asia_Shanghai": "2026-11-28T19:59:59+08:00",
+  "Google_Form_not_filled_or_submitted": true
+}

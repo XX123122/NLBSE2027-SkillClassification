@@ -1,11 +1,11 @@
 # NLBSE 2027 Skill Classification: private preparation
 
-This is a **private preparation repository** at https://github.com/XX123122/NLBSE2027-SkillClassification, updated on 2026-11-08. GitHub login and repository access are required. It is not an open-source release, official qualification or submitted competition entry. Public repository/model URLs remain null. It contains curated source, synthetic tests, saved aggregate evidence and the revised named four-page Skill Classification manuscript.
+This is a **private preparation repository** at https://github.com/XX123122/NLBSE2027-SkillClassification, updated on 2026-11-16. GitHub login and repository access are required. It is not an open-source release, official qualification or submitted competition entry. Public repository/model URLs remain null. It contains curated source, synthetic tests, saved aggregate evidence and the revised named four-page Skill Classification manuscript.
 
 Xin Xu is first author; Jun Yu is second and corresponding author, University of
 Science and Technology of China. The paper preserves both approved affiliations
 and email addresses. Use [the named paper](paper/skill_classification_named.pdf)
-and [the matching revised source](paper/main.tex). This is the Nov.8 revision with baseline, ablation, tail-label and unsuccessful weight-edit evidence. Earlier private handoff PDFs are historical.
+and [the matching revised source](paper/main.tex). This is the Nov.16 submission-preparation revision (same experimental results as Nov.8), with baseline, ablation, tail-label and unsuccessful weight-edit evidence. Earlier private handoff PDFs are historical.
 
 ## Scope and layout
 
@@ -196,3 +196,7 @@ do not substitute the general workshop deadline.
 See [release gaps](docs/reproduction_gaps.json). Source and model releases, final
 protocol verification, weight redistribution review and complete training closure
 remain distinct requirements. No form was opened or filled, and no organizer was contacted. Experiments are stopped; this private upload runs no training, real-model forward, threshold search or new data evaluation.
+
+## Submission preparation recheck (2026-11-16)
+
+The named four-page PDF now includes the real repository and private Release location. All result tables and authors are unchanged. The organizer TODO still leaves split/label scope/reference values unresolved; see [dated source check](docs/submission_protocol_check_20261116.json). Public access has not been authorized for this skill project. Only a future explicit user approval may change visibility; no competition form has been submitted.

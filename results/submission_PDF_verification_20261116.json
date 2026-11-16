@@ -1,0 +1,17 @@
+{
+  "state": "passed",
+  "date": "2026-11-16",
+  "pages": 4,
+  "bytes": 203424,
+  "PDF": "output/pdf/competition_tool_submission_named_20261116.pdf",
+  "PDF_sha256": "26e7059ed5467673b7597d095bef7af9888f8e64818d88ddb9aa8aaf22516953",
+  "source_sha256": "15721dd4bd71a219b146c289252b9efa48165dda4014b9b851c2158f2b619304",
+  "all_tables_identical_to_verified_1108": true,
+  "author_block_identical": true,
+  "no_overfull_or_undefined": true,
+  "relocated_rebuild_identical": true,
+  "private_repository_access_status_explicit": true,
+  "new_model_or_data_scores": 0,
+  "public_visibility_changed": false,
+  "public_release_approval_required": true
+}

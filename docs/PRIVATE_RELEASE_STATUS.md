@@ -1,13 +1,11 @@
-# Private hosting status (2026-11-08)
+# Private hosting status (2026-11-16)
 
 Repository: https://github.com/XX123122/NLBSE2027-SkillClassification
 Release: https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private
 
 This is private preparation authorized by the owner. It is not public open source,
 not formal submission, not a complete training reproduction and not official eligibility.
-The latest four-page named manuscript is the Nov.8 revision. Its historical unpublished
-artifact wording predates this private upload; public availability is still absent.
-The manuscript bytes and model/threshold bytes are not edited by this upload.
+The latest four-page named manuscript is the Nov.16 submission-preparation revision. It links the actual repository and states current private access. Experimental results, authors, models and thresholds remain unchanged. Public visibility still requires explicit authorization for this skill project.
 
 The source/asset manifests are checked without deserializing real models. All payload
 members are content-hashed and CRC-checked. Binary model state stays hash-identical;
