@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "private_payload_ready",
+  "state": "public_hosting_authorized",
   "repository_url": "https://github.com/XX123122/NLBSE2027-SkillClassification",
-  "repository_private": true,
+  "repository_private": false,
   "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
-  "public_release_url": null,
+  "public_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
   "archive_filename": "skill-frozen-inference-assets-v0.1.0.zip",
   "archive_bytes": 13728609658,
   "archive_sha256": "b3ad7509b2c4c556e49c124fab90b37a909b0be552c6d3e737d02da2b1f0aa04",
@@ -54,7 +54,9 @@
       "upstream_repository": "Qwen/Qwen3-Embedding-0.6B",
       "upstream_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
       "upstream_model_card_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/blob/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/README.md",
-      "private_attachment_hosted_in_parts": true
+      "private_attachment_hosted_in_parts": false,
+      "public_asset_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
+      "public_attachment_hosted_in_parts": true
     },
     {
       "role": "codebert_encoder",
@@ -95,7 +97,9 @@
       "upstream_repository": "microsoft/codebert-base",
       "upstream_revision": "3b0952feddeffad0063f274080e3c23d75e7eb39",
       "upstream_model_card_url": "https://huggingface.co/microsoft/codebert-base/blob/3b0952feddeffad0063f274080e3c23d75e7eb39/README.md",
-      "private_attachment_hosted_in_parts": true
+      "private_attachment_hosted_in_parts": false,
+      "public_asset_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
+      "public_attachment_hosted_in_parts": true
     },
     {
       "role": "qwen4_encoder",
@@ -146,7 +150,9 @@
       "upstream_repository": "Qwen/Qwen3-Embedding-4B",
       "upstream_revision": "5cf2132abc99cad020ac570b19d031efec650f2b",
       "upstream_model_card_url": "https://huggingface.co/Qwen/Qwen3-Embedding-4B/blob/5cf2132abc99cad020ac570b19d031efec650f2b/README.md",
-      "private_attachment_hosted_in_parts": true
+      "private_attachment_hosted_in_parts": false,
+      "public_asset_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
+      "public_attachment_hosted_in_parts": true
     },
     {
       "role": "codebert_checkpoint",
@@ -161,7 +167,9 @@
       ],
       "upstream_repository": null,
       "upstream_revision": null,
-      "private_attachment_hosted_in_parts": true
+      "private_attachment_hosted_in_parts": false,
+      "public_asset_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
+      "public_attachment_hosted_in_parts": true
     },
     {
       "role": "bundle",
@@ -176,7 +184,9 @@
       ],
       "upstream_repository": null,
       "upstream_revision": null,
-      "private_attachment_hosted_in_parts": true
+      "private_attachment_hosted_in_parts": false,
+      "public_asset_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
+      "public_attachment_hosted_in_parts": true
     }
   ],
   "parts": [
@@ -185,63 +195,63 @@
       "bytes": 1610612736,
       "sha256": "b26bef152b736d4914259055d3e15afc09c29cf372d77e8ceb3b80edfc1ba462",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part001",
-      "public_url": null
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part001"
     },
     {
       "filename": "skill-frozen-inference-assets-v0.1.0.zip.part002",
       "bytes": 1610612736,
       "sha256": "2d485e70e4172d60ee2809c53b498b46320d26695d54207d825c18c17f1b220f",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part002",
-      "public_url": null
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part002"
     },
     {
       "filename": "skill-frozen-inference-assets-v0.1.0.zip.part003",
       "bytes": 1610612736,
       "sha256": "7218d41e37e61ab05d3a26014a9f4d436372cc016049b564c29b06ccbd22725f",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part003",
-      "public_url": null
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part003"
     },
     {
       "filename": "skill-frozen-inference-assets-v0.1.0.zip.part004",
       "bytes": 1610612736,
       "sha256": "0a88147349e599fa5edf1cbe1957d3b71b48d61c166605b3ef060bfa7a876cd7",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part004",
-      "public_url": null
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part004"
     },
     {
       "filename": "skill-frozen-inference-assets-v0.1.0.zip.part005",
       "bytes": 1610612736,
       "sha256": "7c9cfde7513d75cfe858884f7162a81da0b8eda7c16c708e7370930172c7915a",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part005",
-      "public_url": null
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part005"
     },
     {
       "filename": "skill-frozen-inference-assets-v0.1.0.zip.part006",
       "bytes": 1610612736,
       "sha256": "ff32b11323f0a783d61d40a4e25556600f399bd78f5b24de7fbd96bd54f740b2",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part006",
-      "public_url": null
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part006"
     },
     {
       "filename": "skill-frozen-inference-assets-v0.1.0.zip.part007",
       "bytes": 1610612736,
       "sha256": "4ea8166470dc94b9e73fd2581f6c02419c93aa3685fef161c452407277c9b857",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part007",
-      "public_url": null
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part007"
     },
     {
       "filename": "skill-frozen-inference-assets-v0.1.0.zip.part008",
       "bytes": 1610612736,
       "sha256": "e53062cd29c5fa567417d3ad80ce8b4747508a80350c0868828aafe73b5f45c2",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part008",
-      "public_url": null
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part008"
     },
     {
       "filename": "skill-frozen-inference-assets-v0.1.0.zip.part009",
       "bytes": 843707770,
       "sha256": "c03d7d77b2466ca4398474936b5d8f27c2caea21b3b244db82969ec0f53e396e",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part009",
-      "public_url": null
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-frozen-inference-assets-v0.1.0.zip.part009"
     }
   ],
   "part_max_bytes": 1610612736,
@@ -254,5 +264,9 @@
   "experimental_edited_model_included": false,
   "immutable_binary_provenance_requires_public_release_review": true,
   "license_clearance_for_public_distribution": false,
-  "GitHub_max_asset_bytes_strictly_below": 2147483648
+  "GitHub_max_asset_bytes_strictly_below": 2147483648,
+  "public_repository_url": "https://github.com/XX123122/NLBSE2027-SkillClassification",
+  "publication_authorized_date": "2026-11-16",
+  "license_status": "Upstream/license review caveats preserved; owner authorized hosting, not a new third-party license grant.",
+  "public_index_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/download/v0.1.0-private/skill-public-asset-index-20261116.json"
 }

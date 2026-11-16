@@ -12,5 +12,6 @@
   "training": 0,
   "data_scoring": 0,
   "formal_submission": false,
-  "experiments_stopped": true
+  "experiments_stopped": true,
+  "scope_note": "Historical private-hosting receipt. Current public hosting authorized2026-11-16; see public_hosting_scope.json."
 }

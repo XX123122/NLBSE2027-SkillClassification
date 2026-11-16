@@ -1,11 +1,11 @@
-# NLBSE 2027 Skill Classification: private preparation
+# NLBSE 2027 Skill Classification
 
-This is a **private preparation repository** at https://github.com/XX123122/NLBSE2027-SkillClassification, updated on 2026-11-16. GitHub login and repository access are required. It is not an open-source release, official qualification or submitted competition entry. Public repository/model URLs remain null. It contains curated source, synthetic tests, saved aggregate evidence and the revised named four-page Skill Classification manuscript.
+This is the **public source repository** for the skill tool at https://github.com/XX123122/NLBSE2027-SkillClassification, made public with owner authorization on 2026-11-16. Frozen inference assets are available in the [Release](https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private). Hosting does not establish official qualification, a complete training rebuild, or new upstream redistribution rights. Experimental limitations and license review items remain explicit.
 
 Xin Xu is first author; Jun Yu is second and corresponding author, University of
 Science and Technology of China. The paper preserves both approved affiliations
 and email addresses. Use [the named paper](paper/skill_classification_named.pdf)
-and [the matching revised source](paper/main.tex). This is the Nov.16 submission-preparation revision (same experimental results as Nov.8), with baseline, ablation, tail-label and unsuccessful weight-edit evidence. Earlier private handoff PDFs are historical.
+and [the matching revised source](paper/main.tex). This is the Nov.16 public-hosting revision (same experimental results as Nov.8), with baseline, ablation, tail-label and unsuccessful weight-edit evidence. Earlier private handoff PDFs are historical.
 
 ## Scope and layout
 
@@ -69,7 +69,7 @@ CPU environment. See [validation](docs/validation.md) for what was actually test
 ## Obtain assets
 
 The frozen classifier and its required encoders/checkpoint are hosted separately in
-the [private-access Release](https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private). Repository authorization is required.
+the [public Release](https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private). No repository authorization is required.
 The complete asset-only ZIP exceeds GitHub's per-file limit, so it is distributed
 as byte fragments below 2 GiB each, with per-part and reassembled SHA256 values.
 Use [the release index](assets/private_release_manifest.json), download every part
@@ -88,7 +88,7 @@ model SHA256 is `44e367a74fd23c1a5538f655c18238fc6e085a6f9a96415552e8a08a2bb02ac
 the fine-tuned CodeBERT checkpoint is
 `469a51b9e07484e2aa9f258581b9d32ed080dd0762962016cfe17560a481d7a1`.
 CodeBERT's base safetensors is a local format conversion, not an upstream original.
-Private access does not resolve public redistribution obligations; review
+Public hosting does not resolve upstream redistribution obligations; review
 [licensing](docs/licensing.md). Existing legacy ZIPs remain usable with the original
 attachment manifest. Never disable frozen-bundle hash authentication.
 
@@ -193,10 +193,14 @@ competition and one PDF. The tool deadline is 2026-11-27 AoE, equivalent to
 the user-confirmed instructions. Recheck the official site before actual submission;
 do not substitute the general workshop deadline.
 
-See [release gaps](docs/reproduction_gaps.json). Source and model releases, final
+See [release gaps](docs/reproduction_gaps.json). Source and model hosting, final
 protocol verification, weight redistribution review and complete training closure
 remain distinct requirements. No form was opened or filled, and no organizer was contacted. Experiments are stopped; this private upload runs no training, real-model forward, threshold search or new data evaluation.
 
 ## Submission preparation recheck (2026-11-16)
 
-The named four-page PDF now includes the real repository and private Release location. All result tables and authors are unchanged. The organizer TODO still leaves split/label scope/reference values unresolved; see [dated source check](docs/submission_protocol_check_20261116.json). Public access has not been authorized for this skill project. Only a future explicit user approval may change visibility; no competition form has been submitted.
+The named four-page PDF now includes the real repository and private Release location. All result tables and authors are unchanged. The organizer TODO still leaves split/label scope/reference values unresolved; see [dated source check](docs/submission_protocol_check_20261116.json). The owner authorized public access on Nov.16. The source and existing model Release are public; no competition form has been submitted.
+
+## Public access (2026-11-16)
+
+The model Release retains the legacy `v0.1.0-private` tag only to preserve stable URLs; repository visibility controls access and is now public. Use [the current public index](assets/public_release_manifest.json). The old private index Release attachment is a historical record; all model part bytes/hashes are unchanged. The Apache-2.0 source license and original notices remain. Read [licensing caveats](docs/licensing.md), including unresolved pinned CodeBERT weight/derivative redistribution terms.

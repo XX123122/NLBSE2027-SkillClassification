@@ -79,14 +79,12 @@
     },
     {
       "id": "release_weights",
-      "status": "private_release_preparation",
-      "blocks": [
-        "public asset availability"
-      ],
-      "public_url": null,
+      "status": "publicly_hosted",
+      "blocks": [],
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
       "manifest": "assets/attachment_manifest.json",
       "private_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
-      "public_asset_availability_still_unresolved": true
+      "public_asset_availability_still_unresolved": false
     },
     {
       "id": "asset_rights",
@@ -103,14 +101,10 @@
     },
     {
       "id": "source_release_authorization",
-      "status": "private_upload_authorized_public_release_not_authorized",
-      "blocks": [
-        "public repository"
-      ],
-      "public_url": null,
-      "missing": [
-        "Rightsholder approval and separate authorization for public distribution"
-      ],
+      "status": "public_hosting_authorized_by_owner",
+      "blocks": [],
+      "public_url": "https://github.com/XX123122/NLBSE2027-SkillClassification",
+      "missing": [],
       "private_repository_url": "https://github.com/XX123122/NLBSE2027-SkillClassification"
     },
     {
@@ -136,5 +130,8 @@
       "do_not_silently_change_frozen_requirements": true
     }
   ],
-  "private_hosting_authorized": true
+  "private_hosting_authorized": true,
+  "public_hosting_authorized": true,
+  "public_repository_url": "https://github.com/XX123122/NLBSE2027-SkillClassification",
+  "public_model_release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private"
 }

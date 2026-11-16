@@ -28,7 +28,7 @@ harryjun@ustc.edu.cn}
 \begin{document}
 \maketitle
 \begin{abstract}
-We present a multi-label tool that predicts API-derived skill annotations from an issue's title, description, and repository name. An audit of the released annotation construction motivates a conditional mapping between observed API contributions and published labels. The tool combines lexical and pretrained representations, supervised CodeBERT features, observed-skill neighbors, trees, and repository priors, while excluding query labels and PR lineage from inference. On 7,154 records under retrospective component-grouped fivefold development, micro-F1 is 0.614366 versus 0.567931 for a matched Random Forest. The final conditional-selection step adds only 0.000209 over the preceding strong policy; macro-F1 is 0.113833 and low-support labels remain undetected. Training-only baselines, controlled ablations, and unsuccessful extensions bound the contribution claims. Inference portability and one-role rebuilding are verified, but complete training reproduction, public release, and organizer-defined evaluation remain incomplete. These are internal development results, not official qualification or independent test scores.
+We present a multi-label tool that predicts API-derived skill annotations from an issue's title, description, and repository name. An audit of the released annotation construction motivates a conditional mapping between observed API contributions and published labels. The tool combines lexical and pretrained representations, supervised CodeBERT features, observed-skill neighbors, trees, and repository priors, while excluding query labels and PR lineage from inference. On 7,154 records under retrospective component-grouped fivefold development, micro-F1 is 0.614366 versus 0.567931 for a matched Random Forest. The final conditional-selection step adds only 0.000209 over the preceding strong policy; macro-F1 is 0.113833 and low-support labels remain undetected. Training-only baselines, controlled ablations, and unsuccessful extensions bound the contribution claims. Inference portability and one-role rebuilding are verified, but complete training reproduction, asset redistribution review, and organizer-defined evaluation remain incomplete. These are internal development results, not official qualification or independent test scores.
 \end{abstract}
 \begin{IEEEkeywords}
 issue classification, API-derived skills, multi-label learning, weak supervision, auditability
@@ -221,7 +221,7 @@ One active development role & 201 tensors / 1,024 trees matched \\
 Raw inference migration & 8 raw + 2 synthetic cases; corpus/network denied \\
 Local source migration & 39 synthetic tests passed \\
 Complete training/selection/export & Not fully rebuilt \\
-Official evaluation / public release & Unverified / unpublished \\
+Official evaluation / public hosting & Unverified / accessible \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -230,7 +230,7 @@ The CLI verifies the bundle hash before deserialization and relocates only encod
 
 Data-root and one fixed development-role rebuilding have executed from pinned inputs/declared assets: 201 checkpoint tensors and 1,024 trees matched, with active scores differing at most $3.34\times10^{-16}$. The continuation explicitly reused a hash/text-identity-verified frozen Qwen4 input transform. Remaining roles and complete selection/calibration/export have \emph{not} all been rebuilt cleanly. An ablation aggregation failed on a missing metric import; it resumed from hash-locked completed assets without refitting or changed gates, retaining the failed record.
 
-CPU/encoder runtimes are separate. Direct-$Y$ training's measured worker peak was 3.763 GiB allocated, not full-tool inference peak. Sequential inference reserves 11,000 MiB, not a measured end-to-end requirement. Source and frozen assets are hosted at the repository below; its Release provides hash-checked fragments. Both currently require repository authorization and are not a public artifact. Fresh installation, organizer-hardware latency and redistribution review remain gaps.\par\begingroup\raggedright\noindent Repository: \url{https://github.com/XX123122/NLBSE2027-SkillClassification}\par\noindent Assets: the repository\textquotesingle s \texttt{v0.1.0-private} Release.\par\endgroup
+CPU/encoder runtimes are separate. Direct-$Y$ training's measured worker peak was 3.763 GiB allocated, not full-tool inference peak. Sequential inference reserves 11,000 MiB, not a measured end-to-end requirement. Source and frozen assets are publicly accessible at the repository below; its Release provides hash-checked fragments. Fresh installation, organizer-hardware latency and asset redistribution review remain unresolved; public hosting does not establish reproduction or competition eligibility.\par\begingroup\raggedright\noindent Repository: \url{https://github.com/XX123122/NLBSE2027-SkillClassification}\par\noindent Assets: the repository\textquotesingle s Release (legacy tag \texttt{v0.1.0-private}).\par\endgroup
 
 % Balance the final two columns at a paragraph boundary, without changing type or margins.
 \newpage
@@ -238,7 +238,7 @@ The CPU runtime uses Python 3.11/NumPy 1.26.4/scikit-learn 1.5.2; encoding uses 
 
 Weak targets, cross-repository aggregation, repository transport assumptions, shared centres, adaptive development and unmeasured whole-tool seed variance limit interpretation. Diagnostics do not identify true skills or justify changing official targets. At our Nov.~16, 2026 check, the organizer TODO still leaves the formal split, 217/142 scoring scope and final baseline unresolved~\cite{repository}. Eligibility requires no decline in precision, recall or micro-F1~\cite{competition}; the narrow internal margin does not establish qualification.
 
-We freeze the existing model after non-upgrading follow-ups. Release still needs complete reproducible training/tuning/evaluation, versioned licensed assets and organizer-protocol alignment. Rebuilding establishes reproducibility, not prospective generalization.
+We freeze the existing model after non-upgrading follow-ups. The artifact still needs complete reproducible training/tuning/evaluation, asset licensing closure and organizer-protocol alignment. Rebuilding establishes reproducibility, not prospective generalization.
 
 \begin{thebibliography}{11}
 \bibitem{competition} M. Mock et al., \lq\lq The NLBSE'27 Tool Competition and Challenge,\rq\rq\ in \emph{NLBSE}, 2027. Organizer-provided citation; metadata provisional.

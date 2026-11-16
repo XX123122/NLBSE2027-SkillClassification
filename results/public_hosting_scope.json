@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-16",
+  "owner_public_hosting_authorized": true,
+  "repository_url": "https://github.com/XX123122/NLBSE2027-SkillClassification",
+  "release_url": "https://github.com/XX123122/NLBSE2027-SkillClassification/releases/tag/v0.1.0-private",
+  "model_unchanged": true,
+  "paper_sha256": "866a5a770a879199730b14acb65239d11c50773fdda6cc99a1435c6a30274572",
+  "public_hosting_does_not_complete_reproduction_or_official_evaluation": true,
+  "formal_submission": false,
+  "new_training_or_real_forward": 0
+}

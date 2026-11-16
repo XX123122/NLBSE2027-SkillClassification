@@ -30,3 +30,7 @@ The old private model ZIP is an integrity-checked handoff. It contains neither t
 new named manuscript nor a complete asset licensing/notice dossier and is not
 itself an approved public release. Distribute a separately reviewed model attachment
 only after the listed obligations are resolved. The current task creates no public URL.
+
+## Public hosting update, 2026-11-16
+
+Owner authorization now permits public hosting of the curated source and frozen asset Release. The original review caveats remain unresolved; this is not a new upstream rights grant. Use `assets/public_release_manifest.json` for current public URLs. Historical references to private preparation describe the preceding state.

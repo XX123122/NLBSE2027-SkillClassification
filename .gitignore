@@ -34,3 +34,5 @@ paper/*.out
 # Curated historical JSON belongs to source, never real runtime outputs.
 !configs/historical/outputs/
 !configs/historical/outputs/**
+
+!assets/public_release_manifest.json
